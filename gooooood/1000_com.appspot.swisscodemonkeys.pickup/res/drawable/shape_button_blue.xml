@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#00000000" />
+            <padding android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip" />
+        </shape>
+    </item>
+    <item android:left="0.0dip" android:top="0.0dip">
+        <selector>
+            <item android:state_enabled="false">
+                <shape>
+                    <gradient android:startColor="@color/blueDisabledStart" android:endColor="@color/blueDisabledEnd" android:angle="270.0" />
+                    <stroke android:width="1.0px" android:color="@color/blueDisabledBorder" />
+                    <corners android:radius="3.0dip" />
+                    <padding android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+                </shape>
+            </item>
+            <item android:state_enabled="true" android:state_pressed="true">
+                <shape>
+                    <gradient android:startColor="@color/blueActiveStart" android:endColor="@color/blueActiveEnd" android:angle="270.0" />
+                    <stroke android:width="1.0px" android:color="@color/blueActiveBorder" />
+                    <corners android:radius="3.0dip" />
+                    <padding android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+                </shape>
+            </item>
+            <item android:state_focused="true" android:state_enabled="true">
+                <shape>
+                    <gradient android:startColor="@color/blueFocusStart" android:endColor="@color/blueFocusEnd" android:angle="270.0" />
+                    <stroke android:width="1.0px" android:color="@color/blueFocusBorder" />
+                    <corners android:radius="3.0dip" />
+                    <padding android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+                </shape>
+            </item>
+            <item android:state_enabled="true">
+                <shape>
+                    <gradient android:startColor="@color/blueStart" android:endColor="@color/blueEnd" android:angle="270.0" />
+                    <stroke android:width="1.0px" android:color="@color/blueBorder" />
+                    <corners android:radius="3.0dip" />
+                    <padding android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

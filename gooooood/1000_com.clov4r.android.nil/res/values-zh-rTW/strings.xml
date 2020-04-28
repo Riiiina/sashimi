@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MoboPlayer!</string>
+    <string name="app_name">MoboPlayer</string>
+    <string name="play_again">再次播放</string>
+    <string name="add_playlist">添加到播放列表</string>
+    <string name="delete_file">刪除文件</string>
+    <string name="play_last_file">繼續播放</string>
+    <string name="exit">退出</string>
+    <string name="about">關於</string>
+    <string name="about_us">關於我們</string>
+    <string name="clear_played_list">清除歷史記錄</string>
+    <string name="play_sys_mode">播放(系統模式)</string>
+    <string name="play_normal_mode">播放(普通模式)</string>
+    <string name="dialog_instructions">您好，您可以自由使用本应用程序</string>
+    <string name="setting_playback">播放設置</string>
+    <string name="setting_btn_seek_interval">跳轉間隔時間</string>
+    <string name="setting_file_list">文件設置</string>
+    <string name="setting_show_media_file_only">只顯示媒體文件</string>
+    <string name="setting_show_file_ext_name">顯示文件擴展名</string>
+    <string name="setting_pcategory_playlist_title">播放列表</string>
+    <string name="setting_key_clear_history">setting_key_clear_history</string>
+    <string name="setting_clearhistory_title">清除媒體文件</string>
+    <string name="setting_pcategory_default_playmode">播放模式</string>
+    <string name="setting_title_systemplayer_default">默認使用系統播放模式</string>
+    <string name="setting_pcategory_about_title">關於</string>
+    <string name="setting_title_about">關於MoboPlayer</string>
+    <string name="setting_toast_string">清除成功!</string>
+    <string name="setting_pcategory_aboutsubtitle">字幕設置</string>
+    <string name="setting_title_subtitle_textsize">字體大小</string>
+    <string name="setting_title_subtitle_textcolor">字體顏色</string>
+    <string name="setting_title_showsubtitle_ornot">顯示字幕</string>
+    <string name="setting_pcategory_aboutbattery">電量信息</string>
+    <string name="setting_title_show_batterymsg_ornot">顯示電池電量和影片信息</string>
+    <string name="setting_pcategory_show_hidefile_ornot">文件列表</string>
+    <string name="setting_title_show_hidefile">顯示隱藏文件</string>
+    <string name="setting_title_fontcolor_test">顏色選擇</string>
+    <string name="setting_summary_seekinterval">設置文件快進時跳轉的時間間隔大小</string>
+    <string name="setting_summary_battery">是否顯示當前時間,電影名字和電池電量等信息</string>
+    <string name="setting_summary_subtitle">是否自動匹配加載字幕文件</string>
+    <string name="setting_summary_fontsize">設置加載的字幕文件字幕字體的大小</string>
+    <string name="setting_summary_fontcolor">設置加載的字幕文件字幕字體的顯示顏色</string>
+    <string name="setting_summary_show_mediafile_only">只顯示媒體文件，不顯示其他文件</string>
+    <string name="setting_summary_show_fileextension">設置是否顯示文件擴展名</string>
+    <string name="setting_summary_show_hidefile">設置是否顯示隱藏文件</string>
+    <string name="setting_summary_clear_history">清空媒體文件列表，清空後不可恢復</string>
+    <string name="active">激活</string>
+    <string name="setting">設置</string>
+    <string name="toast_msg_nosupport">系統播放器不支持該格式文件!</string>
+    <string name="dialog_message">提示信息</string>
+    <string name="phone_imei">手機串號：</string>
+    <string name="buy">購買</string>
+    <string name="active_success">激活成功！</string>
+    <string name="active_failure">激活過程出錯，請重試！</string>
+    <string name="back">返回</string>
+    <string name="waiting">正在與驗證服務器通信，請稍後...</string>
+    <string name="connect_net_failure">無法連接到網絡！</string>
+    <string name="sure">確定</string>
+    <string name="filelisttitle">視頻列表</string>
+    <string name="no_sdcard">沒有發現sdcard，請檢查SDCard是否存在或已經加載。</string>
+    <string name="no_fileselected">沒有設置媒體文件目錄，請點擊設置。</string>
+    <string name="file_empty">媒體文件目錄為空，請添加或是修改媒體文件目錄。</string>
+    <string name="dirchoose">媒體目錄選擇</string>
+    <string name="close">關閉</string>
+    <string name="cancel">取消</string>
+    <string name="previous_dir">上一級</string>
+    <string name="filepath">文件路徑：</string>
+    <string name="filesize">文件大小：</string>
+    <string name="fileformat">文件格式：</string>
+    <string name="fileresolution">分辨率：</string>
+    <string name="filematrix">碼率：</string>
+    <string name="fileplaytime">播放時長：</string>
+    <string name="fileother">其他屬性</string>
+    <string name="message">消息</string>
+    <string name="sure_cancel">確認刪除該文件</string>
+    <string name="del">刪除</string>
+    <string name="detail">屬性</string>
+    <string name="sort">排序</string>
+    <string name="sort_head">按</string>
+    <string name="select_filecount">當前選中媒體文件夾個數：</string>
+    <string name="create_thumb">生成縮略圖...</string>
+    <string name="addfile_count">添加的媒體文件個數：</string>
+    <string name="delfile_count">刪除的媒體文件個數：</string>
+    <string name="sure_exit">確認退出！</string>
+    <string name="soft_solution">軟解壓模式播放</string>
+    <string name="setting_catagory_title_media">媒體庫</string>
+    <string name="setting_preference_title_clearmedia">清除媒體庫</string>
+    <string name="setting_preference_title_clearmediapath">清除媒體目錄設置</string>
+    <string name="setting_preference_title_clearall">清除全部</string>
+    <string name="file_not_exist">無法打開文件,請確認文件是否存在或點刷新按鈕刷新媒體庫！</string>
+    <string name="currnetpath">當前路徑:</string>
+    <string name="findfiles_count">已經處理文件個數：</string>
+    <string name="findfiles_totalcount">發現的媒體文件總數為：</string>
+    <string name="select_cmplayer">系統播放器無法正常播放該文件，請在列表中長按，并在上下文菜單中選擇軟解模式播放。</string>
+    <string name="setting_lpreference_title_updatefrequency">更新頻率</string>
+    <string name="setting_lpreference_summery_updatefrequency">當前更新狀態：</string>
+    <string name="setting_cpreference_title_updatewifi">僅在有wifi連接下更新</string>
+    <string name="versiondialog_title">提示信息</string>
+    <string name="versiondialog_message">"發現新版本，請點擊'是'，下載新版本"</string>
+    <string name="version_name">版本號:</string>
+    <string name="pub_date">更新日期:</string>
+    <string name="change_log">更新內容:</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="light">亮度：%d%%</string>
+    <string name="seekto" formatted="false">跳轉到：%s (%d%%)[%s%d</string>
+    <string name="entrance_welcome_title" formatted="false">"%s歡迎使用MoboPlayer第四個公開測試的版本%s
+
+"</string>
+    <string name="entrance_welcome">"目前軟件還處於測試階段，歡迎您提出改進建議和bug報告，我們非常重視您的反饋。 
+ 本次測試會公開徵集5000名測試者，我們希望您能提交您的email地址，以保證測試反饋的質量，謝謝您的配合。 
+ 請點擊下一步獲取測試帳號或者使用已有的測試帳號進行登錄。"</string>
+    <string name="entrance_selection_title1">還沒有Mobo測試賬號？</string>
+    <string name="entrance_selection_title2">已有Mobo測試帳號？</string>
+    <string name="entrance_selection_but1">注 冊</string>
+    <string name="entrance_selection_but2">登 錄</string>
+    <string name="entrance_register_title">郵箱名 ,如: josh@gmail.com</string>
+    <string name="entrance_login_title">請輸入您的Mobo測試賬戶進行登錄</string>
+    <string name="entrance_login_title2">email:</string>
+    <string name="entrance_login_title3">賬戶序號：</string>
+    <string name="entrance_progress_title">您的手機正在與clov4r的服務器通信,此過程可能需要幾分鐘,請耐心等待.</string>
+    <string name="email_is_null">請輸入您的郵箱.</string>
+    <string name="id_is_null">請輸入您的id.</string>
+    <string name="email_been_used">該郵箱已經被註冊,請用其他的.</string>
+    <string name="email_not_correct">您填寫的郵箱格式不正確,請重新填寫.</string>
+    <string name="email_usernum_not_fit">郵箱與用戶序號不匹配,請重新輸入.</string>
+    <string name="register_succesfull">注册成功.</string>
+    <string name="register_succesfull_notify">您的用戶編號是:%d ,如果忘記編號可以郵件至register@moboplayer.com 查詢,謝謝您的配合.</string>
+    <string name="register_failed">註冊失敗.</string>
+    <string name="register_failed_notify">註冊失敗,請稍後重試.</string>
+    <string name="login_failed">登錄失敗.</string>
+    <string name="login_failed_notify">登錄失敗,請稍後重試.</string>
+    <string name="login_success">登錄成功.</string>
+    <string name="login_success_notify">登錄成功,請點完成按鈕繼續.</string>
+    <string name="next_step">下一步</string>
+    <string name="preverous_step">上一步</string>
+    <string name="cancels">取 消</string>
+    <string name="returns">返 回</string>
+    <string name="login">登 錄</string>
+    <string name="complate">完 成</string>
+    <string name="connected_exception">未得到測試服務器的正確回應,請稍後重試.</string>
+    <string name="forget_number" formatted="false">"%s如果您忘記了賬戶序號, %s請點擊這裡%s ,使用您的註冊郵箱向我們的測試郵箱（register@moboplayer.com）發送一封標題為:get my
+\u0009\u0009beta
+\u0009\u0009num的郵件,稍候我們會將賬戶序號郵件回复給您.%s"</string>
+    <string name="version_update">版本更新</string>
+    <string name="skip">跳過</string>
+    <string name="get_higher_version" formatted="false">"您的手機是:%s
+ cpu架構為:%s
+ 應用的版本是:%s 
+使用%s版本能獲得更佳性能,請點擊下載按鈕下載%s版本的MoboPlayer"</string>
+    <string name="get_lower_version" formatted="false">"您的手機是:%s
+ cpu架構為:%s
+ 應用的版本是:%s 
+使用当前本版本可能會產生一些問題,請點擊按鈕下載下載%s版本的MoboPlayer"</string>
+    <string name="download">下載</string>
+    <string name="help">帮助</string>
+    <string name="lock_screen">屏幕已經被鎖定,解鎖請按Menu鍵</string>
+    <string name="unlock_screen">屏幕已經解除鎖定</string>
+    <string name="battery_lock">電量:</string>
+    <string name="progress_lock">播放進度:</string>
+    <string name="detail_sound">音軌:</string>
+    <string name="detail_subtitle">字幕:</string>
+    <string name="unknown">未知</string>
+    <string name="screen_lock_setting">屏幕鎖定設置</string>
+    <string name="horizontal_only">屏幕旋轉</string>
+    <string name="character_set">字符集</string>
+    <string name="chi_subtitle">中文字幕</string>
+    <string name="eng_subtitle">英文字幕</string>
+    <string name="setting_file_scan_title">媒體文件類型</string>
+    <string name="select_item_auto">全部自動</string>
+    <string name="select_item_close">全部關閉</string>
+    <string name="select_item_soft">全部軟解</string>
+    <string name="select_item_hard">全部硬解</string>
+    <string name="select_item_add">添加</string>
+    <string name="select_quit">退出</string>
+    <string name="add_new_type_title">添加一個新的類型</string>
+    <string name="ok">確定</string>
+    <string name="type_has_exists">該文件類型已經存在</string>
+    <string name="select_dialog_title">請選擇解碼方式</string>
+    <string name="select_auto">自動</string>
+    <string name="select_close">關閉</string>
+    <string name="select_soft">軟解</string>
+    <string name="select_hard">硬解</string>
+    <string name="scan_type_changed">媒體文件類型發生變化,要重新掃描嗎?</string>
+    <string name="volume_setting">音量鍵設置</string>
+    <string name="screen_lock_tips">鎖屏提示</string>
+    <string name="media_file_message" formatted="false">数量:%d 時長:%s 大小:%s</string>
+    <string name="background_setting_dialog">背景顏色設置</string>
+    <string name="show_help">如需要保存媒體目錄,請按Menu鍵選擇確定.</string>
+    <string name="background_color_title">請選擇主界面的背景色</string>
+    <string name="muti_subtitle">該視頻有多個字幕,請選擇一個,確定后作播放.</string>
+    <string name="muti_sound_track">該視頻有多個音軌,請選擇一個,確定后作播放.</string>
+    <string name="muti_subtitle_sound">該視頻有多個音軌和字幕,請選擇一组,確定后作播放.</string>
+    <string name="start_play">播放</string>
+    <string name="cannot_play">無法播放,請重試.</string>
+    <string name="background_color">背景顏色</string>
+    <string name="play_list">播放列表</string>
+    <string name="default_color">默認顏色</string>
+    <string name="setting_title">設置</string>
+    <string name="action_replay">重新播放</string>
+    <string name="action_delete">刪 除</string>
+    <string name="action_attribute">屬 性</string>
+    <string name="action_hard">軟解播放</string>
+    <string name="action_soft">硬解播放</string>
+    <string name="left_channel_open">左聲道</string>
+    <string name="right_channel_open">右聲道</string>
+    <string name="left_channel_close">左聲道</string>
+    <string name="right_channel_close">右聲道</string>
+    <string name="help_text1">"如果您想流覽
+文件,請點這兒."</string>
+    <string name="mistake_message">十分抱歉，當前版本的MoboPlayer無法在您的機器上正常運行，如果您能將錯誤報告反饋給我們，能協助我們盡快解決這個問題，謝謝。</string>
+    <string name="submit_mistake">提交錯誤報告</string>
+    <string name="no_market">安裝Google Market才能評價.</string>
+    <string name="play_next">播放下一集</string>
+    <string name="no_next">已經是最后一集.</string>
+    <string name="sto_play">停止</string>
+    <string name="need_play_next">自動播放下一集</string>
+    <string name="continue_download">繼續下載</string>
+    <string name="getting_url_list">正在獲取下載地址,請稍候.</string>
+    <string name="no_net">無法連接網路,請稍後重試.</string>
+    <string name="download_failed">下載失敗,請稍後重試.</string>
+    <string name="file_size">文件大小 :</string>
+    <string name="has_download">已下載 :</string>
+    <string name="uncompressing">正在解壓文件... 請稍候.</string>
+    <string name="uncompressing_failed">解壓失敗,請稍後重試.</string>
+    <string name="download_from_market">從Market下載</string>
+    <string name="download_from_mobo">從Mobo下載</string>
+    <string name="plugin_page_info">首先感謝您下載使用MoboPlayer，您在使用中有任何問題和建議歡迎向我們反饋，謝謝。 MoboPlayer是Android上一款高性能的全格式播放軟件，為了能夠更好的提高播放效果和性能，我們針對不同的CPU分辨優化編譯了多個適用於不同平台得視頻解碼包。在使用MoboPlayer之前還需要下載安裝相應的解碼包，很抱歉為您的使用增添了麻煩，因為Android硬件平台的多樣性，這個已經是目前我們能想到最好的解決方法，還請見諒。</string>
+    <string name="plugin_page_info2">－我們推薦您使用Androide Market 來下載更新解碼包，如果您的設備暫時無法連接網絡，也可以使用離線的方式安裝解碼包。</string>
+    <string name="plugin_page_info3">－因為您的設備無法使用Android Market，我們建議您使用在線更新的方式來下載解碼包，如果您的設備暫時無法連接網絡，也可以使用離線的方式安裝解碼包。</string>
+    <string name="plugin_page_info4" formatted="false">－－點擊繼續後會自動下載安裝解碼包，您的手機%s需要使用%s平台的解碼包。</string>
+    <string name="plugin_get_dialog">" "<a href="">離線解碼包安裝說明</a>" "</string>
+    <string name="plugin_dialog_info">1.訪問我們的主頁</string>
+    <string name="plugin_dialog_info2">2.下載%s解碼包</string>
+    <string name="plugin_dialog_info3">3.將下載的文件 複製到sdcard的.mobo/library目錄，請保證文件名是%s</string>
+    <string name="plugin_dialog_info4" formatted="false">4.運行moboplayer,完成安裝 如果您無法獲取解碼包文件，%s請點這裡%s，通過郵件向我們索取。因為郵件需要人工處理，所以我們可能無法非常實時處理您的請求，還請見諒。</string>
+    <string name="codec_toast">自動下載安裝完解碼包後重新運行MoboPlayer即可使用.</string>
+    <string name="update_manul">檢測新版本</string>
+    <string name="checking">新版本檢測中....</string>
+    <string name="already_lastversion">您使用的已經是最新版本。</string>
+    <string name="setting_lpreference_change_summery">手勢調節亮度和聲音的敏感度</string>
+    <string name="main_activity_input_name">請輸入文件名</string>
+    <string name="main_activity_list_null">播放列表名稱不能為空</string>
+    <string name="addall_file">全部文件添加到播放列表</string>
+    <string name="delplaylist">確定刪除此文件？</string>
+    <string name="del_success">删除成功。</string>
+    <string name="del_failure">刪除失敗，請重試。</string>
+    <string name="allplaylist">全部播放列表：</string>
+    <string name="empty_playlist">列表為空！</string>
+    <string name="playlist">播放列表</string>
+    <string name="create">新建</string>
+    <string name="inputfilename">輸入文件名：</string>
+    <string name="format_filename">播放列表名稱不能為空或不能含有“/”等字符。</string>
+    <string name="help_us_title">幫助我們</string>
+    <string name="help_us_feedback">反饋</string>
+    <string name="help_us_close">關閉</string>
+    <string name="help_us_rate">評價</string>
+    <string name="help_us_content">"感謝您下載安裝MoboPlayer，如果您細心的使用Mobo，您會發現我們正在很認真，很努力、充滿熱情的開發這款軟件。我們立誓要把Mobo打造成Android上最完美的多媒體播 放工具，我們很清楚前面的路有多麼艱難坎坷，但我們會拼盡全力，永不放棄。我們是一群平凡的人，但我們都有一顆追求不平凡的心。 
+
+ 我們非常希望您能支持和幫助Mobo ,如果Mobo的表現能讓您滿意，希望不要吝嗇您的讚美，通過評價 告訴我們，這是讓我們前進的動力。 
+
+ 為了達到最佳的播放效果，Mobo 使用了大量的Andr oid未公開接口，因為我們團隊測試環境十分有限，使得目前無法保證Mobo在所有的Andr oid設備上都能正常工作，如果在您的設備上恰巧出現問題，我們向您致歉，同時很希望您可以把相關信息提交給我們，這對我們非常重要，謝謝。"</string>
+</resources>

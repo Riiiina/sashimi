@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/entriesLinearLayout" android:padding="4.0px" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/childIcon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="0.0px" />
+    <TextView android:textStyle="bold" android:textColor="@color/portfolio_font_color" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/childName" android:padding="9.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="@color/white" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_weight="1.0" android:hapticFeedbackEnabled="true" android:fadeScrollbars="true" />
+</LinearLayout>

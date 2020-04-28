@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">机器人塔防</string>
+    <string name="exit_to_title">退出并返回到游戏主界面</string>
+    <string name="options">选项</string>
+    <string name="save_and_quit">保存并退出</string>
+    <string name="new_game">新游戏</string>
+    <string name="resume_saved_game">继续已保存的游戏</string>
+    <string name="title_str">欢迎来到机器人塔防</string>
+    <string name="achievements">查看成就</string>
+    <string name="rewards">消费奖赏点数</string>
+    <string name="credits">致谢</string>
+    <string name="exit_game">退出游戏</string>
+    <string name="save_exists_dialog_title">放弃已保存的游戏重新开始?</string>
+    <string name="yes">是</string>
+    <string name="cancel">取消</string>
+    <string name="go_back">返回</string>
+    <string name="start_game">开始游戏!</string>
+    <string name="sound_enabled">开用音效</string>
+    <string name="sound_credits_top">游戏从 Freesound 使用下列声音文件</string>
+    <string name="sound_credits_html">www.freesound.org</string>
+    <string name="sound_credits_list">"火焰声来自 dobroide
+军事运用来自 juskiddink
+重型爆裂来自 alienbomb
+火箭来自 nthompson
+swoophoversplit3 来自 ignotus
+安卓网汉化组 www.hiapk.com 
+
+"</string>
+    <string name="randomize">随机选择</string>
+</resources>

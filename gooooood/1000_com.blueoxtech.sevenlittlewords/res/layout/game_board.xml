@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/window" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/GameLayout">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+            <include layout="@layout/button_exit" />
+            <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:text="7 Little Words" android:layout_weight="2.0" style="@style/GameFont.Emboss.Header.16" />
+            <RelativeLayout android:id="@id/button_reset" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip">
+                <ImageView android:background="@drawable/button_circle" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+                <ImageView android:background="@drawable/reset" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TableLayout android:id="@id/table_clues" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="152.0dip">
+            <TableRow>
+                <TextView android:textSize="12.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" style="@style/GameFont" />
+                <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff707060" android:layout_width="190.0dip" android:layout_height="18.0dip" android:text="Clues" style="@style/GameFont" />
+                <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ff707060" android:layout_height="18.0dip" android:text="Solutions" style="@style/GameFont" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/linearlayout_guess_bg" android:layout_width="233.0dip" android:layout_height="35.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="2.0dip">
+                <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/guess_text" android:background="@drawable/textview_guess_text" android:paddingLeft="8.0dip" android:layout_width="200.0dip" android:layout_height="fill_parent" android:layout_margin="2.0dip" />
+                <Button android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/clear_button" android:background="@drawable/button_clear" android:layout_width="27.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="X" android:shadowColor="#cc000000" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" />
+            </LinearLayout>
+            <include layout="@layout/button_guess" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="9.0dip">
+            <FrameLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/smiley" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/mr_smiley" android:layout_width="320.0dip" android:layout_height="320.0dip" android:layout_marginTop="-65.0dip" android:src="@drawable/smile_game" android:scaleType="fitXY" />
+                <TextView android:layout_gravity="center_horizontal" android:layout_height="56.0dip" android:layout_marginTop="162.0dip" android:text="Well done." style="@style/GameFont.Emboss.Header.24" />
+                <Button android:textSize="12.0dip" android:layout_gravity="bottom" android:id="@id/review_game" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="Like this game? Tap here to give us a 5-star rating." style="@style/GameFont.Emboss.Button" />
+            </FrameLayout>
+            <GridView android:id="@id/cards_gridview" android:paddingLeft="4.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:stretchMode="none" android:columnWidth="75.0dip" android:numColumns="4" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

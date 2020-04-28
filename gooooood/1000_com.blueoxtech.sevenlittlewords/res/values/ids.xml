@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="window" />
+    <item type="id" name="layout_about" />
+    <item type="id" name="version_name" />
+    <item type="id" name="button_exit" />
+    <item type="id" name="guess_button" />
+    <item type="id" name="button_reset" />
+    <item type="id" name="table_clues" />
+    <item type="id" name="guess_text" />
+    <item type="id" name="clear_button" />
+    <item type="id" name="smiley" />
+    <item type="id" name="mr_smiley" />
+    <item type="id" name="review_game" />
+    <item type="id" name="cards_gridview" />
+    <item type="id" name="game_board_card" />
+    <item type="id" name="game_board_row_num" />
+    <item type="id" name="game_board_row_clue" />
+    <item type="id" name="game_board_row_solution" />
+    <item type="id" name="layout_instructions" />
+    <item type="id" name="main_menu_play" />
+    <item type="id" name="main_menu_instructions" />
+    <item type="id" name="main_menu_about" />
+    <item type="id" name="main_menu_sound" />
+    <item type="id" name="zone_title" />
+    <item type="id" name="gridview" />
+    <item type="id" name="puzzle_menu_button" />
+    <item type="id" name="puzzle_menu_button_text" />
+    <item type="id" name="puzzle_menu_button_status" />
+    <item type="id" name="zoneMenuLayout" />
+    <item type="id" name="zone_menu_buttons" />
+    <item type="id" name="zone_menu_button" />
+    <item type="id" name="zone_menu_button_title" />
+    <item type="id" name="zone_menu_button_price" />
+    <item type="id" name="recover" />
+</resources>

@@ -1,0 +1,84 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assembly-descriptor.xml
+SHA1-Digest: 1S+kj47zhHaLAfkRSEqWJ4uOaCs=
+
+Name: res/drawable/miexit.png
+SHA1-Digest: 1wA1NnELnmDdpvvD3NdRIgkLKc4=
+
+Name: resources.arsc
+SHA1-Digest: VCD6GpnaCEFkbeetfaIw7prA8J8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: IH0CVFiTEFr701yFA3Ufud/7jxM=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: ckj2Mt9K6AuL5tcMC16E0sxcDdI=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: rdG97Iwbyhh1xBz+8IrkX0bcZXA=
+
+Name: res/drawable/mi_clock_stopped.png
+SHA1-Digest: 7wTnYTNjo8kpBpbEQj3BtXacJjU=
+
+Name: res/drawable/button_pic_up.png
+SHA1-Digest: HdUErDcmlQ2cLdRQtAB3WydfuFk=
+
+Name: res/drawable/mi_cpu_one.png
+SHA1-Digest: 3pw8B2M5EttOarRKHq2C2GhSlno=
+
+Name: res/layout/options.xml
+SHA1-Digest: U1+XeAWh9QFFXxx9plmKfA++u3E=
+
+Name: res/raw/click.wav
+SHA1-Digest: FNDsPKvED0NwxUgNpaMhNblzMTI=
+
+Name: res/drawable/mi_cpu_two.png
+SHA1-Digest: QsgM7OmKdLv9UVTrsBE5hAi0Bcg=
+
+Name: res/drawable/button_clock_24.png
+SHA1-Digest: 3PeYhbexMt7OjZCcihFlDmHGk38=
+
+Name: res/drawable/micolor.png
+SHA1-Digest: ppU+3PAwd1I3YQnedStDxxf+UAA=
+
+Name: res/drawable/mioptions.png
+SHA1-Digest: WbBtrtT3S3sA3uoTOpPeAine5Vw=
+
+Name: res/layout/seekbar.xml
+SHA1-Digest: 6odYQEUJfQZ+HuqAo9TX5YtCMQg=
+
+Name: classes.dex
+SHA1-Digest: FI4PHOTHajGDLA5dviFhBJqCCUo=
+
+Name: res/drawable/mi_clock_running.png
+SHA1-Digest: ODqN8RSetK+irGf3/tPDYonUTTM=
+
+Name: res/drawable/button_zoom_24.png
+SHA1-Digest: +4RutLNNbWP+QSgyCo7ieuUQ9z4=
+
+Name: res/layout/main.xml
+SHA1-Digest: 9E9Jr6R1Qt0oyLUqlb+KB+sCpDk=
+
+Name: res/drawable/miabout.png
+SHA1-Digest: zw/qW/m5LeYUSWZO1tyOxd1+auU=
+
+Name: res/drawable/icon.png
+SHA1-Digest: JAdLETHMJ39Ba0kfiAIKFlE4DYg=
+
+Name: res/drawable/button_gain_24.png
+SHA1-Digest: 2bhvWjBufa5eZEwtB/FTkNrmxQw=
+
+Name: res/layout/adview.xml
+SHA1-Digest: dgAlnxfhTPI2bBPeS2l5RudC/QA=
+
+Name: res/drawable/button_bright_24.png
+SHA1-Digest: kJAoFn6NKiqBGOd+T7H5AFM2TQQ=
+
+Name: res/drawable/button_pic_down.png
+SHA1-Digest: v6LRtbCkNuCBehy3dcl1a08pxOs=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: JAdLETHMJ39Ba0kfiAIKFlE4DYg=
+

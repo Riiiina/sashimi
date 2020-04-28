@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.freecoder.android.player.NativeSurfaceView android:layout_gravity="center" android:id="@id/swPlay" android:layout_width="300.0dip" android:layout_height="200.0dip" />
+    <Button android:layout_gravity="center|top" android:id="@id/BtnPlay" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="play" />
+    <Button android:layout_gravity="bottom|center|left" android:id="@id/BtnClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Close" />
+    <Button android:layout_gravity="center|right|top" android:id="@id/BtnSeek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Seek" />
+    <TextView android:id="@id/Text01" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:layout_gravity="bottom|center|right" android:id="@id/BtnFullScreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FullScreen" />
+</FrameLayout>

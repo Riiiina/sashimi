@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/entrance_header" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/about" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="2.0dip" />
+        <TextView android:textSize="21.0sp" android:textColor="@color/write" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="clov4r" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/entrance_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_above="@id/entrance_footer" android:layout_below="@id/entrance_header">
+        <LinearLayout android:orientation="vertical" android:id="@id/entrance_declare_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="21.0sp" android:textColor="@color/title_color" android:id="@id/entrance_declare_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@id/TextView01" />
+            <View android:id="@id/entrance_declare_seprater" android:background="@color/title_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="8.0dip" />
+            <TextView android:textSize="16.0sp" android:id="@id/entrance_declare_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="欢迎使用MoboPlayer." />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/entrance_selection_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/entrance_selection_title1" />
+            <Button android:id="@id/entrance_selection_register" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/entrance_selection_but1" />
+            <TextView android:textSize="18.0sp" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/entrance_selection_title2" />
+            <Button android:id="@id/entrance_selection_login" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/entrance_selection_but2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/entrance_register_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/entrance_register_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:hint="josh@gmail.com" android:singleLine="true" android:imeOptions="actionDone" />
+            <TextView android:textSize="17.0sp" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/entrance_register_title" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/entrance_login_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/entrance_login_title" />
+                    <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/entrance_login_title2" />
+                    <EditText android:id="@id/entrance_login_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:imeOptions="actionNext" />
+                    <TextView android:textSize="17.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/entrance_login_title3" />
+                    <EditText android:id="@id/entrance_login_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:numeric="integer" android:imeOptions="actionDone" />
+                    <WebView android:id="@id/entrance_login_email_us" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/entrance_progress_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/entrance_progress_title" />
+            <ProgressBar android:id="@id/progress_bar" android:paddingRight="25.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/entrance_footer" android:background="@drawable/foot_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="18.0sp" android:id="@id/entrance_previous_step" android:background="@drawable/prev_step_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@id/Button01" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:id="@id/entrance_next_step" android:background="@drawable/next_step_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:text="@id/Button02" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

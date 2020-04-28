@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grid_summaries">
+        <item>"Latitude and Longitude formatted as DD°MM'SS.SSSSS\""</item>
+        <item>"Latitude and Longitude formatted as DD°MM.MMMMM'"</item>
+        <item>Latitude and Longitude formatted as DD.DDDDDDD°</item>
+        <item>UTM - Universal Transverse Mercator</item>
+        <item>MGRS - Military Grid Reference System</item>
+        <item>USNG - United States National Grid</item>
+        <item>OSGB - British National Grid formatted as Easting, Northing</item>
+        <item>OSGB - British National Grid formatted as grid reference</item>
+        <item>Maidenhead - Amateur Radio Locator System</item>
+        <item>CH1903 - Swiss Grid</item>
+    </string-array>
+    <string-array name="grid_captions">
+        <item>"DD°MM'SS.SSSSS\""</item>
+        <item>"DD°MM.MMMMM'"</item>
+        <item>DD.DDDDDDD°</item>
+        <item>UTM</item>
+        <item>MGRS</item>
+        <item>USNG</item>
+        <item>OSGB (E,N)</item>
+        <item>OSGB (Grid Ref)</item>
+        <item>Maidenhead</item>
+        <item>CH1903 (Swiss)</item>
+    </string-array>
+    <string-array name="grid_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="datum_summaries">
+        <item>WGS84 - World Geodetic System 1984</item>
+        <item>NAD83 - North American Datum 1983 (Continental US)</item>
+        <item>NAD27 - North American Datum 1927 (Continental US)</item>
+        <item>ED50 - European Datum 1950 (Mean)</item>
+        <item>ED50 - European Datum 1950 (Spain and Portugal)</item>
+        <item>AGD66 - Australian Geodetic Datum 1966</item>
+        <item>AGD84 - Australian Geodetic Datum 1984</item>
+        <item>SAD69 - South American Datum 1969 (Mean)</item>
+        <item>OSGB36 - Ordnance Survey Great Britain 1936 (Mean)</item>
+        <item>CH1903</item>
+    </string-array>
+    <string-array name="datum_captions">
+        <item>WGS84</item>
+        <item>NAD83 - Conus</item>
+        <item>NAD27 - Conus</item>
+        <item>ED50 - Mean</item>
+        <item>ED50 - Spain</item>
+        <item>AGD66</item>
+        <item>AGD84</item>
+        <item>SAD69 - Mean</item>
+    </string-array>
+    <string-array name="datum_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="precision_summaries">
+        <item>1 meter</item>
+        <item>10 meters</item>
+        <item>100 meters</item>
+        <item>1 kilometer</item>
+        <item>10 kilometers</item>
+        <item>Not Applicable</item>
+    </string-array>
+    <string-array name="precision_captions">
+        <item>1 Meter</item>
+        <item>10 Meters</item>
+        <item>100 Meters</item>
+        <item>1 Kilometer</item>
+        <item>10 Kilometers</item>
+    </string-array>
+    <string-array name="precision_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="colour_scheme_captions">
+        <item>Android</item>
+        <item>Light Colours</item>
+        <item>Night Colours</item>
+        <item>Green</item>
+        <item>Amber</item>
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>White Inverted</item>
+    </string-array>
+    <string-array name="colour_scheme_values">
+        <item>4</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="field_text_colour_captions">
+        <item>Colour Scheme Default</item>
+        <item>Cyan</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Amber</item>
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="field_text_colour_values">
+        <item>0</item>
+        <item>6</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="speed_unit_captions">
+        <item>Imperial</item>
+        <item>Metric</item>
+        <item>Nautical</item>
+    </string-array>
+    <string-array name="speed_unit_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="altitude_unit_captions">
+        <item>Imperial</item>
+        <item>Metric</item>
+    </string-array>
+    <string-array name="altitude_unit_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="heading_units_captions">
+        <item>Degrees</item>
+        <item>Mils</item>
+        <item>Cardinal</item>
+    </string-array>
+    <string-array name="heading_units_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="heading_device_captions">
+        <item>Automatic</item>
+        <item>Use Compass</item>
+        <item>Use GPS</item>
+    </string-array>
+    <string-array name="heading_device_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="north_ref_captions">
+        <item>True</item>
+        <item>Magnetic</item>
+    </string-array>
+    <string-array name="north_ref_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="time_format_captions">
+        <item>24 Hour</item>
+        <item>12 Hour</item>
+    </string-array>
+    <string-array name="time_format_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="date_format_captions">
+        <item>DD-MM-YY</item>
+        <item>YY-MM-DD</item>
+        <item>MM-DD-YY</item>
+    </string-array>
+    <string-array name="date_format_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="orientation_captions">
+        <item>Auto</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

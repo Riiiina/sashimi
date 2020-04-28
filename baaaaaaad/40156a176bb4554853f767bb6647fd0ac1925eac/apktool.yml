@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 40156a176bb4554853f767bb6647fd0ac1925eac.apk
+compressionType: false
+doNotCompress:
+- png
+- gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '3'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  pinyindb/pinyin_gwoyeu_mapping.xml: '8'
+  pinyindb/pinyin_mapping.xml: '8'
+  pinyindb/unicode_to_hanyu_pinyin.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

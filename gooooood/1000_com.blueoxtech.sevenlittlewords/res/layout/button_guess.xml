@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/guess_button" android:background="@drawable/button_guess" android:padding="0.0dip" android:clickable="false" android:layout_width="75.0dip" android:layout_height="35.0dip" android:text="Guess" android:shadowColor="#cc000000" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

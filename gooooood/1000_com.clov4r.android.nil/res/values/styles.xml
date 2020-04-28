@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="QuickActionAboveAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickaction_above_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_above_exit</item>
+    </style>
+    <style name="QuickActionBelowAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickaction_below_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_below_exit</item>
+    </style>
+    <style name="ShadowStyleForWhite">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="ShadowStyleForGrey">
+        <item name="android:textColor">#aaffffff</item>
+        <item name="android:shadowColor">#aa000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="ShadowStyleForBlack">
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+</resources>

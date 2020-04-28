@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0pt" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0pt" android:layout_marginBottom="5.0pt" android:text="@string/title_str" />
+    <TextView android:layout_gravity="center" android:id="@id/reward_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TableLayout android:id="@id/button_table" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0pt" android:layout_weight="1.0">
+        <TableRow android:id="@id/TableRow01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:id="@id/new_game" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/new_game" android:layout_weight="1.0" />
+            <Button android:id="@id/resume_saved_game" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/resume_saved_game" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/achievements" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/achievements" android:layout_weight="1.0" />
+            <Button android:id="@id/rewards" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/rewards" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:id="@id/TableRow03" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:id="@id/credits" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/credits" android:layout_weight="1.0" />
+            <Button android:id="@id/exit_game" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/exit_game" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+    <TextView android:textSize="5.0pt" android:layout_gravity="center" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0pt" android:layout_marginBottom="1.0pt" android:text="version" />
+</LinearLayout>

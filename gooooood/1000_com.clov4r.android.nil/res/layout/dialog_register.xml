@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/write" android:id="@id/tvMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/dialog_instructions" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/write" android:id="@id/tvIMEI" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="发的身份和iaefhoasd" />
+    <LinearLayout android:id="@id/llEmail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="@color/write" android:id="@id/tvEmail" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="email地址：" />
+        <EditText android:id="@id/etEmail" android:layout_width="150.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

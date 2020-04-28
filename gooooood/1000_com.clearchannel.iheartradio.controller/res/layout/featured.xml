@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ImageViewFeatured" android:layout_width="85.0dip" android:layout_height="85.0dip" android:src="@drawable/no_station_logo" android:scaleType="fitXY" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/LinearLayoutFeatured" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <TextView android:textSize="13.0dip" android:typeface="normal" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/TextViewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+        <TextView android:textSize="11.0dip" android:typeface="normal" android:textStyle="italic" android:textColor="#ffffffff" android:id="@id/TextViewDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+</LinearLayout>

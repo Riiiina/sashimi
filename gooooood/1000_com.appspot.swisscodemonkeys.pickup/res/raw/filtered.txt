@@ -1,0 +1,11 @@
+com.samsung.bootsetting
+com.wssyncmlnps
+com.android.testgps
+com.android.FileCount
+com.bt.addr
+com.android.RilFactoryApp
+com.samsung.sec.android.application.csc
+com.android.serviceModeApp
+com.samsung.sec.android.musictest_tool
+com.samsung.RilErrorNotifier
+com.android.Personalization

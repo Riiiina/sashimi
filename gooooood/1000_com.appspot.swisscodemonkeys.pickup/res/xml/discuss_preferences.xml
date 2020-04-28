@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_settings" android:orderingFromXml="true">
+        <CheckBoxPreference android:title="New posts on top" android:key="thread_newest_first" android:summary="Newer posts are shown on top, uncheck this option to reverse" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_update_category_title" android:orderingFromXml="true">
+        <Preference android:title="@string/pref_update_title" android:key="newsletter" android:summary="@string/pref_update_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

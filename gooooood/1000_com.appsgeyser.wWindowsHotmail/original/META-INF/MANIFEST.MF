@@ -1,0 +1,126 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_0 (Sun Microsystems Inc.)
+
+Name: res/raw/insuffient_sdk_version.html
+SHA1-Digest: pnFjyPPed8Bqe15TmJuxGwvHGJ8=
+
+Name: res/drawable/contents_background.xml
+SHA1-Digest: ekMl4Sv8s1W+OqONP/GwaTVplys=
+
+Name: res/drawable/menu_bar.png
+SHA1-Digest: qEIUhp+UAb/mvReFKpaURZnjnII=
+
+Name: res/menu/webapp_menu.xml
+SHA1-Digest: JV0QfPDf+9FW7DSqqvZQwb3rR0U=
+
+Name: res/drawable/background.png
+SHA1-Digest: nqqgHBjJFegX4uwtyTSY5DaUKC0=
+
+Name: res/layout/tab_tag.xml
+SHA1-Digest: gOcRso9qJ61qoU0HXODogSxFgBE=
+
+Name: res/menu/customapp_menu.xml
+SHA1-Digest: HTLPZfnX+NQrrnm8hWQfuyGajtE=
+
+Name: res/layout/video_loading_progress.xml
+SHA1-Digest: jIuUAficqAkrI7A4mbJIj3mSQI4=
+
+Name: resources.arsc
+SHA1-Digest: G2Ure5mwaHGJyAzFNMYodRDbks0=
+
+Name: res/raw/configuration.xml
+SHA1-Digest: 7AiBtstVRHtm3ef6y9lMqBgdcCk=
+
+Name: res/raw/index.html
+SHA1-Digest: QaVHv3r9xXDxt99qNufjjpyCOTw=
+
+Name: res/drawable/star_active.png
+SHA1-Digest: oYUm9wbsc3x9zBJTI3cT4V6XtJU=
+
+Name: res/drawable/progressbar_close_button.xml
+SHA1-Digest: kFQaWEeWdm3+uHgP1FhntplCgtM=
+
+Name: res/drawable/ic_menu_favorite.png
+SHA1-Digest: taRGbwIydyT2UyoEfApEY5kU3xY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: ONSkj6/O9/d/uvI7GVoipxd4hoM=
+
+Name: res/raw/flashplayer_not_exist.html
+SHA1-Digest: RPzEnn3/Ka9x0bI4s6hx4K0Q5lE=
+
+Name: res/drawable/star.png
+SHA1-Digest: JTFh9k0jOCKLs/LnpEw6R2oWKHU=
+
+Name: res/drawable/share_bt.png
+SHA1-Digest: lBCEGoeq/tUmVatO/1bHd2EyUjY=
+
+Name: res/drawable/about_appsgeyser_logo.png
+SHA1-Digest: 3HbhwAXmUcsnkmi6bMSzeLs8fT8=
+
+Name: res/drawable/transparent_backgr.png
+SHA1-Digest: +5Io0se3KtltJN3s8VH9qkvlmVk=
+
+Name: res/layout/no_content_message.xml
+SHA1-Digest: qeblS0gQc5grLvk41SuwGvN+lP8=
+
+Name: res/drawable/widget_background.png
+SHA1-Digest: s7HPTYf2OQpAGWbHvEAjHP4rxB8=
+
+Name: res/drawable/active_tab_background.xml
+SHA1-Digest: IFEgloxJhR5n+vxK0sYCTtaD5iA=
+
+Name: res/layout/web_content.xml
+SHA1-Digest: 4lWsyMMSzq96oTa3Auf2LJ1FUqc=
+
+Name: res/layout/connection_error_dialog.xml
+SHA1-Digest: m+JiHRsD8UL/0SW+owGfyds4jI0=
+
+Name: res/layout/http_authentication.xml
+SHA1-Digest: IPwx5r1Vxkm6a6XwBx3u4nUi9P8=
+
+Name: res/layout/message_viewer.xml
+SHA1-Digest: HGSOyIHq0Al4vXbuC04XkBtKmNs=
+
+Name: res/drawable/rate.png
+SHA1-Digest: vKJZhn96b56eKE69JY0DzKyAeXc=
+
+Name: res/layout/about_dialog.xml
+SHA1-Digest: VBUzxiPwjyNGLR2BT7Uc7rBHXAw=
+
+Name: classes.dex
+SHA1-Digest: Il9v36tOAidt49UPEIlc5aXiOSM=
+
+Name: res/drawable/rate_bt.png
+SHA1-Digest: HzLLx13xnkgxJSApxZRA68aXNbk=
+
+Name: res/drawable/more_apps.png
+SHA1-Digest: QvTcgoglaVzpuD/u+R0qg39oee0=
+
+Name: res/layout/main.xml
+SHA1-Digest: uaci+uF72+SCEls2E4Nz1yeesdI=
+
+Name: res/drawable/more_apps_bt.png
+SHA1-Digest: iB+oF5qRmJh2bkRaQyJ4m+ts8Do=
+
+Name: res/drawable/deactive_tab_background.xml
+SHA1-Digest: Tvx3oTEjkhU8oe3X3gzVtMQ9x28=
+
+Name: res/drawable/icon.png
+SHA1-Digest: +5ArkIdL1d7/jFi29GjzN5gTJ34=
+
+Name: res/drawable/about_background.xml
+SHA1-Digest: dM9ogB9cQDBSvnPWwnRFeOXu1zI=
+
+Name: res/drawable/about_bt.png
+SHA1-Digest: /VZAnfJb2FBVD5vki0AHpwK0D9E=
+
+Name: res/drawable/progressbar_close.png
+SHA1-Digest: a4T6naFpQXCP5OIMuUIkebQ8RGU=
+
+Name: res/drawable/share.png
+SHA1-Digest: 2cJ6hrjsbnd0I+EyFClP0p32tWk=
+
+Name: res/drawable/about.png
+SHA1-Digest: hG3AtU5PVPuEjGQg+CdmcZHBjPY=
+

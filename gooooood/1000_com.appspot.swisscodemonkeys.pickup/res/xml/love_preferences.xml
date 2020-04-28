@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_settings" android:orderingFromXml="true">
+        <CheckBoxPreference android:title="Limit text length" android:key="limit_length" android:summary="Show 'click for more' for long texts" android:defaultValue="true" />
+        <EditTextPreference android:title="Subject" android:key="subject" android:summary="Edit the subject when sending" android:defaultValue="@string/love_subject" android:dialogTitle="Subject Text" />
+        <EditTextPreference android:title="Footer" android:key="footer" android:summary="Edit the default footer added when sending" android:defaultValue="@string/love_footer" android:dialogTitle="Footer Text" />
+        <CheckBoxPreference android:title="Use special love theme" android:key="love_theme" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_update_category_title" android:orderingFromXml="true">
+        <Preference android:title="@string/pref_update_title" android:key="newsletter" android:summary="@string/pref_update_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

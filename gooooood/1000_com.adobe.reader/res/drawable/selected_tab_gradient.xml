@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape type="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/fileBrowser_tab_stroke_width" android:color="@color/black" />
+    <gradient android:startColor="@color/selectedTab_start_color" android:endColor="@color/selectedTab_end_color" android:angle="270.0" android:centerColor="@color/selectedTab_center_color" />
+</shape>

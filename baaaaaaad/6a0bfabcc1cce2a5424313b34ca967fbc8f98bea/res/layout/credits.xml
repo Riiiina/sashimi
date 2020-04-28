@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0pt" android:layout_gravity="center" android:id="@id/credits_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="致谢" />
+    <TextView android:layout_gravity="center" android:id="@id/sound_credits_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sound_credits_top" />
+    <TextView android:layout_gravity="center" android:id="@id/sound_credits_html" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sound_credits_html" />
+    <TextView android:layout_gravity="center" android:id="@id/sound_credits_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <TextView android:layout_gravity="center" android:id="@id/sound_credits_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sound_credits_list" />
+    <Button android:id="@id/go_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/go_back" />
+</LinearLayout>

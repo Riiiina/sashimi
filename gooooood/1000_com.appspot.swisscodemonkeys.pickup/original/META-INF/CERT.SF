@@ -1,0 +1,280 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: tfYeKa1xQO0LAHz94ASOep6Ve20=
+
+Name: res/layout/rate_dialog.xml
+SHA1-Digest: 0EkklS2LDdQoEJVyCv3aMB5M5qo=
+
+Name: res/anim/move_left_in.xml
+SHA1-Digest: nwVZ85i9wGWWTmNxYvSjcQ7IcH4=
+
+Name: res/anim/move_right_in.xml
+SHA1-Digest: 6LVNk1jo91s0ytGwSCLPUOI6Bxg=
+
+Name: res/layout/blurb_dialog.xml
+SHA1-Digest: Qd5GXOcRzAEhIfo5HoLBESoXj0g=
+
+Name: res/raw/badlist
+SHA1-Digest: OB8nrP4twoF9phYy7i7RrUfdcvQ=
+
+Name: res/drawable/theme_blue_button_style.xml
+SHA1-Digest: /JECd0XSFl9yY136uzfRrbfdPZw=
+
+Name: res/drawable/theme_blue_button.9.png
+SHA1-Digest: azsBO2oYDcQFP6MIQ7s5dc1BQno=
+
+Name: stats.proto
+SHA1-Digest: 3lATGoCQ2YMxyAhyN0nmRSz1QOM=
+
+Name: res/drawable-hdpi/ic_menu_star.png
+SHA1-Digest: xs918wfq++euJ6k8DQC+w2eOXo4=
+
+Name: res/xml/jokes_preferences.xml
+SHA1-Digest: auLFWgbuOR4DOkkPb3EEFCj7OJE=
+
+Name: res/drawable/camera_crop_width.png
+SHA1-Digest: obZm1N2fjjUw83GNe1E/dEv2JV4=
+
+Name: res/drawable/theme_green_button.9.png
+SHA1-Digest: PyuD9LOawvCvr0rDxUoLoDkCSJE=
+
+Name: res/drawable/green_gradient_background.xml
+SHA1-Digest: CJtfLKwevsjzGASjgGmfdvCYzHI=
+
+Name: res/drawable/pinned.9.png
+SHA1-Digest: 3IVCTvBUl9Gfy0NJDryF2cLpeZc=
+
+Name: res/layout/widget_config.xml
+SHA1-Digest: tP/n5AH69y4WkebR5yQ8r3o6JjU=
+
+Name: res/drawable/widget_bg_selected.9.png
+SHA1-Digest: fIUQSK3FmOFMu4ndAHatIsbvHSk=
+
+Name: res/drawable/offerwall.png
+SHA1-Digest: LUQmeEJuw8irj+lJe7DX/Tup6r0=
+
+Name: res/drawable/heart.png
+SHA1-Digest: Pr9lZ7YCGPY5PhipCWn7nrNWd6g=
+
+Name: res/anim/move_left_out.xml
+SHA1-Digest: PxEEFmheyDRjkLq2T9gXg6VdDgY=
+
+Name: res/xml/love_preferences.xml
+SHA1-Digest: P3bY9oYUcJ0HjHQDAmLjlq+C+KI=
+
+Name: res/drawable/ic_menu_share.png
+SHA1-Digest: M7Q1C0DLr2jsTIkNJaUbw0MSd2w=
+
+Name: res/layout/author_info.xml
+SHA1-Digest: T7CS5h56F1RBpwLLrkAjN3I1yz0=
+
+Name: res/drawable/theme_yellow_button.9.png
+SHA1-Digest: kI/kV9fASWEXunoDP6WjiXo1KBk=
+
+Name: res/layout/show_thread.xml
+SHA1-Digest: lKLOYUxfg+JiFaghmp2N81n1yZk=
+
+Name: res/layout/new_thread.xml
+SHA1-Digest: hR0w4KOXuNl+TSzdexS28mfdFeg=
+
+Name: res/drawable/widget_bg.xml
+SHA1-Digest: DPNe+AGcrgIerIGQd0JIbJMqRBE=
+
+Name: res/layout/blurb_list.xml
+SHA1-Digest: igTqp7dflJQ76NxbW3JhGTzIjEw=
+
+Name: res/drawable/theme_gray_button_style.xml
+SHA1-Digest: hPyGBV/6nmZr6ST7jvffK6PLiNk=
+
+Name: res/drawable/bluebutton2.9.png
+SHA1-Digest: c4IfvKXyP3VpSws6q4Svos1H/U0=
+
+Name: res/drawable-hdpi/ic_menu_share.png
+SHA1-Digest: GaUfrpsnI3Hn4ZvCLG+nOD4r1KY=
+
+Name: res/xml/livechat_preferences.xml
+SHA1-Digest: ltWOqrfc345mY9pKnVjbyjwkRiU=
+
+Name: res/layout/rating_item_layout.xml
+SHA1-Digest: cBS8EkshLKsI3hGFfHC6DrRwTjk=
+
+Name: res/layout/main.xml
+SHA1-Digest: p676JQpVo9JA7GYGqXKt1eBdl7w=
+
+Name: res/drawable/theme_seek_thumb_selected.png
+SHA1-Digest: 24/AUW9ItkuaEc31tQS04VFaKYY=
+
+Name: res/drawable/shape_button_blue.xml
+SHA1-Digest: grdhOL8wh9ROnCsfCk2p2KA7gvY=
+
+Name: res/drawable/greenbutton.9.png
+SHA1-Digest: nPIJrWcufGuySgA0fbLrfxiZC4A=
+
+Name: res/layout/threads.xml
+SHA1-Digest: w/N3ombL+sESqy3khxQmA+PC0F0=
+
+Name: res/layout/about_author.xml
+SHA1-Digest: hpHooURexV+tMLNJTsWM8giEsbY=
+
+Name: res/drawable/chrome.9.png
+SHA1-Digest: ABCp4AAsDYQy1eFPdrlhdbQpwsw=
+
+Name: res/layout/spinner_item.xml
+SHA1-Digest: x5IX4d1B2mkGw3z5r78AX2xnWnY=
+
+Name: res/drawable/button_style.xml
+SHA1-Digest: 1vrlalGTYCLlcHrXN8pQ29b2rg0=
+
+Name: res/layout/profile.xml
+SHA1-Digest: tEg4sL1sCV3QaCVOxbusukZh8V8=
+
+Name: res/layout/category_layout.xml
+SHA1-Digest: VFcTQKC6E8r43nW/8Q7hb+n7HFE=
+
+Name: res/drawable/tape.9.png
+SHA1-Digest: 1LA576CGEl0sU99+fzLWnHg3SW0=
+
+Name: res/drawable/theme_progress_horizontal.xml
+SHA1-Digest: P2cGG2p0GcSTW6k3FnaE9uLrBSs=
+
+Name: res/drawable/theme_seek_thumb_normal.png
+SHA1-Digest: u0HprvU/jpTrhn1sg+Sf2Pqsvbk=
+
+Name: res/layout/chooser_list_item.xml
+SHA1-Digest: NBin2GZ5kXLLmZQ4Djyqj+dDWPw=
+
+Name: res/drawable/indicator_autocrop.png
+SHA1-Digest: RqTQ4OdRFkhs1AT3ndLw7gJQGq4=
+
+Name: res/drawable/panel_background.9.png
+SHA1-Digest: ZNnASsqnklyVhZcDApklBYpz6j0=
+
+Name: res/drawable/heart2.png
+SHA1-Digest: zDmJpIwLPhDGw+he0xei/7sdOFE=
+
+Name: res/xml/discuss_preferences.xml
+SHA1-Digest: /2Ta2nKH9crAWe71s9WnYuD1fH8=
+
+Name: res/drawable/sticky.9.png
+SHA1-Digest: 3UFk68iCRulTDRPu0COMthJ+e5M=
+
+Name: resources.arsc
+SHA1-Digest: gHbGML5k8MN4ofE6BkO+7uzJ2Tk=
+
+Name: res/drawable-hdpi/ic_menu_block.png
+SHA1-Digest: 7XUfGUTa6JfRh8Zhzh+n6cdD1Ao=
+
+Name: res/layout/flag.xml
+SHA1-Digest: GroYd3PV/nriqYD8/sfRJRrNefY=
+
+Name: res/layout/widget.xml
+SHA1-Digest: bjdEZFB86BKXCkflZOScukaJceo=
+
+Name: res/drawable/theme_black_button.9.png
+SHA1-Digest: ge0QGMOKmFZoYTinBax/H3samog=
+
+Name: res/drawable/avatar2.jpg
+SHA1-Digest: mexrCMAlvXnE5W3t2BW0h1VdlrA=
+
+Name: assets/test_ad.png
+SHA1-Digest: UddkrVgBdjDznuTcyze+ydFY5gk=
+
+Name: res/xml/pickup_preferences.xml
+SHA1-Digest: 9vp7x6kS4eOu4+4Q+uMZXYCT7DI=
+
+Name: res/drawable/theme_gray_button.9.png
+SHA1-Digest: 52Hqmfblyeqh2ecNGGWRp5h3eQs=
+
+Name: res/drawable/theme_black_button_style.xml
+SHA1-Digest: BLucTCpVwT4+U28Yz9UVIPQym3k=
+
+Name: AndroidManifest.xml
+SHA1-Digest: PWees2PhatmcJzFhsI6Hu2I9rzE=
+
+Name: res/drawable/camera_crop_height.png
+SHA1-Digest: D5WxtvvkjOmukoHqeGN/fmTc+HI=
+
+Name: res/drawable/theme_seek_thumb.xml
+SHA1-Digest: +0dLItwmu/4FR5bLe2aRCknHXPE=
+
+Name: res/drawable/ic_menu_block.png
+SHA1-Digest: XyIF67OqkBNBKPQyAfP6a9kqd70=
+
+Name: res/drawable/widget_bg_normal.9.png
+SHA1-Digest: beSOdJHqtNtctU+4lMb3/682Mqs=
+
+Name: res/layout/chooser_dialog.xml
+SHA1-Digest: Ica6ykJnJC+jkLDrs5OJrHNryNw=
+
+Name: res/anim/enter.xml
+SHA1-Digest: lTuTA1+u4b4wIi++LX81/PrQtro=
+
+Name: res/drawable-hdpi/heart.png
+SHA1-Digest: MuffB31MvgloEaiuo0zBiiviDws=
+
+Name: res/drawable-hdpi/heart2.png
+SHA1-Digest: P69yYv22bHwd7AhnkoOl+b260EY=
+
+Name: res/drawable/button.9.png
+SHA1-Digest: C4Cgk3ZjxR7ffVaJh0kEh/TnACs=
+
+Name: res/drawable/widget_bg_pressed.9.png
+SHA1-Digest: DKXf0TejkOZ2uQtUqVUPiIJNddg=
+
+Name: res/drawable/greenbutton_style.xml
+SHA1-Digest: 2nCE1Qu5/9/inDQ+KNxDK6QoQ9M=
+
+Name: res/raw/filtered.txt
+SHA1-Digest: F/bu6LzS34ouV4iIw0rR2MxKgaE=
+
+Name: res/drawable/theme_gray_button_pressed.9.png
+SHA1-Digest: Om4QDmc+zWyA2RjFZQ9DrIsCJbM=
+
+Name: res/xml/joke_appwidget_info.xml
+SHA1-Digest: MTt7i4Jfl4+uY9RKIWkp9kiv93Q=
+
+Name: classes.dex
+SHA1-Digest: iQ5Ds5OgT1EGztL9lQeMPTKDKOI=
+
+Name: res/drawable/theme_green_button_style.xml
+SHA1-Digest: iIS+cWQ3Rz0vbEf/QY466XyBD40=
+
+Name: res/anim/enter_trans.xml
+SHA1-Digest: 0GN5ohKw4mf+FzCEo5ubDqCpYHs=
+
+Name: res/anim/move_right_out.xml
+SHA1-Digest: nUZlP1ZgZbuSX0QbXHn5MeJvlL0=
+
+Name: res/drawable/yellowbutton.9.png
+SHA1-Digest: H2rPhM73vK0H/kJNx7nBeWU4Qw0=
+
+Name: res/layout/cropimage.xml
+SHA1-Digest: u1ACTU2e8yEvbujmoZ2AMvlzpXI=
+
+Name: res/drawable/black_gradient_background.xml
+SHA1-Digest: BSm2w35YkGb0/MXeR8d2xQoVGLA=
+
+Name: res/layout/category_item.xml
+SHA1-Digest: +Cyv4EoBpDOs8hIK8SwOS8sbD/A=
+
+Name: res/drawable/theme_black_button_pressed.9.png
+SHA1-Digest: u2ZOZ4EKZebdzdaWVzfktshkFbs=
+
+Name: res/drawable/ic_menu_star.png
+SHA1-Digest: +bVvaaeuhY5qb+Za4YlM2kAscd4=
+
+Name: res/drawable-hdpi/offerwall.png
+SHA1-Digest: RCkkoxAnJP1zS/3gwbP9x+8b9hM=
+
+Name: res/drawable/bluebutton.9.png
+SHA1-Digest: kRJGWcL+pGa78VMAQ5oN/cxfxEw=
+
+Name: res/drawable/theme_seek_thumb_pressed.png
+SHA1-Digest: R0+/oSvSnNadDHxMuwkCyeXJyb0=
+
+Name: res/drawable/icon_pickup.png
+SHA1-Digest: 4Nvoa63DUiia2+l6cVALGgcQ1vM=
+
+Name: res/drawable/avatar.jpg
+SHA1-Digest: crP26WrCoOLFpxyIeoQcECB0A3s=
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SELECT_FILE">選取要顯示的檔案</string>
+    <string name="IDS_SELECT_ETD">選取要執行的 ETD</string>
+    <string name="IDS_ERR_URL">檔案路徑無效。</string>
+    <string name="IDS_ERR_POLICY_PROTECTED">無法開啟文件，因為該文件受到伺服器保全策略的保護。</string>
+    <string name="IDS_ERR_CORRUPT_DATA">無法開啟文件，因為文件已損毀或損壞。</string>
+    <string name="IDS_ERR_INVALID_DOC">無法開啟文件，因為該文件不是有效的 PDF 檔案。</string>
+    <string name="IDS_ERR_OUT_OF_MEMORY">記憶體不足。</string>
+    <string name="IDS_ERR_FONT_NOT_FOUND">部分字元可能無法正確顯示或列印，因為找不到相容的字型。</string>
+    <string name="IDS_ERR_UNSUPPORTED_FEATURE">文件中的部分功能不受此版 Adobe Reader 支援。</string>
+    <string name="IDS_ERR_CANT_OPEN">開啟文件時發生錯誤。</string>
+    <string name="IDS_ERR_PSSWD_PROTECTED">密碼無效。</string>
+    <string name="IDS_ERR_DOC_NOT_SUPPORTED">文件包含不受此版 Adobe Reader 支援的功能。</string>
+    <string name="IDS_ERR_INVALID_LICENSE">授權無效</string>
+    <string name="IDS_ERR_PARSER_ERROR">無法剖析文件</string>
+    <string name="IDS_ERR_EMPTY_DOC">文件是空的 (大小為 0 KB)</string>
+    <string name="IDS_COPYRIGHT_TEXT">Copyright © 1984-2011 Adobe Systems Incorporated and its licensors. All rights reserved. Adobe, the Adobe logo, and Reader are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.</string>
+    <string name="IDS_TERMS_OF_USE_TEXT">關於協力廠商軟體的協力廠商聲明、條款與條件都可於 <a href="http://www.adobe.com/go/thirdparty_tw">http://www.adobe.com/go/thirdparty_tw</a> 取得，並透過參照方式納為本文的一部分。</string>
+    <string name="IDS_VERSION_STRING">版本</string>
+    <string name="IDS_BUILD_NUM_STR">組建</string>
+    <string name="IDS_ERR_GENERIC_ERROR">操作失敗!</string>
+    <string name="IDS_ERR_NONE">發生系統錯誤。</string>
+    <string name="IDS_PRODUCT_NAME_IN_ABOUT">Adobe<sup><font size="6">®</font></sup> Reader<sup><font size="6">®</font></sup> X</string>
+    <string name="IDS_APP_NAME">Adobe Reader</string>
+    <string name="IDS_OPEN_STR">開啟</string>
+    <string name="IDS_ABOUT_STR">關於 Adobe Reader</string>
+    <string name="IDS_REFLOW_MODE_STR">重排文字</string>
+    <string name="IDS_EXIT_REFLOW_STR">頁面檢視</string>
+    <string name="IDS_NEXTPAGE_STR">下一頁</string>
+    <string name="IDS_PREVPAGE_STR">上一頁</string>
+    <string name="IDS_FIRSTPAGE_STR">第一頁</string>
+    <string name="IDS_LASTPAGE_STR">最後一頁</string>
+    <string name="IDS_OK_STR">確定</string>
+    <string name="IDS_WARNING_TITLE_STR">警告</string>
+    <string name="IDS_ERROR_TITLE_STR">錯誤</string>
+    <string name="IDS_YES_STR">是</string>
+    <string name="IDS_NO_STR">否</string>
+    <string name="IDS_UNABLE_TO_SAVE_STREAM_AS_TEMPORARY_FILE">無法開啟檔案。</string>
+    <string name="IDS_NO_RECENT_FILES_STR">可能不會列出所有最近檢視過的檔案。</string>
+    <string name="IDS_NO_PDF_FILES_STR">沒有可用的 PDF 檔案</string>
+    <string name="IDS_CLEAR_RECENT_FILES_STR">清除最近使用的檔案</string>
+    <string name="IDS_RECENT_FILES_TAB_HEADING_STR">最近檢視的檔案</string>
+    <string name="IDS_PDF_FILES_TAB_HEADING_STR">PDF 檔案</string>
+    <string name="IDS_ERR_FILE_SAVE_ERROR">無法儲存此檔案。可能是因為空間不足或檔案名稱無效。</string>
+    <string name="IDS_ERR_SHARE_ERROR">找不到檔案，因為檔案在上次開啟後已移動或刪除。</string>
+    <string name="IDS_SHARE_APP_CHOOSER_TITLE">共用</string>
+    <string name="IDS_CANCEL_STR">取消</string>
+    <string name="IDS_ENTER_PASSWD_STR">%s 受到保護。請輸入文件開啟密碼：</string>
+    <string name="IDS_PASSWD_TITLE_STR">密碼</string>
+    <string name="IDS_REENTER_PASSWD_STR">請重新輸入受保護文件 %s 的密碼：</string>
+    <string name="IDS_VIEW_MODE_STR">檢視模式</string>
+    <string name="IDS_CONTINUOUS_SCROLL_STR">連續捲動</string>
+    <string name="IDS_FIT_TO_SCREEN_STR">符合螢幕</string>
+    <string name="IDS_FIND_PROGRESS_BAR_STR">正在搜尋...</string>
+    <string name="IDS_FIND_NO_MATCH_FOUND_STR">找不到相符項目</string>
+    <string name="IDS_FIND_EDIT_BOX_HINT_TEXT_STR">輸入要搜尋的文字</string>
+    <string name="IDS_SHARE_SUBJECT_STR">透過電子郵件傳送：</string>
+</resources>

@@ -1,0 +1,115 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: 9fmN+G23LvmrdSLiE3fZmFmSO5M=
+
+Name: assets/gfx/avatar.png
+SHA1-Digest: U7woi35aCTcB0Vk9ikSN0kg59f0=
+
+Name: res/drawable/bg_more_dialog.xml
+SHA1-Digest: r6EPOQnDR6qn9nIlalomJuGrgss=
+
+Name: res/layout/dialog_recommend.xml
+SHA1-Digest: kLkR0JlUhcr0fQZYXPGyYOac4SQ=
+
+Name: assets/gfx/buttonroll.png
+SHA1-Digest: bsxJPW3Cqi15PmOZRs+tnIBv74g=
+
+Name: assets/gfx/btn_pause.png
+SHA1-Digest: X2+fDKVap509/Y3ZAG1JtK9hKTg=
+
+Name: resources.arsc
+SHA1-Digest: SOHYHtP0E3m+1qXIUtzQ2Ew4sZo=
+
+Name: assets/gfx/bgfront.png
+SHA1-Digest: RiV2RJXlZrchW8z9JYbwlh21i34=
+
+Name: assets/mfx/music.ogg
+SHA1-Digest: pLOyihEjWalTcpVdxWVLUZgeHOM=
+
+Name: assets/gfx/forward.png
+SHA1-Digest: gOo8xNRyEIVZH7yxHC+HtbIO1Go=
+
+Name: res/drawable/widget_clock.png
+SHA1-Digest: 0VJ31X9FlIIBlLGw+6WJTWomvFE=
+
+Name: AndroidManifest.xml
+SHA1-Digest: GdCi+dvFTb71PQGYcqWScIU/nUc=
+
+Name: assets/mfx/click.ogg
+SHA1-Digest: IyUV9jOWZLL4QLW4twdV7HFxrEM=
+
+Name: res/drawable/recommend_close.png
+SHA1-Digest: Ok1C30GV8UpKfCYz0B+F91qAXJg=
+
+Name: res/drawable/more_down.png
+SHA1-Digest: 3KMqfDmZmfsQqk5epCfUCyomiWo=
+
+Name: res/layout/dialog_more.xml
+SHA1-Digest: B4LjpdCoR7voVVvHVdEmgazjnJs=
+
+Name: res/layout/dialog_pause.xml
+SHA1-Digest: 9rgXeCSCRaXHUcFTvirQnvrP8A0=
+
+Name: res/drawable/icon_running.png
+SHA1-Digest: gdLsrB8LVvVXe0MgB6qcsopUq8M=
+
+Name: assets/gfx/stone_explosion.png
+SHA1-Digest: d/JXXVTvbSzPz8OhFqsY4kQAJA0=
+
+Name: assets/gfx/run.png
+SHA1-Digest: S9gcasR2OkAWg6oSDYbesM+8doU=
+
+Name: res/drawable/recommend_close1.png
+SHA1-Digest: c81hksBUSoobgkf6Tt5pMwIPuEA=
+
+Name: assets/gfx/shield.png
+SHA1-Digest: sB6K5JJ6waXBJNc0mMKi7dFWEsQ=
+
+Name: res/layout/dialog_more_item.xml
+SHA1-Digest: Odj/w1sXiv/0+n7zuDPycMOCrrk=
+
+Name: res/drawable/recommend_download.png
+SHA1-Digest: mcTNYjqvVzjwnsVwn0cPQMkvef0=
+
+Name: classes.dex
+SHA1-Digest: 1rBdwg3KkMvTJ5P1D+nncakXB80=
+
+Name: assets/font/NipCens.ttf
+SHA1-Digest: 6KicTzj1YfqS2QFDZBVkBOm3hlc=
+
+Name: assets/gfx/buttonjump.png
+SHA1-Digest: VxnwpVC+iLTcu581zrtnQo4x8GY=
+
+Name: assets/gfx/jump.png
+SHA1-Digest: +ZMkOt/ZIM6i1XiaZW4rK9e8tXw=
+
+Name: res/layout/main.xml
+SHA1-Digest: gOeKvuvk6hfXKFf0IvpgLUT1clc=
+
+Name: res/drawable/recommend_background.png
+SHA1-Digest: gOb0w4WW38yNvHX9qZwMaga+XlQ=
+
+Name: res/layout/highscore.xml
+SHA1-Digest: KB0ItwdnqXuKIqlZYfePUt1jtMQ=
+
+Name: res/drawable/highscore_background.xml
+SHA1-Digest: 5rtqhdtGptRcQwoci6ZOohKEMhM=
+
+Name: res/drawable/icon.png
+SHA1-Digest: Vb7rrxs1SBFPP47S6Q4OVoJO3JI=
+
+Name: res/drawable/recommend_background1.png
+SHA1-Digest: h88ED+EKEU02zcG9Hc25sVW1ygU=
+
+Name: assets/gfx/btn_sound.png
+SHA1-Digest: LX35uQtTqF8EkGRkMh695w20BN0=
+
+Name: res/drawable/default_app.png
+SHA1-Digest: dKxxNvhFWRIgOFFszURdkM49jkI=
+
+Name: assets/gfx/background.png
+SHA1-Digest: QIWHTeE6/ZtcDQUIDhHD5Cn+LpM=
+
+Name: assets/gfx/backward.png
+SHA1-Digest: nRI1VJYwwXwPVtSikVr4MBMYzxk=
+

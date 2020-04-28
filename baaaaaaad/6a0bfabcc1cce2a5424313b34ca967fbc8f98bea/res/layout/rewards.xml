@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0pt" android:layout_gravity="center" android:id="@id/reward_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="你有 0 奖励积分" />
+    <TextView android:layout_gravity="center" android:id="@id/reward_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0pt" android:text="通过玩游戏赚取奖励积分!" />
+    <ScrollView android:id="@id/rewards_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TableLayout android:id="@id/rewards_table" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+    <Button android:id="@id/go_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/go_back" />
+</LinearLayout>

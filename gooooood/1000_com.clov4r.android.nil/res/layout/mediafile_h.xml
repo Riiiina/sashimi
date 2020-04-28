@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/media_view_layout" android:background="#ff676c81" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/FrameLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:id="@id/media_file_list" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:divider="@drawable/media_file_sep" android:fastScrollEnabled="true" />
+            <ListView android:id="@id/ListView01" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:divider="@drawable/videoplayer_progress_bg_02" android:fastScrollEnabled="true" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/flGrid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.clov4r.android.nil.entrance.GalleryFlow android:id="@id/media_cover_flow" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spacing="-45.0sp" />
+            <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/video_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/video_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ShadowStyleForWhite" />
+                <TextView android:textSize="15.0sp" android:gravity="center_horizontal" android:id="@id/video_info" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ShadowStyleForGrey" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llfault" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ivicon" android:background="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:gravity="center" android:id="@id/tvNotify" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/ShadowStyleForGrey" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_layout" android:background="#00112233" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/FrameLayout03" android:background="@drawable/spinner_01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <ImageView android:background="@drawable/logo_h" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/ivlayout" android:background="@drawable/ivlayout_click_h" android:layout_width="60.0dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/ivselectfolder" android:background="@drawable/ivselectfile" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" />
+            <ImageView android:id="@id/ivsort" android:background="@drawable/ivsort_click" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" />
+            <ImageView android:id="@id/ivplay" android:background="@drawable/ivplay_click" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" />
+            <Button android:id="@id/btngrid" android:background="@drawable/btngrid_click" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" />
+            <ImageView android:id="@id/ivsetting" android:background="@drawable/ivsetting_click" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

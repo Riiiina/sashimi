@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#ff707060" android:id="@id/game_board_row_num" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:id="@id/game_board_row_clue" android:layout_width="190.0dip" android:layout_height="18.0dip" android:text="Clues" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff707060" android:id="@id/game_board_row_solution" android:layout_height="18.0dip" android:text="Solutions" />
+</TableRow>

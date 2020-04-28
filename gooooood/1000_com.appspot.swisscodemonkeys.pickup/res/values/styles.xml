@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonBlack" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/theme_black_button_style</item>
+    </style>
+    <style name="SpinnerBlack" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/theme_black_button_style</item>
+    </style>
+    <style name="ThemeBlack">
+        <item name="android:buttonStyle">@style/ButtonBlack</item>
+        <item name="android:buttonStyleToggle">@style/ButtonBlack</item>
+        <item name="android:spinnerStyle">@style/SpinnerBlack</item>
+    </style>
+    <style name="ButtonBlue" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/theme_blue_button_style</item>
+    </style>
+    <style name="SpinnerBlue" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/theme_blue_button_style</item>
+    </style>
+    <style name="ThemeBlue">
+        <item name="android:buttonStyle">@style/ButtonBlue</item>
+        <item name="android:buttonStyleToggle">@style/ButtonBlue</item>
+        <item name="android:spinnerStyle">@style/SpinnerBlue</item>
+    </style>
+    <style name="SeekBarGray" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">10.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/theme_progress_horizontal</item>
+        <item name="android:progressDrawable">@drawable/theme_progress_horizontal</item>
+        <item name="android:minHeight">10.0dip</item>
+        <item name="android:thumb">@drawable/theme_seek_thumb</item>
+        <item name="android:thumbOffset">8.0px</item>
+    </style>
+    <style name="ButtonGray" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/theme_gray_button_style</item>
+        <item name="android:padding">10.0px</item>
+    </style>
+    <style name="SpinnerGray" parent="@android:style/Widget.Spinner">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/theme_gray_button_style</item>
+        <item name="android:padding">15.0px</item>
+    </style>
+    <style name="ThemeGray">
+        <item name="android:buttonStyle">@style/ButtonGray</item>
+        <item name="android:buttonStyleToggle">@style/ButtonGray</item>
+        <item name="android:seekBarStyle">@style/SeekBarGray</item>
+        <item name="android:spinnerStyle">@style/SpinnerGray</item>
+    </style>
+    <style name="ButtonGreen" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/theme_green_button_style</item>
+    </style>
+    <style name="SpinnerGreen" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/theme_green_button_style</item>
+    </style>
+    <style name="ThemeGreen">
+        <item name="android:buttonStyle">@style/ButtonGreen</item>
+        <item name="android:buttonStyleToggle">@style/ButtonGreen</item>
+        <item name="android:spinnerStyle">@style/SpinnerGreen</item>
+    </style>
+    <style name="ButtonBlueShape" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20.0px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/shape_button_blue</item>
+    </style>
+    <style name="SpinnerBlueShape" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/shape_button_blue</item>
+    </style>
+    <style name="ThemeJokes">
+        <item name="android:buttonStyle">@style/ButtonBlueShape</item>
+        <item name="android:buttonStyleToggle">@style/ButtonBlueShape</item>
+        <item name="android:spinnerStyle">@style/SpinnerBlueShape</item>
+    </style>
+</resources>

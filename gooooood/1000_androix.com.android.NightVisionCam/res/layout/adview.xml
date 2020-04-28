@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center|right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/LinearLayoutAd" android:layout_width="320.0dip" android:layout_height="50.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res/androix.com.android.NightVisionCam">
+        <com.google.ads.AdView android:id="@id/ad" android:layout_width="320.0dip" android:layout_height="50.0dip" app:adSize="BANNER" app:adUnitId="a14d554920cd2b8" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Log In to Your iheartradio Account:" />
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <EditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Email: example@email.com" android:maxLines="1" android:inputType="textEmailAddress" />
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Password" android:maxLines="1" android:password="true" android:inputType="textPassword" />
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <TextView android:textColor="#ff3333ff" android:gravity="center_horizontal" android:id="@id/forgotPassword" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Forgot Password" />
+    <View android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textStyle="bold" android:gravity="center" android:id="@id/login" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Login" android:layout_weight="0.5" />
+        <Button android:textStyle="bold" android:gravity="center" android:id="@id/cancel" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Cancel" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SELECT_FILE">표시할 파일 선택</string>
+    <string name="IDS_SELECT_ETD">처리할 ETD 선택</string>
+    <string name="IDS_ERR_URL">파일 경로가 잘못되었습니다.</string>
+    <string name="IDS_ERR_POLICY_PROTECTED">문서가 서버의 보안 정책으로 보호되어 있기 때문에 열 수 없습니다.</string>
+    <string name="IDS_ERR_CORRUPT_DATA">문서가 손상되어 열 수 없습니다.</string>
+    <string name="IDS_ERR_INVALID_DOC">문서가 올바른 PDF 파일이 아니므로 열 수 없습니다.</string>
+    <string name="IDS_ERR_OUT_OF_MEMORY">메모리가 부족합니다.</string>
+    <string name="IDS_ERR_FONT_NOT_FOUND">호환 글꼴이 없기 때문에 일부 문자를 제대로 표시하거나 인쇄할 수 없습니다.</string>
+    <string name="IDS_ERR_UNSUPPORTED_FEATURE">문서의 일부 기능이 이 버전의 Adobe Reader에서 지원되지 않습니다.</string>
+    <string name="IDS_ERR_CANT_OPEN">문서를 여는 동안 오류가 발생했습니다.</string>
+    <string name="IDS_ERR_PSSWD_PROTECTED">암호가 잘못되었습니다.</string>
+    <string name="IDS_ERR_DOC_NOT_SUPPORTED">문서에 이 버전의 Adobe Reader에서 지원되지 않는 기능이 있습니다.</string>
+    <string name="IDS_ERR_INVALID_LICENSE">잘못된 라이센스</string>
+    <string name="IDS_ERR_PARSER_ERROR">문서를 구문 분석할 수 없습니다.</string>
+    <string name="IDS_ERR_EMPTY_DOC">문서가 비어 있습니다(크기: 0KB).</string>
+    <string name="IDS_COPYRIGHT_TEXT">Copyright © 1984-2011 Adobe Systems Incorporated and its licensors. All rights reserved. Adobe, the Adobe logo, and Reader are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.</string>
+    <string name="IDS_TERMS_OF_USE_TEXT">타사 소프트웨어와 관련된 타사 고지사항 및 약관에 대한 정보는 <a href="http://www.adobe.com/go/thirdparty_kr">http://www.adobe.com/go/thirdparty_kr</a> 에서 확인할 수 있으며 여기에 참조용으로 포함되어 있습니다.</string>
+    <string name="IDS_VERSION_STRING">버전</string>
+    <string name="IDS_BUILD_NUM_STR">작성</string>
+    <string name="IDS_ERR_GENERIC_ERROR">작업을 수행하지 못했습니다.</string>
+    <string name="IDS_ERR_NONE">시스템 오류가 발생했습니다.</string>
+    <string name="IDS_PRODUCT_NAME_IN_ABOUT">Adobe<sup><font size="6">®</font></sup> Reader<sup><font size="6">®</font></sup> X</string>
+    <string name="IDS_APP_NAME">Adobe Reader</string>
+    <string name="IDS_OPEN_STR">열기</string>
+    <string name="IDS_ABOUT_STR">Adobe Reader 정보</string>
+    <string name="IDS_REFLOW_MODE_STR">텍스트 리플로우</string>
+    <string name="IDS_EXIT_REFLOW_STR">페이지 보기</string>
+    <string name="IDS_NEXTPAGE_STR">다음 페이지</string>
+    <string name="IDS_PREVPAGE_STR">이전 페이지</string>
+    <string name="IDS_FIRSTPAGE_STR">첫 페이지</string>
+    <string name="IDS_LASTPAGE_STR">마지막 페이지</string>
+    <string name="IDS_OK_STR">확인</string>
+    <string name="IDS_WARNING_TITLE_STR">경고</string>
+    <string name="IDS_ERROR_TITLE_STR">오류</string>
+    <string name="IDS_YES_STR">예</string>
+    <string name="IDS_NO_STR">아니요</string>
+    <string name="IDS_UNABLE_TO_SAVE_STREAM_AS_TEMPORARY_FILE">파일을 열 수 없습니다.</string>
+    <string name="IDS_NO_RECENT_FILES_STR">최근에 열어 본 일부 파일을 표시할 수 없습니다.</string>
+    <string name="IDS_NO_PDF_FILES_STR">사용 가능한 PDF 파일이 없음</string>
+    <string name="IDS_CLEAR_RECENT_FILES_STR">최근 파일 지우기</string>
+    <string name="IDS_RECENT_FILES_TAB_HEADING_STR">최근에 열어 본 파일</string>
+    <string name="IDS_PDF_FILES_TAB_HEADING_STR">PDF 파일</string>
+    <string name="IDS_ERR_FILE_SAVE_ERROR">파일을 저장할 수 없습니다. 공간 부족이나 잘못된 파일 이름 때문일 수 있습니다.</string>
+    <string name="IDS_ERR_SHARE_ERROR">파일을 마지막으로 연 후 이동하거나 삭제했기 때문에 찾을 수 없습니다.</string>
+    <string name="IDS_SHARE_APP_CHOOSER_TITLE">공유</string>
+    <string name="IDS_CANCEL_STR">취소</string>
+    <string name="IDS_ENTER_PASSWD_STR">%s는 보호되어 있습니다.. 문서 열기 암호를 입력하십시오.</string>
+    <string name="IDS_PASSWD_TITLE_STR">암호</string>
+    <string name="IDS_REENTER_PASSWD_STR">입력한 암호가 올바르지 않습니다. 보호된 문서 %s에 대한 암호를 다시 입력하십시오.</string>
+    <string name="IDS_VIEW_MODE_STR">보기 모드</string>
+    <string name="IDS_CONTINUOUS_SCROLL_STR">연속 스크롤</string>
+    <string name="IDS_FIT_TO_SCREEN_STR">화면에 맞추기</string>
+    <string name="IDS_FIND_PROGRESS_BAR_STR">검색 중...</string>
+    <string name="IDS_FIND_NO_MATCH_FOUND_STR">일치하는 항목이 없습니다.</string>
+    <string name="IDS_FIND_EDIT_BOX_HINT_TEXT_STR">검색할 텍스트 입력</string>
+    <string name="IDS_SHARE_SUBJECT_STR">전자 메일 보내기:</string>
+</resources>

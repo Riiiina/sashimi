@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Test</string>
+    <string name="app_desc">GPS Test Application</string>
+    <string name="app_version">Version 1.2.4</string>
+    <string name="app_copyright">©Chartcross Ltd 2010</string>
+    <string name="app_website">www.chartcross.co.uk</string>
+    <string name="app_settings_title">GPSTest Settings</string>
+    <string name="msg_restart">Reconnecting to GPS</string>
+    <string name="button_market"><b>More Applications...</b></string>
+    <string name="settings_category_general">General settings</string>
+    <string name="settings_category_grid">Coordinate grid settings</string>
+    <string name="settings_category_format">Field format settings</string>
+    <string name="settings_category_speed_view">Speed display settings</string>
+    <string name="disclaimer"><b>DISCLAIMER</b>"
+
+Chartcross Limited disclaims any and all liability that may arise in any way from the use of this software.
+
+The accuracy of the data that this software displays is only as good as the accuracy of the GPS and sensors in the device this software in installed on. Chartcross Limited cannot guarantee or be responsible for the accuracy of data displayed."</string>
+    <string name="acknowledgement"><b>ACKNOWLEDGEMENTS</b>"
+
+The coordinate conversion functions in this product were developed using code derived from GEOTRANS, a product of the National Geospatial-Intelligence Agency (NGA) and U.S. Army Engineering Research and Development Center."</string>
+    <string name="safety"><b>SAFETY</b>"
+
+If you intend to use this software in a vehicle always think of safety first, you should make sure your device is properly mounted in the vehicle and that you start this program and make any changes to settings, colour schemes etc before setting off on your journey."</string>
+    <string name="screen_keep_on">"
+The screen will stay on as long as this application is active"</string>
+    <string name="help_caption">GPS Test User Guide</string>
+    <string name="help_title001">1.0 Introduction</string>
+    <string name="help_title002">2.0 Application Buttons</string>
+    <string name="help_title003">3.0 Satellite Signal View</string>
+    <string name="help_title004">4.0 Satellite Position View</string>
+    <string name="help_title005">5.0 Location View</string>
+    <string name="help_title006">6.0 Speed View</string>
+    <string name="help_title007">7.0 Time View</string>
+    <string name="help_title008">8.0 Settings</string>
+    <string name="help_text001">"GPS Test displays information obtained from your device's GPS receiver. It shows the position and received signal strength of each satellite within view, as well as your current location and time."</string>
+    <string name="help_text002">At the bottom of each view, there are four buttons. By tapping on a button the related view is displayed.</string>
+    <string name="help_text003">"This view displays satellite signal information. The top left field shows the state of the GPS, either on or off. You can tap on this field to turn the GPS on/off. The top right field shows the accuracy of the GPS location, the smaller the number the better. Below this is the satellite signal graph, it shows a bar for each satellite in view. The number beneath the bar is the satellite number and the number above it is the signal to noise ratio in decibels.
+
+Below the satellite signal graph is a legend for the SNR colour. Gray means the satellite can be seen by the GPS engine, but is not used in calculating a positional fix. The other colours are displayed when the satellite is used in a fix. The colours represent signal to noise ratio ranges. The satellite signals can have an SNR value between 0 and 99dB, 0 is worst. Normally the SNR will never get above 50 and anything above 40 is really good. The colours are as follows :-
+
+00-10 = Red
+10-20 = Orange
+20-30 = Yellow
+30-40 = Light green
+40-99 = Green"</string>
+    <string name="help_text004">This view displays the GPS satellite positions. The field at the top of this screen shows a view of the sky overhead (sky view), the outside of the circle represents the horizon and the centre represents the sky directly above your head. The sky view rotates to the correct position using the internal compass. The satellites in view of the GPS receiver are drawn on the sky view. Each satellite symbol has the satellite number shown below it and is drawn in a colour that represents the satellite signal to noise ratio. The signal to noise ratios and corresponding colour ranges are shown in the SNR legend, below the sky view.</string>
+    <string name="help_text005">This view displays your position on the earth. The top field shows the coordinates of your current location in the selected coordinate grid. The bottom field is a map of the world, on which your current position is shown by a red marker. The transition between day and night and the location of the sun relative to your current location is also drawn on the map.</string>
+    <string name="help_text006">This view displays your current speed, altitude and heading in the current display units. If your current speed is less than five MPH, the heading is read from the internal compass, otherwise it is obtained from the GPS. Tapping on one of the small fields swaps it with the large field. Tapping on the large field switches to full screen single field view, tapping the field in full screen view, switches back to the three field view.</string>
+    <string name="help_text007">This view displays various time and date fields. The top two fields show the time and date from your GPS receiver in Coordinated Universal Time (UTC). This is based on international atomic time and is the same throughout the world. The next two fields show the time and date local to your current location. The last two fields show the sunrise and sunset times at your current location.</string>
+    <string name="help_text008"><b>Clear AGPS Button</b>"
+
+Pressing this button clears the AGPS aiding data from your phone. Do this if your GPS takes a long time to get a fix.
+
+"<b>Update AGPS Button</b>"
+
+Pressing this button requests the download of AGPS aiding data. The AGPS aiding data can become out of date, so requesting an update will get the latest version.
+
+"<b>Keep Screen On</b>"
+
+Stops the screen turning off when GPSTest is active, With this option ticked, battery life is reduced.
+
+"<b>Hide the status bar</b>"
+
+Put the application into full screen mode by hiding the status bar.
+
+"<b>Hide splash screen</b>"
+
+Do not show the splash screen when the app first starts.
+
+"<b>Screen orientation</b>"
+
+Choose to fix the screen in a particular orientation or set it to 'auto' mode.
+
+"<b>Colour Scheme</b>"
+
+Selects a colour scheme. The night colours are in shades of red to help preserve night vision.
+
+"<b>Field text colour</b>"
+
+Selects the colour to display data fields in i.e. Speed, Altitude, Accuracy etc. This colour can be independent of the colour scheme setting. To make the text colour the same as the colour scheme, select the 'Colour Scheme Default' option.
+
+"<b>Grid</b>"
+
+Selects a coordinate grid.
+
+"<b>Datum</b>"
+
+Selects the datum for the current selected grid.
+
+"<b>Precision</b>"
+
+Selected the display precision for the MSRG or USNG grid.
+
+"<b>Time format</b>"
+
+Selects a format to display times in, either 12 or 24 hour.
+
+"<b>Date Format</b>"
+
+Selects a format to display dates in.
+
+"<b>Display Units</b>"
+
+Selects the display units for speed and altitude.
+
+"<b>Heading Units</b>"
+
+Selects the display units for heading. It can be Degrees, Mils (Military) or Cardinal (N,NE,E,SE,S,SW,W,NW,N).
+
+"<b>Heading device</b>"
+
+Choose the device to use for compass and heading fields. You can select from Automatic, Use Electronic compass or Use GPS. Setting the 'Automatic' option, will use the GPS if you are travelling faster than 5 mph, otherwise the Electronic compass will be used.
+
+"<b>North Reference</b>"
+
+Choose the north reference to use for compass and heading fields. You can select from 'True' or 'Magnetic'. If you select 'True' the heading value is adjusted for the declination at your current location.
+
+"<b>Adjust Altitude</b>"
+
+If ticked this option applies the offset between mean sea level and the GPS ellipsoid to the altitude. Some GPS chips may apply this offset internally, so if you think the altitude is wrong try un-ticking this option.
+
+"<b>Show tenths</b>"
+
+If ticked display the speed to one decimal place."</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@id/fitToScreen" android:title="@string/IDS_FIT_TO_SCREEN_STR" />
+        <item android:id="@id/continuousScroll" android:title="@string/IDS_CONTINUOUS_SCROLL_STR" />
+        <item android:id="@id/reflowText" android:title="@string/IDS_REFLOW_MODE_STR" />
+    </group>
+</menu>

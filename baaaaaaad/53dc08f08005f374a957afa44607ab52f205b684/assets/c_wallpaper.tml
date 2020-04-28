@@ -1,0 +1,44 @@
+<page id="c_hello_world" 
+      visuals="v_wallpaper_anims.tml" 
+      xmlns="http://www.tat.se/cascades">
+  
+  <model id="m_tapetdata" src="system.xml" />
+  
+  <onEvent name="KEYCODE_BACK" handler="CascadesApplication.CloseActivity()" />
+
+  <onKey keyCode="48" handler="m_tapetdata.SetProperty(battery.charge,0)" />
+  <onKey keyCode="49" handler="m_tapetdata.SetProperty(battery.charge,10)" />
+  <onKey keyCode="50" handler="m_tapetdata.SetProperty(battery.charge,20)" />
+  <onKey keyCode="51" handler="m_tapetdata.SetProperty(battery.charge,30)" />
+  <onKey keyCode="52" handler="m_tapetdata.SetProperty(battery.charge,40)" />
+  <onKey keyCode="53" handler="m_tapetdata.SetProperty(battery.charge,50)" />
+  <onKey keyCode="54" handler="m_tapetdata.SetProperty(battery.charge,60)" />
+  <onKey keyCode="55" handler="m_tapetdata.SetProperty(battery.charge,70)" />
+  <onKey keyCode="56" handler="m_tapetdata.SetProperty(battery.charge,80)" />
+  <onKey keyCode="57" handler="m_tapetdata.SetProperty(battery.charge,90)" />
+
+  <onKey keyCode="113" handler="m_tapetdata.SetProperty(battery.charge,100)" /> <!-- q -->
+  <onEvent name="KEYCODE_DPAD_RIGHT" handler="m_tapetdata.SetProperty(battery.charge,100);"/>
+
+  <onKey keyCode="116" handler="_this.StartTimer(250,DEC);"/> <!-- t -->
+<!--  <onEvent name="Page.Showing" phase="AtTarget" handler="_this.StartTimer(250,DEC);"/> -->
+  <onEvent name="KEYCODE_DPAD_LEFT" handler="_this.StartTimer(250,DEC);"/><!-- t -->
+
+  <onKey keyCode="119" handler="m_tapetdata.SetProperty(calls.missed,1)" /> <!-- w -->
+  <onKey keyCode="101" handler="m_tapetdata.SetProperty(calls.missed,0)" /> <!-- e -->
+
+  <onKey keyCode="97" handler="m_tapetdata.SetProperty(network.strength,0)" /> <!-- a -->
+  <onKey keyCode="115" handler="m_tapetdata.SetProperty(network.strength,1)" /> <!-- s -->
+  <onKey keyCode="100" handler="m_tapetdata.SetProperty(network.strength,2)" /> <!-- d -->
+  <onKey keyCode="102" handler="m_tapetdata.SetProperty(network.strength,3)" /> <!-- f -->
+  <onKey keyCode="103" handler="m_tapetdata.SetProperty(network.strength,4)" /> <!-- g -->
+  
+  <onTimer name="DEC" handler="{m_tapetdata.SetProperty('battery.charge',m_tapetdata.GetProperty('battery.charge')-1);_this.StartTimer('250','DEC');}" />
+  
+  <onPointer name="bg" type="Drag" handler="_this.StopAnim(Sway);_this.TrigAnim(Sway);_this.TrigAnim(Swipe);" />
+  <onPointer name="bg" type="DoubleTap" handler="m_tapetdata.SetProperty(calls.missed,1);" />
+  <onPointer name="flowerA" type="Tap" handler="_this.TrigAnim(flowerA_tap);" />
+  <onPointer name="flowerB" type="Tap" handler="_this.TrigAnim(flowerB_tap);" />
+  <onPointer name="flowerC" type="Tap" handler="_this.TrigAnim(flowerC_tap);" />
+</page>
+

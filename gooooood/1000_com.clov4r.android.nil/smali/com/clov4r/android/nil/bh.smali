@@ -1,0 +1,53 @@
+.class Lcom/clov4r/android/nil/bh;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/view/animation/Animation$AnimationListener;
+
+
+# instance fields
+.field final synthetic a:Lcom/clov4r/android/nil/MainActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/clov4r/android/nil/MainActivity;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/clov4r/android/nil/bh;->a:Lcom/clov4r/android/nil/MainActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onAnimationEnd(Landroid/view/animation/Animation;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/clov4r/android/nil/bh;->a:Lcom/clov4r/android/nil/MainActivity;
+
+    invoke-static {v0}, Lcom/clov4r/android/nil/MainActivity;->a(Lcom/clov4r/android/nil/MainActivity;)V
+
+    return-void
+.end method
+
+.method public onAnimationRepeat(Landroid/view/animation/Animation;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onAnimationStart(Landroid/view/animation/Animation;)V
+    .locals 2
+
+    iget-object v0, p0, Lcom/clov4r/android/nil/bh;->a:Lcom/clov4r/android/nil/MainActivity;
+
+    iget-object v0, v0, Lcom/clov4r/android/nil/MainActivity;->L:Landroid/widget/FrameLayout;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
+
+    return-void
+.end method

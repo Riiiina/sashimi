@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/newThreadlayout" android:layoutAnimation="@anim/enter" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Title of the new topic:" />
+    <EditText android:id="@id/titleEntry" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/label" />
+    <TextView android:textSize="17.0sp" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Your message:" />
+    <EditText android:gravity="top" android:id="@id/messageEntry" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" />
+    <TableLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow>
+            <Button android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="left" android:id="@id/ok" android:background="@drawable/greenbutton_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="OK" android:layout_weight="1.0" />
+            <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/cancel" android:background="@drawable/greenbutton_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="Cancel" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

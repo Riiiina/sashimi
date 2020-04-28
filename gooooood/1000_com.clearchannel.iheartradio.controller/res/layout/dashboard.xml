@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@id/TableLayoutDashboard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent">
+            <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/TextViewStationCount" android:padding="3.0dip" android:layout_width="fill_parent" android:text="750+ Stations" />
+        </TableRow>
+        <TableRow android:gravity="center" android:id="@id/TableRowTop" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutMusic" android:layout_width="100.0dip" android:layout_height="fill_parent" android:onClick="onClick">
+                <ImageView android:id="@id/ImageViewMusic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_music" />
+                <TextView android:textColor="#ffffffff" android:id="@id/TextViewMusic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Music" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutNewsTalk" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewNewsTalk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_newstalk" />
+                <TextView android:textColor="#ffffffff" android:id="@id/TextViewNewsTalk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="News &amp; Talk" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutSports" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewSports" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_sports" />
+                <TextView android:textColor="#ffffffff" android:id="@id/TextViewSports" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sports" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:gravity="center" android:id="@id/TableRowMiddle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutLocation" android:paddingTop="20.0dip" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_locations" />
+                <TextView android:textColor="#ffffffff" android:id="@id/TextViewLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutHostsDJs" android:paddingTop="20.0dip" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewHostsDJs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_hostdjs" />
+                <TextView android:textColor="#ffffffff" android:id="@id/TextViewNewsHostsDJs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hosts &amp; DJs" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutSubscriptions" android:paddingTop="20.0dip" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewSubscriptions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_subscriptions" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/TextViewSubscriptions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subscriptions" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:gravity="center" android:id="@id/TableRowBottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutFavourites" android:paddingTop="20.0dip" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewFavourites" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_favorites" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/TextViewFavourites" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Favorites" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutVideo" android:paddingTop="20.0dip" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewVideo" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_videos" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/TextViewVideo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayoutRecent" android:paddingTop="20.0dip" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ImageViewRecent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/dashboard_recent" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/TextViewRecent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recent" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutGallery" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/TableLayoutDashboard" android:layout_alignParentBottom="true">
+        <View android:id="@id/View01" android:background="#ff565555" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/layoutGallery" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/inLayoutGallery" android:background="@drawable/background_header" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:gravity="center" android:id="@id/left_arrow" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/left_arrow_red" android:layout_alignParentLeft="true" />
+            <Gallery android:gravity="center" android:id="@id/GalleryFeatured" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_centerVertical="true" />
+            <ImageView android:gravity="right" android:id="@id/right_arrow" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@drawable/right_arrow_red" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

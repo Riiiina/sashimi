@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_list">
+        <item>Small Font</item>
+        <item>Medium Font</item>
+        <item>Large Font</item>
+        <item>Hurge Font</item>
+    </string-array>
+    <string-array name="font_sizevalue_list">
+        <item>12</item>
+        <item>18</item>
+        <item>28</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="font_color_list">
+        <item>WRITE</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>YELLOW</item>
+        <item>ORANGE</item>
+        <item>RED</item>
+    </string-array>
+    <string-array name="font_colorvalue_list">
+        <item>\#FFFFFF</item>
+        <item>\#1E90FF</item>
+        <item>\#008B45</item>
+        <item>\#CDAD00</item>
+        <item>\#FF8C00</item>
+        <item>\#FF0000</item>
+    </string-array>
+    <string-array name="sort_item">
+        <item>File Path</item>
+        <item>File name</item>
+        <item>File Size</item>
+        <item>File Format</item>
+        <item>Last modified</item>
+        <item>"Movie's time"</item>
+        <item>Resolution</item>
+    </string-array>
+    <string-array name="list_sort_item">
+        <item>File Path</item>
+        <item>File name</item>
+        <item>File Size</item>
+        <item>Last modified</item>
+        <item>File format</item>
+    </string-array>
+    <string-array name="list_update_frequency">
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+    <string-array name="list_update_frequency_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="volume_item">
+        <item>High</item>
+        <item>Middle</item>
+        <item>Low</item>
+        <item>Close</item>
+    </string-array>
+    <string-array name="volume_item_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="layout_item">
+        <item>List</item>
+        <item>Grid</item>
+    </string-array>
+    <string-array name="layout_item_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="screen_lock_setting">
+        <item>Display nothing.</item>
+        <item>Display progress only.</item>
+        <item>Display text and progress.</item>
+    </string-array>
+    <string-array name="screen_lock_setting_value">
+        <item>display_nothing</item>
+        <item>display_progress</item>
+        <item>display_progress_text</item>
+    </string-array>
+    <string-array name="decode_mode_item">
+        <item>Auto</item>
+        <item>Close</item>
+        <item>Software decoding</item>
+        <item>Hardware decoding</item>
+    </string-array>
+    <string-array name="volume_key_set">
+        <item>Press volume keys to set play progress</item>
+        <item>Press volume keys to set volume</item>
+    </string-array>
+    <string-array name="volume_key_set_value">
+        <item>volume_key_progress</item>
+        <item>volume_key_valume</item>
+    </string-array>
+    <string-array name="bg_color_list">
+        <item>AUTO</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>YELLOW</item>
+        <item>ORANGE</item>
+        <item>RED</item>
+    </string-array>
+    <string-array name="bg_colorvalue_list">
+        <item>\#616C81</item>
+        <item>\#1E90FF</item>
+        <item>\#008B45</item>
+        <item>\#CDAD00</item>
+        <item>\#FF8C00</item>
+        <item>\#FF0000</item>
+    </string-array>
+    <string-array name="encode_style">
+        <item>Auto</item>
+        <item>Big5</item>
+        <item>Big5-HKSCS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+        <item>GB18030</item>
+        <item>GB2312</item>
+        <item>GBK</item>
+        <item>IBM-Thai</item>
+        <item>IBM00858</item>
+        <item>IBM01140</item>
+        <item>IBM01141</item>
+        <item>IBM01142</item>
+        <item>IBM01143</item>
+        <item>IBM01144</item>
+        <item>IBM01145</item>
+        <item>IBM01146</item>
+        <item>IBM01147</item>
+        <item>IBM01148</item>
+        <item>IBM01149</item>
+        <item>IBM037</item>
+        <item>IBM1026</item>
+        <item>IBM1047</item>
+        <item>IBM273</item>
+        <item>IBM277</item>
+        <item>IBM278</item>
+        <item>IBM280</item>
+        <item>IBM284</item>
+        <item>IBM285</item>
+        <item>IBM297</item>
+        <item>IBM420</item>
+        <item>IBM424</item>
+        <item>IBM437</item>
+        <item>IBM500</item>
+        <item>IBM775</item>
+        <item>IBM850</item>
+        <item>IBM852</item>
+        <item>IBM855</item>
+        <item>IBM857</item>
+        <item>IBM860</item>
+        <item>IBM861</item>
+        <item>IBM862</item>
+        <item>IBM863</item>
+        <item>IBM864</item>
+        <item>IBM865</item>
+        <item>IBM866</item>
+        <item>IBM868</item>
+        <item>IBM869</item>
+        <item>IBM870</item>
+        <item>IBM871</item>
+        <item>IBM918</item>
+        <item>ISO-2022-CN</item>
+        <item>ISO-2022-JP</item>
+        <item>ISO-2022-JP-2</item>
+        <item>ISO-2022-KR</item>
+        <item>ISO-8859-1</item>
+        <item>ISO-8859-13</item>
+        <item>ISO-8859-15</item>
+        <item>ISO-8859-2</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-5</item>
+        <item>ISO-8859-6</item>
+        <item>ISO-8859-7</item>
+        <item>ISO-8859-8</item>
+        <item>ISO-8859-9</item>
+        <item>JIS_X0201</item>
+        <item>JIS_X0212-1990</item>
+        <item>KOI8-R</item>
+        <item>KOI8-U</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>US-ASCII</item>
+        <item>UTF-16</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>UTF-32</item>
+        <item>UTF-32BE</item>
+        <item>UTF-32LE</item>
+        <item>UTF-8</item>
+        <item>windows-1250</item>
+        <item>windows-1251</item>
+        <item>windows-1252</item>
+        <item>windows-1253</item>
+        <item>windows-1254</item>
+        <item>windows-1255</item>
+        <item>windows-1256</item>
+        <item>windows-1257</item>
+        <item>windows-1258</item>
+        <item>windows-31j</item>
+        <item>x-Big5-Solaris</item>
+        <item>x-euc-jp-linux</item>
+        <item>x-EUC-TW</item>
+        <item>x-eucJP-Open</item>
+        <item>x-IBM1006</item>
+        <item>x-IBM1025</item>
+        <item>x-IBM1046</item>
+        <item>x-IBM1097</item>
+        <item>x-IBM1098</item>
+        <item>x-IBM1112</item>
+        <item>x-IBM1122</item>
+        <item>x-IBM1123</item>
+        <item>x-IBM1124</item>
+        <item>x-IBM1381</item>
+        <item>x-IBM1383</item>
+        <item>x-IBM33722</item>
+        <item>x-IBM737</item>
+        <item>x-IBM834</item>
+        <item>x-IBM856</item>
+        <item>x-IBM874</item>
+        <item>x-IBM875</item>
+        <item>x-IBM921</item>
+        <item>x-IBM922</item>
+        <item>x-IBM930</item>
+        <item>x-IBM933</item>
+        <item>x-IBM935</item>
+        <item>x-IBM937</item>
+        <item>x-IBM939</item>
+        <item>x-IBM942</item>
+        <item>x-IBM942C</item>
+        <item>x-IBM943</item>
+        <item>x-IBM943C</item>
+        <item>x-IBM948</item>
+        <item>x-IBM949</item>
+        <item>x-IBM949C</item>
+        <item>x-IBM950</item>
+        <item>x-IBM964</item>
+        <item>x-IBM970</item>
+        <item>x-ISCII91</item>
+        <item>x-ISO-2022-CN-CNS</item>
+        <item>x-ISO-2022-CN-GB</item>
+        <item>x-iso-8859-11</item>
+        <item>x-JIS0208</item>
+        <item>x-JISAutoDetect</item>
+        <item>x-Johab</item>
+        <item>x-MacArabic</item>
+        <item>x-MacCentralEurope</item>
+        <item>x-MacCroatian</item>
+        <item>x-MacCyrillic</item>
+        <item>x-MacDingbat</item>
+        <item>x-MacGreek</item>
+        <item>x-MacHebrew</item>
+        <item>x-MacIceland</item>
+        <item>x-MacRoman</item>
+        <item>x-MacRomania</item>
+        <item>x-MacSymbol</item>
+        <item>x-MacThai</item>
+        <item>x-MacTurkish</item>
+        <item>x-MacUkraine</item>
+        <item>x-MS932_0213</item>
+        <item>x-MS950-HKSCS</item>
+        <item>x-mswin-936</item>
+        <item>x-PCK</item>
+        <item>x-SJIS_0213</item>
+        <item>x-UTF-16LE-BOM</item>
+        <item>X-UTF-32BE-BOM</item>
+        <item>X-UTF-32LE-BOM</item>
+        <item>x-windows-50220</item>
+        <item>x-windows-50221</item>
+        <item>x-windows-874</item>
+        <item>x-windows-949</item>
+        <item>x-windows-950</item>
+        <item>x-windows-iso2022jp</item>
+    </string-array>
+    <string-array name="encode_style_value">
+        <item>Auto</item>
+        <item>Big5</item>
+        <item>Big5-HKSCS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+        <item>GB18030</item>
+        <item>GB2312</item>
+        <item>GBK</item>
+        <item>IBM-Thai</item>
+        <item>IBM00858</item>
+        <item>IBM01140</item>
+        <item>IBM01141</item>
+        <item>IBM01142</item>
+        <item>IBM01143</item>
+        <item>IBM01144</item>
+        <item>IBM01145</item>
+        <item>IBM01146</item>
+        <item>IBM01147</item>
+        <item>IBM01148</item>
+        <item>IBM01149</item>
+        <item>IBM037</item>
+        <item>IBM1026</item>
+        <item>IBM1047</item>
+        <item>IBM273</item>
+        <item>IBM277</item>
+        <item>IBM278</item>
+        <item>IBM280</item>
+        <item>IBM284</item>
+        <item>IBM285</item>
+        <item>IBM297</item>
+        <item>IBM420</item>
+        <item>IBM424</item>
+        <item>IBM437</item>
+        <item>IBM500</item>
+        <item>IBM775</item>
+        <item>IBM850</item>
+        <item>IBM852</item>
+        <item>IBM855</item>
+        <item>IBM857</item>
+        <item>IBM860</item>
+        <item>IBM861</item>
+        <item>IBM862</item>
+        <item>IBM863</item>
+        <item>IBM864</item>
+        <item>IBM865</item>
+        <item>IBM866</item>
+        <item>IBM868</item>
+        <item>IBM869</item>
+        <item>IBM870</item>
+        <item>IBM871</item>
+        <item>IBM918</item>
+        <item>ISO-2022-CN</item>
+        <item>ISO-2022-JP</item>
+        <item>ISO-2022-JP-2</item>
+        <item>ISO-2022-KR</item>
+        <item>ISO-8859-1</item>
+        <item>ISO-8859-13</item>
+        <item>ISO-8859-15</item>
+        <item>ISO-8859-2</item>
+        <item>ISO-8859-3</item>
+        <item>ISO-8859-4</item>
+        <item>ISO-8859-5</item>
+        <item>ISO-8859-6</item>
+        <item>ISO-8859-7</item>
+        <item>ISO-8859-8</item>
+        <item>ISO-8859-9</item>
+        <item>JIS_X0201</item>
+        <item>JIS_X0212-1990</item>
+        <item>KOI8-R</item>
+        <item>KOI8-U</item>
+        <item>Shift_JIS</item>
+        <item>TIS-620</item>
+        <item>US-ASCII</item>
+        <item>UTF-16</item>
+        <item>UTF-16BE</item>
+        <item>UTF-16LE</item>
+        <item>UTF-32</item>
+        <item>UTF-32BE</item>
+        <item>UTF-32LE</item>
+        <item>UTF-8</item>
+        <item>windows-1250</item>
+        <item>windows-1251</item>
+        <item>windows-1252</item>
+        <item>windows-1253</item>
+        <item>windows-1254</item>
+        <item>windows-1255</item>
+        <item>windows-1256</item>
+        <item>windows-1257</item>
+        <item>windows-1258</item>
+        <item>windows-31j</item>
+        <item>x-Big5-Solaris</item>
+        <item>x-euc-jp-linux</item>
+        <item>x-EUC-TW</item>
+        <item>x-eucJP-Open</item>
+        <item>x-IBM1006</item>
+        <item>x-IBM1025</item>
+        <item>x-IBM1046</item>
+        <item>x-IBM1097</item>
+        <item>x-IBM1098</item>
+        <item>x-IBM1112</item>
+        <item>x-IBM1122</item>
+        <item>x-IBM1123</item>
+        <item>x-IBM1124</item>
+        <item>x-IBM1381</item>
+        <item>x-IBM1383</item>
+        <item>x-IBM33722</item>
+        <item>x-IBM737</item>
+        <item>x-IBM834</item>
+        <item>x-IBM856</item>
+        <item>x-IBM874</item>
+        <item>x-IBM875</item>
+        <item>x-IBM921</item>
+        <item>x-IBM922</item>
+        <item>x-IBM930</item>
+        <item>x-IBM933</item>
+        <item>x-IBM935</item>
+        <item>x-IBM937</item>
+        <item>x-IBM939</item>
+        <item>x-IBM942</item>
+        <item>x-IBM942C</item>
+        <item>x-IBM943</item>
+        <item>x-IBM943C</item>
+        <item>x-IBM948</item>
+        <item>x-IBM949</item>
+        <item>x-IBM949C</item>
+        <item>x-IBM950</item>
+        <item>x-IBM964</item>
+        <item>x-IBM970</item>
+        <item>x-ISCII91</item>
+        <item>x-ISO-2022-CN-CNS</item>
+        <item>x-ISO-2022-CN-GB</item>
+        <item>x-iso-8859-11</item>
+        <item>x-JIS0208</item>
+        <item>x-JISAutoDetect</item>
+        <item>x-Johab</item>
+        <item>x-MacArabic</item>
+        <item>x-MacCentralEurope</item>
+        <item>x-MacCroatian</item>
+        <item>x-MacCyrillic</item>
+        <item>x-MacDingbat</item>
+        <item>x-MacGreek</item>
+        <item>x-MacHebrew</item>
+        <item>x-MacIceland</item>
+        <item>x-MacRoman</item>
+        <item>x-MacRomania</item>
+        <item>x-MacSymbol</item>
+        <item>x-MacThai</item>
+        <item>x-MacTurkish</item>
+        <item>x-MacUkraine</item>
+        <item>x-MS932_0213</item>
+        <item>x-MS950-HKSCS</item>
+        <item>x-mswin-936</item>
+        <item>x-PCK</item>
+        <item>x-SJIS_0213</item>
+        <item>x-UTF-16LE-BOM</item>
+        <item>X-UTF-32BE-BOM</item>
+        <item>X-UTF-32LE-BOM</item>
+        <item>x-windows-50220</item>
+        <item>x-windows-50221</item>
+        <item>x-windows-874</item>
+        <item>x-windows-949</item>
+        <item>x-windows-950</item>
+        <item>x-windows-iso2022jp</item>
+    </string-array>
+</resources>

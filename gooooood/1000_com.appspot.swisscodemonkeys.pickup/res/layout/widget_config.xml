@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show jokes from this category:" />
+    <Spinner android:id="@id/CategorySpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+    <LinearLayout android:id="@id/preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:layout_gravity="bottom|center" android:id="@id/AddButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Add Widget" />
+    </LinearLayout>
+</LinearLayout>

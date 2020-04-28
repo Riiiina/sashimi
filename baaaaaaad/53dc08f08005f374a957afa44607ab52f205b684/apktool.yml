@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 53dc08f08005f374a957afa44607ab52f205b684.apk
+compressionType: false
+doNotCompress:
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '7'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '5'
+  versionName: 1.0.4

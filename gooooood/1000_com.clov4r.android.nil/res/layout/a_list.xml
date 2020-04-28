@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#00112233" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/linear" android:background="#ff64697e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/a_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@id/TextView01" android:lines="1" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <TextView android:id="@id/tvfullpath" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="TextView" />
+        <LinearLayout android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0dip" android:id="@id/a_titleinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@id/TextView01" />
+            <TextView android:textSize="13.0dip" android:id="@id/a_titlesize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@id/a_titlesize" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

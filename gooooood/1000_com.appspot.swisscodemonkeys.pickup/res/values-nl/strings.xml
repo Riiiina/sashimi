@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten">Maak korter</string>
+    <string name="app_name">Openingszinnen</string>
+    <string name="app_name_jokes">Leuke grappen</string>
+    <string name="app_name_discuss">Discussie Forum</string>
+    <string name="app_name_love">Liefdesgedichten</string>
+    <string name="send_email">Zenden</string>
+    <string name="blurb_options_title">Opties</string>
+    <string name="edit_profile">Wijzig profiel</string>
+    <string name="add_text">Voeg toe</string>
+    <string name="edit_profile_title">Wijzig je profiel</string>
+    <string name="nickname">Nickname</string>
+    <string name="gender">Geslacht</string>
+    <string name="male">Man</string>
+    <string name="female">Vrouw</string>
+    <string name="about_you">Over mij</string>
+    <string name="age">Leeftijd</string>
+    <string name="save">Opslaan</string>
+    <string name="cancel">Afbreken</string>
+    <string name="profile_saved">Profiel opgeslagen.</string>
+    <string name="profile_saving_failed">Fout bij opslaan profiel.</string>
+    <string name="please_wait">Wacht even...</string>
+    <string name="error_not_connected">Fout! Is er connectie met het internet?</string>
+    <string name="ok">Ok</string>
+    <string name="thanks_for_rating">Bedankt voor de beoordeling!</string>
+    <string name="pickup_subject">Goede openingszin!</string>
+    <string name="send_email_title">Zend openingszin:</string>
+    <string name="add_pickup_line">Voeg openingszin toe</string>
+    <string name="add_pickup_reminder">"Ga naar 'menu' om eigen openingszinnen toe te voegen."</string>
+    <string name="rate_this">Beoordeel</string>
+    <string name="refresh">Ververs</string>
+    <string name="added_pickup_line">Openingszin toegevoegd!</string>
+    <string name="add_your_pickup_line">Voeg openingszin toe</string>
+    <string name="loading_more">Laden...</string>
+    <string name="votes">%d beoordelingen</string>
+    <string name="votes_comments" formatted="false">%d beoordelingen / %d commentaren</string>
+    <string name="loading">Laden...</string>
+    <string name="time_minutes">%d min geleden</string>
+    <string name="time_hours_minutes" formatted="false">%d uur %d min geleden</string>
+    <string name="time_days_hours" formatted="false">%d dagen %d uur geleden</string>
+    <string name="time_days">%d dagen geleden</string>
+    <string name="author_info" formatted="false">door %s, %s</string>
+    <string name="favorites">Favorieten</string>
+    <string name="back">Terug</string>
+    <string name="about_author">Over de schrijver</string>
+    <string name="more_from_author">Bekijk meer van deze schrijver</string>
+    <string name="messages_from">Berichten van %s</string>
+    <string name="added_favorite">Toegevoegd aan favorieten</string>
+    <string name="removed_favorite">Verwijderd van favorieten</string>
+    <string name="favorite_off">Maak favoriet</string>
+    <string name="favorite_on">Verwijder uit favorieten</string>
+    <string name="your_favorites">Jouw favorieten</string>
+    <string name="thanks_flagging">Bedankt voor de melding!</string>
+    <string name="click_for_more">(klik voor meer)</string>
+    <string name="retry">Probeer opnieuw</string>
+    <string name="flag">Markeren</string>
+    <string name="delete">Verwijder</string>
+    <string name="comments">Opmerkingen</string>
+    <string name="view_comments">Bekijk opmerkingen</string>
+    <string name="comment_added">Opmerking verzonden. Het duurt even voordat hij toegevoegd is.</string>
+    <string name="allow_comments">Sta opmerkingen toe</string>
+    <string name="enabled_commenting">Opmerkingen toegestaan</string>
+    <string name="disabled_commenting">Opmerkingen uit</string>
+    <string name="delete_comment_hint">Druk lang op een opmerking om te verwijderen.</string>
+    <string name="delete_comment_confirm">Verwijder deze opmerking?</string>
+    <string name="comment_deleted">Opmerking verwijderd. Het duurt even voordat hij weg is.</string>
+    <string name="add_comment">Voeg opmerking toe</string>
+    <string name="delete_comment">Verwijder opmerking</string>
+    <string name="no_comments_yet">Nog geen opmerkingen</string>
+    <string name="add_joke_title">Voeg grap toe</string>
+    <string name="added_joke">Grap toegevoegd! Druk menu om meer toe te voegen.</string>
+    <string name="add_your_joke">Voeg grap toe</string>
+    <string name="loading_categories_failed">Fout bij laden van categorieen. Is er connectie met het internet?</string>
+    <string name="loading_error">Fout bij laden.</string>
+    <string name="loading_jokes">Laden...</string>
+    <string name="extra_email_line_jokes">Kijk deze grap!</string>
+    <string name="email_subject_jokes">Goede grap</string>
+    <string name="my_favorites">Mijn favorieten</string>
+    <string name="my_profile">Mijn profiel</string>
+    <string name="jokes_footer">Verzonden vanuit Funny Jokes http://bit.ly/1DOFTl</string>
+    <string name="loading_threads">Onderwerpen laden...</string>
+    <string name="loading_categories">Categorieen laden...</string>
+    <string name="app_name_chat">Live Chat</string>
+</resources>

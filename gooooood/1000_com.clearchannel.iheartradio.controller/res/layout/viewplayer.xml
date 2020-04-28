@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/smallAd" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/mediaCoverLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/volLyricsLayout" android:layout_below="@id/playerinfos">
+        <ImageView android:layout_gravity="center" android:id="@id/mediaCover" android:layout_width="147.0dip" android:layout_height="147.0dip" android:src="@drawable/no_station_logo" android:scaleType="fitCenter" android:fadeScrollbars="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/playerinfos" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/playerinfostation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+        <TextView android:textSize="16.0dip" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/playerinfosArtist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+        <TextView android:textSize="10.0dip" android:typeface="sans" android:textColor="#ffffffff" android:id="@id/playerinfostrack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/volLyricsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.0dip" android:layout_above="@id/playercontrols">
+        <Button android:enabled="false" android:id="@id/lyricsbutton" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="Lyrics" />
+        <SeekBar android:id="@id/volumeBar" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="top" android:id="@id/seekBarLayout" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_above="@id/volLyricsLayout" android:layout_below="@id/playerinfos">
+        <TextView android:id="@id/seekTime" android:paddingLeft="5.0dip" android:paddingTop="7.0dip" android:paddingRight="5.0dip" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="03:00" android:layout_alignParentLeft="true" />
+        <SeekBar android:id="@id/seekBar" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/remainingTime" android:layout_toRightOf="@id/seekTime" />
+        <TextView android:id="@id/remainingTime" android:paddingLeft="5.0dip" android:paddingTop="7.0dip" android:paddingRight="5.0dip" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="-01:42" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/playercontrols" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@id/controlbuttonslayout" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <ImageButton android:id="@id/previousbutton" android:background="@drawable/square_button" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/prev" />
+            <ImageButton android:id="@id/statusbutton" android:background="@drawable/square_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_button_icon" />
+            <ImageButton android:id="@id/nextbutton" android:background="@drawable/square_button" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/next" />
+            <LinearLayout android:gravity="center|right" android:id="@id/socialLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/favoritebutton" android:background="@drawable/square_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/favorite_red_glow" android:scaleType="fitCenter" />
+                <ImageButton android:id="@id/socialbutton" android:background="@drawable/square_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_glow" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

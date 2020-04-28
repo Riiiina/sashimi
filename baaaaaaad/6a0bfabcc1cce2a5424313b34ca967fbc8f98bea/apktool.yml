@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 6a0bfabcc1cce2a5424313b34ca967fbc8f98bea.apk
+compressionType: false
+doNotCompress:
+- ogg
+- jpg
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '1'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '1743'
+  versionName: 1.2.0

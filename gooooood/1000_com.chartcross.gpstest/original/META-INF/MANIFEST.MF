@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/layout/splash.xml
+SHA1-Digest: oGuzN7i8V46QG6HXumm53W8FgQI=
+
+Name: res/layout/help.xml
+SHA1-Digest: hFF4cZGiGcPF8MoI96QbfA6FW5Y=
+
+Name: res/drawable/help001.png
+SHA1-Digest: fwr55TVj89E4o/UnGmxDMx0u/As=
+
+Name: res/drawable/help002.png
+SHA1-Digest: DLfmSHC8edriMRCwJJ3vB3s5pkY=
+
+Name: res/drawable/help003.png
+SHA1-Digest: BYpgqzfVRJt4GGsk22VbkPMqUYw=
+
+Name: res/drawable/help006.png
+SHA1-Digest: T2YCBXZha39H/1ZJuqDT4pBM1bM=
+
+Name: resources.arsc
+SHA1-Digest: T727bPRryH5+NGMF46lROvRqv3M=
+
+Name: classes.dex
+SHA1-Digest: O0tYNQOcOruXpPojcplxE5x/ZK8=
+
+Name: res/drawable/help005.png
+SHA1-Digest: T0/jTakIc6fCgmEU3jSg7Wh/4sQ=
+
+Name: res/drawable/worldmap.png
+SHA1-Digest: 7pOyTt7j4q4CmRCg6964SKNoziQ=
+
+Name: res/drawable/help010.png
+SHA1-Digest: I4xMwAjUaMDdQXSumr0AKfDPak8=
+
+Name: res/drawable/help009.png
+SHA1-Digest: 5ExvseuPhOYY2SriWg5crGxZ3aQ=
+
+Name: res/layout/main.xml
+SHA1-Digest: 5c6Dp7LHAGfkoFE72F/g1Ldw7kI=
+
+Name: res/drawable/help004.png
+SHA1-Digest: CCD7ekZsBV7t+r3D0bawluPAt68=
+
+Name: AndroidManifest.xml
+SHA1-Digest: LwtK3fKa/es/f1333BVfnCbflEM=
+
+Name: res/drawable/cclogo.png
+SHA1-Digest: E16goIveHgQVEIqoMvxrZbYL8hQ=
+
+Name: res/drawable/icon.png
+SHA1-Digest: OaNI2Qt60ojsB2t3ixMqFL+91k0=
+
+Name: res/drawable/help007.png
+SHA1-Digest: m0FcfrN06/h42Vcu8+6HKipD2os=
+
+Name: res/drawable/help008.png
+SHA1-Digest: 4GoEhfF8L7exOZwAqOEKfpsRwPE=
+
+Name: res/drawable/splash.png
+SHA1-Digest: Thoo/B26TK7/efdrErazgXr7jLI=
+
+Name: res/layout/about.xml
+SHA1-Digest: G0zfns+ULabkDsyPGSEHb85SSwo=
+
+Name: res/layout/prefs.xml
+SHA1-Digest: Eo/QVaZMqtBxL4m2xyVJ8IbF7LI=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: LNAEzO1ymeNxefEWbysmMyXEJ18=
+

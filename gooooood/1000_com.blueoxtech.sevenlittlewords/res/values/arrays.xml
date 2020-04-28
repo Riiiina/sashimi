@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zone_names">
+        <item>Sunrise</item>
+        <item>Chocolate</item>
+        <item>Bridges</item>
+        <item>Clouds</item>
+        <item>Lemonade</item>
+        <item>Symphony</item>
+        <item>Beaches</item>
+        <item>Coffee</item>
+        <item>Sequoias</item>
+        <item>Impossible</item>
+    </string-array>
+    <string-array name="zone_market_ids">
+        <item>FREE</item>
+        <item>com.blueoxtech.sevenlittlewords.zone.chocolate</item>
+        <item>com.blueoxtech.sevenlittlewords.zone.bridges</item>
+        <item>com.blueoxtech.sevenlittlewords.zone.clouds</item>
+        <item>com.blueoxtech.sevenlittlewords.zone.lemonade</item>
+        <item>com.blueoxtech.sevenlittlewords.zone.symphony</item>
+        <item>COMING_SOON</item>
+        <item>COMING_SOON</item>
+        <item>COMING_SOON</item>
+        <item>COMING_SOON</item>
+    </string-array>
+</resources>

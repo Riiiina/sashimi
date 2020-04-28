@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/button_1" android:layout_width="fill_parent" android:layout_height="120.0px" android:text="AMaj" />
+        <Button android:id="@id/button_2" android:layout_width="fill_parent" android:layout_height="120.0px" android:text="DMaj" />
+        <Button android:id="@id/button_3" android:layout_width="fill_parent" android:layout_height="120.0px" android:text="EMaj" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/LinearLayout01" android:background="@android:drawable/alert_light_frame" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="@drawable/black" android:gravity="left" android:id="@id/labelpopupfavorite" android:paddingLeft="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/viewing" android:maxLines="1" />
+    <LinearLayout android:gravity="right" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bsortstations" android:layout_width="100.0sp" android:layout_height="wrap_content" android:layout_marginTop="5.0sp" android:text="Stations" />
+        <Button android:id="@id/bsortsongs" android:layout_width="100.0sp" android:layout_height="wrap_content" android:layout_marginTop="5.0sp" android:text="Songs" />
+    </LinearLayout>
+</LinearLayout>

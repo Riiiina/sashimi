@@ -1,0 +1,51 @@
+X-plore - License agreement.
+
+Please be advised:
+This application allows you to modify and remove files on your device. These powerful features could make your phone inoperable, or to lose important data, if they are used without care.
+Developer takes no responsibility for inoperable device resulting from use of this application.
+
+This application is a shareware.
+You can use unregistered version as long as you wish. When you purchase license key, you will obtain registered version, which offers improved functionality (advertised on Developer's website or in the application).
+
+
+Full license agreement follows:
+
+This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and LONELY CAT GAMES ("DEVELOPER") the developer of X-plore ("SOFTWARE").
+By installing, copying or otherwise using the SOFTWARE, you agree to be bound by the terms of this EULA.
+If you do not agree to the terms of this EULA, the DEVELOPER is unwilling to license the SOFTWARE to you.
+In such event, you may not use or copy the SOFTWARE and you should remove it from your device.
+
+***LICENSE***
+DEVELOPER grants you, and you accept, a non-exclusive license to use the SOFTWARE on one mobile device according to the following terms:
+
+***SOFTWARE LICENSE***
+The SOFTWARE is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.
+The SOFTWARE is licensed, not sold.
+The SOFTWARE is licensed to single user on his/her single mobile device.
+
+This software may perform online check to verify legal use of X-plore on DEVELOPER's server, during which user's device serial number may be sent over Internet. No sensitive user's information is being transferred during this check.
+This software may ask user to update to a newer version after a time period.
+
+***GRANT OF LICENSE***
+You may make copies of the SOFTWARE only for backup and archival purposes.
+You are expressly prohibited from sublicensing, assigning, renting, loaning, copying, or otherwise transferring the SOFTWARE or documentation to anyone, except as specifically provided in this Agreement. You may not alter, modify, adapt, create a derivative work, merge, translate, decompile, disassemble, or reverse engineer the SOFTWARE. Any attempt to do any of the foregoing shall automatically terminate your license.
+This license and your right to use the SOFTWARE automatically terminate if you fail to comply with any provision of this license agreement. Upon termination you will destroy all documentation, disks, and working copies of the SOFTWARE.
+
+***LIMITED WARRANTY***
+DEVELOPER warrants that the SOFTWARE will substantially conform to published specifications and to the documentation, provided it is used with compatible computer hardware and operating systems.
+DEVELOPER also warrants that the original installation file is free from defects immaterial and workmanship.
+EXCEPT AS SPECIFICALLY PROVIDED ABOVE, DEVELOPER MAKES NO OTHER WARRANTY OR REPRESENTATION, EITHER EXPRESS OR IMPLIED, WITH RESPECT TO THE SOFTWARE, DISKETTES OR DOCUMENTATION, INCLUDING THEIR QUALITY, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+DEVELOPER DOES NOT WARRANT THAT THE SOFTWARE'S FUNCTIONS WILL MEET YOUR REQUIREMENTS OR THAT ITS OPERATION WILL BE UNINTERRUPTED OR ERROR FREE.
+IN NO EVENT WILL DEVELOPER OR ANYONE ELSE INVOLVED IN THE CREATION, PRODUCTION, OR DELIVERY OF THIS SOFTWARE BE LIABLE FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF USE OR INABILITY TO USE THE SOFTWARE OR DOCUMENTATION. EVEN IF DEVELOPER HAS BEEN ADVISED OF THE POSSIBILITY TO SUCH DAMAGES.
+Developer is not responsible for any costs including, but not limited to, those incurred as a result of lost of profits or revenue, loss of time, data, or use of the software, the costs or recovering such software or data, the costs of substitute software, claims by third parties, or other similar costs. IN NO CASE WILL DEVELOPER LIABILITY EXCEED THE AMOUNT OF THE RETAIL LICENSE FEE.
+THE WARRANTIES AND REMEDIES SET FORTH ABOVE ARE EXCLUSIVE AND IN LIEU OF ALL OTHERS, ORAL OR WRITTEN, EXPRESS OR IMPLIED.
+The warranties provided give you specific legal rights. You may have other rights which vary from state to state. Some states do not allow the exclusion or limitation of implied warranties or of incidental or consequential damages, so some of the above may not apply to you.
+
+***SUPPORT***
+Developer provides technical and customer support for this application through its web site for up to two years from the date of purchase of this software.
+Developer offers to transfer license for free to user's new device, for time of up to two years after purchase, and maximally three times. After either condition expires, purchased license is no more transferable to another device. The license transfer is performed by Developer by issuing new unlock key and updating customer records associated with license purchase.
+
+***GENERAL***
+This Agreement is the entire agreement between you and DEVELOPER relative to the SOFTWARE and supersedes all prior written statements, proposals or agreements relative to its subject matter. DEVELOPER owns all title to the SOFTWARE and documentation, all rights not expressly granted are retained, and no rights under federal copyright or other applicable laws are waived.
+
+Press OK if you agree to this license agreement, or Cancel if you do not.

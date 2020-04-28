@@ -1,0 +1,29 @@
+﻿<MotionLabProject Name="simulator" Description="An empty Android with the correct TML structure for the Cascades for Android Solution and a setup to allow the TML be run in the Cascades Viewer." VersionNumber="2.0">
+  <Settings ScreenWidth="480" ScreenHeight="800" ColorFormat="RGB_565" RenderMethod="SW" UiRoot="c_wallpaper.tml" />
+  <Simulators>
+    <MSimulatorItem><CommandPath>[StandardCascadesViewer]</CommandPath><Name>Standard Cascades Viewer</Name><WorkingDirectory /><Arguments /><UseScripting>false</UseScripting><LandscapeTrans /><PortraitTrans /><MemoryDelay>0</MemoryDelay><FileDelay>0</FileDelay><Selected>true</Selected><Mockup>[None]</Mockup></MSimulatorItem>
+    <MSimulatorItem><CommandPath>[StandardAndroidViewer]</CommandPath><Name>Standard Android Viewer</Name><UseScripting>false</UseScripting><MemoryDelay>0</MemoryDelay><FileDelay>0</FileDelay><Selected>false</Selected><Mockup>[Standard HVGA 320x480]</Mockup></MSimulatorItem>
+    </Simulators>
+  <ModelDataFile />
+  <ExternalTextEngineFile />
+  <DataServicesDirectory />
+  <ExportSettings>
+    <OutputPath Path="export" />
+    <InputPath Path="." />
+    <OutputFilename STRING="" />
+    <Flags ForDevice="False" Zip="False" IncludeHidden="False" IncludeViewer="False" Compress="False" CsmOptimize="False" CsmFile="" CsmId="" SingleFolder="False" SingleFile="False" />
+  </ExportSettings>
+  <RootDirectories>
+    <RootDirectory Path="images" />
+  </RootDirectories>
+  <RootDocuments>
+    <RootDocument File="..\.classpath" />
+    <RootDocument File="..\.project" />
+    <RootDocument File="c_wallpaper.tml" />
+    <RootDocument File="default.kmf" />
+    <RootDocument File="system.xml" />
+    <RootDocument File="v_wallpaper.tml" />
+  </RootDocuments>
+  <ResourceDirectories Path="." />
+  <TemplateDirectories Path="." />
+</MotionLabProject>

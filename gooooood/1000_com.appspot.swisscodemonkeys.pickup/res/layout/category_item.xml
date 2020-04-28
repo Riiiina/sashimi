@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:id="@id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="28.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center|right" android:id="@id/categoryName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="title" android:layout_weight="1.0" />
+        <TextView android:textSize="28.0dip" android:layout_gravity="center" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="25" />
+    </TableRow>
+    <TextView android:textSize="12.0dip" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/lastBlurb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="by user name (5hr 24 min ago)" android:layout_weight="1.0" />
+    <TableRow android:id="@id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</TableLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">7 Words</string>
+    <string name="button_sound_on">Sound: On</string>
+    <string name="button_sound_off">Sound: Off</string>
+    <string name="button_zone_market_text">50 Puzzles - $0.99</string>
+    <string name="button_zone_market_unavailable_text">Not Available</string>
+    <string name="billing_not_supported_title">"Can't make purchases"</string>
+    <string name="billing_not_supported_message">"The Market billing service is not available at this time. You can continue to use this app but you won't be able to make purchases."</string>
+    <string name="cannot_connect_title">"Can't connect to Market"</string>
+    <string name="cannot_connect_message">"This app cannot connect to Market. Your version of Market may be out of date. You can continue to use this app but you won't be able to make purchases."</string>
+    <string name="cannot_connect_internet_message">"This app cannot connect to Market. Your internet connection is not active. You can continue to use this app but you won't be able to make purchases."</string>
+    <string name="restoring_transactions">Restoring transactions</string>
+    <string name="learn_more">Learn more</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+</resources>

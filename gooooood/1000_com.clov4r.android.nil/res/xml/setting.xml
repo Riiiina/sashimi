@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_pcategory_about_title">
+        <Preference android:title="@string/setting_title_about" android:key="@string/setting_key_about" />
+        <Preference android:title="@string/help" android:key="setting_key_help" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_file_list">
+        <CheckBoxPreference android:title="@string/setting_show_media_file_only" android:key="@string/setting_key_show_media_file_only" android:summary="@string/setting_summary_show_mediafile_only" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/setting_title_show_hidefile" android:key="@string/setting_key_show_hidefile" android:summary="@string/setting_summary_show_hidefile" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/setting_cpreference_title_thumb" android:key="@string/setting_cpreference_key_thumb" android:defaultValue="true" />
+        <ListPreference android:entries="@array/layout_item" android:title="@string/setting_lpreference_title_filelayout" android:key="@string/setting_lpreference_key_filelayout" android:defaultValue="2" android:entryValues="@array/layout_item_value" />
+        <Preference android:title="@string/dirchoose" android:key="@string/setting_key_mediafile_select" />
+        <Preference android:title="@string/setting_file_scan_title" android:key="setting_key_scan_type" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_playback">
+        <EditTextPreference android:numeric="integer" android:title="@string/setting_btn_seek_interval" android:key="@string/setting_key_btn_seek_interval" android:summary="@string/setting_summary_seekinterval" android:defaultValue="80" />
+        <CheckBoxPreference android:title="@string/setting_title_show_batterymsg_ornot" android:key="@string/setting_key_show_batterymsg_ornot" android:summary="@string/setting_summary_battery" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/setting_cpreference_title_default_playmode" android:key="@string/setting_cpreference_key_default_palymode" android:defaultValue="false" />
+        <ListPreference android:entries="@array/volume_item" android:title="@string/setting_lpreference_title_volume" android:key="@string/setting_lpreference_key_volume" android:summary="@string/setting_lpreference_change_summery" android:defaultValue="2" android:entryValues="@array/volume_item_value" />
+        <ListPreference android:entries="@array/screen_lock_setting" android:title="@string/screen_lock_setting" android:key="setting_key_screen_lock" android:defaultValue="display_progress" android:entryValues="@array/screen_lock_setting_value" />
+        <CheckBoxPreference android:title="@string/screen_lock_tips" android:key="setting_screen_tips" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/horizontal_only" android:key="setting_screen_rotation" android:defaultValue="false" />
+        <ListPreference android:entries="@array/volume_key_set" android:title="@string/volume_setting" android:key="volume_keys_setting" android:defaultValue="volume_key_valume" android:entryValues="@array/volume_key_set_value" />
+        <CheckBoxPreference android:title="@string/need_play_next" android:key="setting_play_next" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_pcategory_aboutsubtitle" android:defaultValue="true">
+        <CheckBoxPreference android:title="@string/setting_title_showsubtitle_ornot" android:key="@string/setting_key_showsubtitle_ornot" android:summary="@string/setting_summary_subtitle" android:defaultValue="true" />
+        <ListPreference android:entries="@array/font_size_list" android:title="@string/setting_title_subtitle_textsize" android:key="@string/setting_key_subtitle_textsize" android:summary="@string/setting_summary_fontsize" android:entryValues="@array/font_sizevalue_list" />
+        <ListPreference android:entries="@array/font_color_list" android:title="@string/setting_title_fontcolor_test" android:key="@string/setting_key_fontcolor_test" android:summary="@string/setting_summary_fontcolor" android:defaultValue="\#FFFFFF" android:entryValues="@array/font_colorvalue_list" />
+        <ListPreference android:entries="@array/encode_style" android:title="@string/character_set" android:key="setting_encode_style" android:defaultValue="Auto" android:entryValues="@array/encode_style_value" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_catagory_title_media">
+        <Preference android:title="@string/setting_preference_title_clearmedia" android:key="@string/setting_preference_key_clearmedia" />
+        <Preference android:title="@string/setting_clearhistory_title" android:key="@string/setting_key_clear_history" android:summary="@string/setting_summary_clear_history" />
+        <Preference android:title="@string/setting_preference_title_clearmediapath" android:key="@string/setting_preference_key_clearmediapath" />
+        <Preference android:title="@string/setting_preference_title_clearall" android:key="@string/setting_preference_key_clearall" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/version_update">
+        <ListPreference android:entries="@array/list_update_frequency" android:title="@string/setting_lpreference_title_updatefrequency" android:key="@string/setting_listpreference_key_updateversion_frequency" android:defaultValue="2" android:entryValues="@array/list_update_frequency_value" />
+        <CheckBoxPreference android:title="@string/setting_cpreference_title_updatewifi" android:key="@string/setting_checkpreference_key_updateversion_wifi" android:defaultValue="true" />
+        <Preference android:title="@string/update_manul" android:key="@string/setting_key_update_manul_preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

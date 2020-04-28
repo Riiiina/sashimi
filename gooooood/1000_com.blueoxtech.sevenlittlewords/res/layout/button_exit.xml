@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/button_exit" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:background="@drawable/button_circle" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffcccc99" android:gravity="center" android:layout_width="10.0dip" android:layout_height="20.0dip" android:text="X" android:layout_centerInParent="true" style="@style/GameFont" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 1000_com.activefrequency.android.rockout.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- jpg
+- png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '3'
+sharedLibrary: false
+sparseResources: true
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '7'
+  versionName: 1.0.1

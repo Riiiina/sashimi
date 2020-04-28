@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webWidget>
+	<widgetName> Windows Hotmail</widgetName>
+	<registeredUrl>
+		<link>http://ads.appsgeyser.com/statistics.php</link>
+	</registeredUrl>  
+		<id>21481</id>
+	<usage>
+		<link>http://ads.appsgeyser.com/statistics.php</link>
+	</usage>
+	<locationUrl>
+		<link>icc.to/desktopify/android/location.php</link>  
+	</locationUrl>
+	<contentProtection></contentProtection>
+	<userInterface>standard</userInterface>
+	<bannerPosition>bottom</bannerPosition>
+	<rateItemVisibility>TRUE</rateItemVisibility>
+	<fullScreenMode>
+		<content>
+   <id>widget0</id>
+   <name> Windows Hotmail</name>
+   <link>http://www.hotmail.com</link>
+   <update>5</update>
+   <width>300</width>
+   <height>300</height>
+   <tabName> Windows Hotmail</tabName>
+   <tabIcon>icon/icon.png</tabIcon>
+  </content>
+   
+	</fullScreenMode> 
+</webWidget>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/first_layout" android:background="@drawable/bg_more_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.andoop.android.common.RemoteImageView android:id="@id/img_first" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_margin="5.0dip" android:src="@drawable/default_app" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/img_first" android:layout_alignTop="@id/img_first" android:layout_centerVertical="true">
+            <ImageView android:id="@id/img_more_down" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/more_down" android:layout_alignTop="@id/img_first" android:layout_alignParentRight="true" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/title_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title here fdsafdsaf fdasfdsa fdsaf" android:singleLine="true" android:layout_toLeftOf="@id/img_more_down" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:id="@id/desc_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="this is desc fdsajf fdsafdsa dfsa fdsa fdsa fdsafds" android:maxLines="2" android:singleLine="false" android:layout_below="@id/title_first" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ListView android:id="@id/list_more" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/first_layout" />
+</RelativeLayout>

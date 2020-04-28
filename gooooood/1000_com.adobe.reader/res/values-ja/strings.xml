@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SELECT_FILE">表示するファイルを選択</string>
+    <string name="IDS_SELECT_ETD">実行する ETD を選択</string>
+    <string name="IDS_ERR_URL">ファイルのパスが無効です。</string>
+    <string name="IDS_ERR_POLICY_PROTECTED">この文書はサーバーのセキュリティポリシーで保護されているため、開けません。</string>
+    <string name="IDS_ERR_CORRUPT_DATA">この文書は壊れている、または破損しているため、開けません。</string>
+    <string name="IDS_ERR_INVALID_DOC">この文書は有効な PDF ファイルではないため、開けません。</string>
+    <string name="IDS_ERR_OUT_OF_MEMORY">メモリが不足しています。</string>
+    <string name="IDS_ERR_FONT_NOT_FOUND">互換性のあるフォントが見つからないため、一部の文字は正しく表示または印刷されない場合があります。</string>
+    <string name="IDS_ERR_UNSUPPORTED_FEATURE">この文書には、Adobe Reader のこのバージョンではサポートされていない機能が含まれています。</string>
+    <string name="IDS_ERR_CANT_OPEN">この文書を開く際にエラーが発生しました。</string>
+    <string name="IDS_ERR_PSSWD_PROTECTED">パスワードが無効です。</string>
+    <string name="IDS_ERR_DOC_NOT_SUPPORTED">この文書には、Adobe Reader のこのバージョンではサポートされていない機能があります。</string>
+    <string name="IDS_ERR_INVALID_LICENSE">ライセンスが無効です</string>
+    <string name="IDS_ERR_PARSER_ERROR">文書を解析できませんでした</string>
+    <string name="IDS_ERR_EMPTY_DOC">この文書は空です（サイズ 0KB）</string>
+    <string name="IDS_COPYRIGHT_TEXT">Copyright © 1984-2011 Adobe Systems Incorporated and its licensors. All rights reserved. Adobe, the Adobe logo, and Reader are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.</string>
+    <string name="IDS_TERMS_OF_USE_TEXT">サードパーティの通知およびサードパーティ製品に関する使用許諾条項は、<a href="http://www.adobe.com/go/thirdparty_jp">http://www.adobe.com/go/thirdparty_jp</a> に掲載しています。</string>
+    <string name="IDS_VERSION_STRING">バージョン</string>
+    <string name="IDS_BUILD_NUM_STR">ビルド</string>
+    <string name="IDS_ERR_GENERIC_ERROR">操作が失敗しました!</string>
+    <string name="IDS_ERR_NONE">システムエラーが発生しました。</string>
+    <string name="IDS_PRODUCT_NAME_IN_ABOUT">Adobe<sup><font size="6">®</font></sup> Reader<sup><font size="6">®</font></sup> X</string>
+    <string name="IDS_APP_NAME">Adobe Reader</string>
+    <string name="IDS_OPEN_STR">開く</string>
+    <string name="IDS_ABOUT_STR">Adobe Reader について</string>
+    <string name="IDS_REFLOW_MODE_STR">テキストの折り返し</string>
+    <string name="IDS_EXIT_REFLOW_STR">ページ表示</string>
+    <string name="IDS_NEXTPAGE_STR">次のページ</string>
+    <string name="IDS_PREVPAGE_STR">前のページ</string>
+    <string name="IDS_FIRSTPAGE_STR">最初のページ</string>
+    <string name="IDS_LASTPAGE_STR">最後のページ</string>
+    <string name="IDS_OK_STR">OK</string>
+    <string name="IDS_WARNING_TITLE_STR">警告</string>
+    <string name="IDS_ERROR_TITLE_STR">エラー</string>
+    <string name="IDS_YES_STR">はい</string>
+    <string name="IDS_NO_STR">いいえ</string>
+    <string name="IDS_UNABLE_TO_SAVE_STREAM_AS_TEMPORARY_FILE">ファイルは開けませんでした。</string>
+    <string name="IDS_NO_RECENT_FILES_STR">最近の閲覧履歴には一覧表示されないファイルもあります。</string>
+    <string name="IDS_NO_PDF_FILES_STR">PDF ファイルはありません</string>
+    <string name="IDS_CLEAR_RECENT_FILES_STR">最近使用したファイルをクリア</string>
+    <string name="IDS_RECENT_FILES_TAB_HEADING_STR">最近の閲覧履歴</string>
+    <string name="IDS_PDF_FILES_TAB_HEADING_STR">PDF ファイル</string>
+    <string name="IDS_ERR_FILE_SAVE_ERROR">このファイルは保存できませんでした。容量不足か、ファイル名が無効であるためです。</string>
+    <string name="IDS_ERR_SHARE_ERROR">このファイルは前回開いた後で移動または削除されたため、見つかりません。</string>
+    <string name="IDS_SHARE_APP_CHOOSER_TITLE">共有</string>
+    <string name="IDS_CANCEL_STR">キャンセル</string>
+    <string name="IDS_ENTER_PASSWD_STR">%s は保護されています。文書を開くパスワードを入力してください:</string>
+    <string name="IDS_PASSWD_TITLE_STR">パスワード</string>
+    <string name="IDS_REENTER_PASSWD_STR">入力したパスワードは間違っています。保護されている文書 %s のパスワードを入力し直してください:</string>
+    <string name="IDS_VIEW_MODE_STR">表示モード</string>
+    <string name="IDS_CONTINUOUS_SCROLL_STR">連続スクロール</string>
+    <string name="IDS_FIT_TO_SCREEN_STR">画面に合わせる</string>
+    <string name="IDS_FIND_PROGRESS_BAR_STR">検索中...</string>
+    <string name="IDS_FIND_NO_MATCH_FOUND_STR">一致するものが見つかりませんでした</string>
+    <string name="IDS_FIND_EDIT_BOX_HINT_TEXT_STR">検索するテキストを入力してください</string>
+    <string name="IDS_SHARE_SUBJECT_STR">電子メール送信:</string>
+</resources>

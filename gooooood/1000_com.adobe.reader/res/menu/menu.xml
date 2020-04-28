@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_open" android:id="@id/openDoc" android:title="@string/IDS_OPEN_STR" />
+    <item android:icon="@drawable/menu_pageview" android:id="@id/viewMode" android:title="@string/IDS_VIEW_MODE_STR" />
+    <item android:icon="@drawable/menu_about" android:id="@id/about" android:title="@string/IDS_ABOUT_STR" />
+    <item android:icon="@drawable/ic_app_createpdf" android:id="@id/createPDF" android:title="@string/IDS_CREATE_PDF" />
+</menu>

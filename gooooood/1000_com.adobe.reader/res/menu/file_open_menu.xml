@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_clear" android:id="@id/clearRecentFilesList" android:title="@string/IDS_CLEAR_RECENT_FILES_STR" />
+    <item android:icon="@drawable/menu_about" android:id="@id/about" android:title="@string/IDS_ABOUT_STR" />
+</menu>

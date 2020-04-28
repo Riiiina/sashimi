@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Surprise Me" />
+    <View android:id="@id/white_bar" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/TextView01" android:layout_alignParentLeft="true" />
+    <TableLayout android:id="@id/lcdLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/white_bar" android:layout_centerHorizontal="true">
+        <TableRow android:id="@id/lcdRow" />
+    </TableLayout>
+    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="description" android:layout_below="@id/lcdLayout" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="#ffffffff" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name" android:layout_below="@id/description" android:layout_centerHorizontal="true" />
+    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/nowplaying" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="Now Playing" android:layout_below="@id/name" android:layout_centerHorizontal="true" />
+    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/songartist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="songartist" android:layout_below="@id/nowplaying" android:layout_centerHorizontal="true" />
+    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/songname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="songname" android:layout_below="@id/songartist" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/songname" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/goagain" android:layout_width="100.0dip" android:layout_height="50.0dip" />
+        <ImageView android:id="@id/listen" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

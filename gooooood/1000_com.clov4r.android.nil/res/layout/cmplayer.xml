@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/FLMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/flVideoView" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/LLControllerPanel" android:background="@drawable/videoplayer_control_bg_9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/LinearLayout02" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tvCurrTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="05:19" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                <SeekBar android:layout_gravity="center" android:id="@id/seek" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="200.0dip" android:layout_height="wrap_content" android:maxHeight="7.0dip" android:progressDrawable="@drawable/seekbar_style" android:thumb="@drawable/videoplay_progress_thumb_normal" android:layout_weight="1.0" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tvDTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60:35" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/BtnFullScreen" android:background="@drawable/screenfull" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageButton android:id="@id/BtnSeekBack" android:background="@drawable/playleftclick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageButton android:id="@id/BtnPlay" android:background="@drawable/playplayclick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageButton android:id="@id/BtnSeek" android:background="@drawable/playrightclick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageButton android:id="@id/BtnInfo" android:background="@drawable/playseek" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageButton android:id="@id/BtnOptionPannel" android:background="@drawable/option_pannel" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="top" android:id="@id/LinearLayout01" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textColor="#ffffffff" android:id="@id/tvFps" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="fps" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="top" android:id="@id/ImageView01" android:background="@drawable/r" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="10.0dip" />
+        <LinearLayout android:layout_gravity="center|top" android:id="@id/llMid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <TextView android:textSize="48.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/tvMidCurrentTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="05:19" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right|top" android:orientation="horizontal" android:id="@id/llTopMid" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip">
+            <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvfilename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/battery_info_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/battery_change_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/battery_change_bg" android:scaleType="matrix" />
+                    <ImageView android:id="@id/battery_change_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/battery_change_value" android:scaleType="matrix" />
+                </FrameLayout>
+                <TextView android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/battery_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/tvMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="File Message" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tvscreenmode" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/llSubtitle" android:paddingTop="10.0dip" android:layout_width="400.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvSubtitle" android:padding="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="10.0dip" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center|left|top" android:id="@id/llInfoPanel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tvInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="Media" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/llSeekPanel" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <ImageView android:background="@drawable/seek_to_left" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/tvSeekingTime" android:background="@drawable/seek_to_content" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="05:19" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+                <ImageView android:background="@drawable/seek_to_right" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <Button android:layout_gravity="top" android:id="@id/btnSeekingOK" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="OK" />
+            <Button android:layout_gravity="right" android:id="@id/btnSeekingCancel" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="Cancel" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llVolumeAndLight" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:id="@id/flvolume" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/iviewlight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_icon_mute_bg" android:scaleType="matrix" />
+                <ImageView android:layout_gravity="center" android:id="@id/iviewheavy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_bar_15" android:scaleType="matrix" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fllight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tvlight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@id/TextView02" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="3.0" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/LLLoading" android:background="@color/black" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading...." />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/flLockPanel" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/battery_lock" android:layout_toRightOf="@id/ivLockIcon" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:id="@id/viewLockTopBackgrand" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <View android:id="@id/viewLockTopValue" android:background="@color/lightgray" android:layout_width="50.0px" android:layout_height="1.0px" />
+            </RelativeLayout>
+            <TextView android:id="@id/bottom_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progress_lock" android:layout_alignParentBottom="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <View android:id="@id/viewLockBottomBackgrand" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <View android:id="@id/viewLockBottomValue" android:background="@color/lightgray" android:layout_width="150.0px" android:layout_height="1.0px" />
+            </RelativeLayout>
+            <ImageView android:id="@id/ivLockIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/protection" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/LLSider" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/llSiderBarLeft" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/llSiderBarRight" android:background="#aa000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/view1" android:background="@drawable/play_separater_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="15.0dip">
+                    <TextView android:gravity="center" android:id="@id/slide_video_name" android:layout_width="fill_parent" android:layout_height="50.0dip" style="@style/ShadowStyleForWhite" />
+                    <ImageView android:background="@drawable/play_separater2_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:gravity="center" android:id="@id/slide_video_info" android:layout_width="fill_parent" android:layout_height="50.0dip" style="@style/ShadowStyleForWhite" />
+                    <ImageView android:background="@drawable/play_separater2_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                        <ToggleButton android:id="@id/slide_left_channel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/left_channel_open" android:textOff="@string/left_channel_close" />
+                        <ToggleButton android:id="@id/slide_right_channel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:textOn="@string/right_channel_open" android:textOff="@string/right_channel_close" />
+                    </LinearLayout>
+                    <ImageView android:background="@drawable/play_separater2_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/slide_play_next" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/play_next" style="@style/ShadowStyleForWhite" />
+                    <ImageView android:background="@drawable/play_separater2_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

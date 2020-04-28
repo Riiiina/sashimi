@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="left" android:background="@color/brandingStripColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/titleBarStripForOpen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_branding_asset" android:layout_alignParentLeft="true" />
+            <ProgressBar android:id="@id/waitCursor" android:visibility="invisible" android:layout_width="@dimen/waitCursor_dimensions" android:layout_height="@dimen/waitCursor_dimensions" android:layout_marginRight="@dimen/waitCursor_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBarStripForOpen" />
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/noRecentFiles" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/no_files_error_textSize" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/no_files_error_margin_top" android:text="@string/IDS_NO_RECENT_FILES_STR" />
+            </LinearLayout>
+            <ListView android:id="@id/recentFileList" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/noPdfFiles" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/no_files_error_textSize" android:textStyle="bold" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/no_files_error_margin_top" android:text="@string/IDS_NO_PDF_FILES_STR" />
+            </LinearLayout>
+            <ListView android:id="@id/fileBrowser" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

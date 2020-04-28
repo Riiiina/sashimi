@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="LinearLayoutAd" />
+    <item type="id" name="ad" />
+    <item type="id" name="linearLayout2" />
+    <item type="id" name="surfaceView2" />
+    <item type="id" name="linearLayout3" />
+    <item type="id" name="button1" />
+    <item type="id" name="linearLayout4" />
+    <item type="id" name="button2" />
+    <item type="id" name="button3" />
+    <item type="id" name="linearLayout5" />
+    <item type="id" name="button4" />
+    <item type="id" name="button5" />
+    <item type="id" name="linearLayout6" />
+    <item type="id" name="imageView1" />
+    <item type="id" name="linearLayout1" />
+    <item type="id" name="surfaceView1" />
+    <item type="id" name="scrollView1" />
+    <item type="id" name="checkBox1" />
+    <item type="id" name="linearLayout16" />
+    <item type="id" name="checkBox2" />
+    <item type="id" name="linearLayout17" />
+    <item type="id" name="linearLayout18" />
+    <item type="id" name="textView1" />
+    <item type="id" name="editText1" />
+    <item type="id" name="textView2" />
+    <item type="id" name="linearLayout19" />
+    <item type="id" name="LinearLayout12" />
+    <item type="id" name="Button03" />
+    <item type="id" name="Button04" />
+    <item type="id" name="seekBar1" />
+</resources>

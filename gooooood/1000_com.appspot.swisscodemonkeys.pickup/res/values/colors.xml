@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blueStart">#ff859bbc</color>
+    <color name="blueEnd">#ff4a6c9b</color>
+    <color name="blueBorder">#ff375073</color>
+    <color name="blueFocusStart">#ff93b1d8</color>
+    <color name="blueFocusEnd">#ff608bc8</color>
+    <color name="blueFocusBorder">#ff375073</color>
+    <color name="blueActiveStart">#ff546379</color>
+    <color name="blueActiveEnd">#ff324a6a</color>
+    <color name="blueActiveBorder">#ff375073</color>
+    <color name="blueDisabledStart">#ff859bbc</color>
+    <color name="blueDisabledEnd">#ff859bbc</color>
+    <color name="blueDisabledBorder">#ff375073</color>
+</resources>

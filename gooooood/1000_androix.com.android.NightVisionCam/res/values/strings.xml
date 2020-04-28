@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NightVisionCam</string>
+    <string name="about">" "<b>Night Vision Cam</b>"
+ by andro iX
+
+ Hint: Try to start with increasing the Gain.
+ 
+ Zoom will only work on devices which support it.
+ 
+ Hold your device very steady (especially for higher shutter times).
+ 
+ Multi-Threading will increase user interface performance.
+ Single-Threading will slightly increase the frame rate on single core devices.
+ 
+ Pictures will be saved on sdcard in /NightVisionCam/. 
+ 
+ "</string>
+</resources>

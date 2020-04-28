@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="about_background" />
+    <item type="id" name="logo" />
+    <item type="id" name="description" />
+    <item type="id" name="link" />
+    <item type="id" name="layout_root" />
+    <item type="id" name="text" />
+    <item type="id" name="ok" />
+    <item type="id" name="cancel" />
+    <item type="id" name="username_view" />
+    <item type="id" name="username_edit" />
+    <item type="id" name="password_view" />
+    <item type="id" name="password_edit" />
+    <item type="id" name="contentFrame" />
+    <item type="id" name="banner_panel" />
+    <item type="id" name="browser_view" />
+    <item type="id" name="banner_webkit" />
+    <item type="id" name="tabcontents_panel" />
+    <item type="id" name="tabtags_panel" />
+    <item type="id" name="customFrame" />
+    <item type="id" name="messageWebView" />
+    <item type="id" name="tagPane" />
+    <item type="id" name="tagBackground" />
+    <item type="id" name="tagIcon" />
+    <item type="id" name="tagLabel" />
+    <item type="id" name="progress_indicator" />
+    <item type="id" name="webViewPane" />
+    <item type="id" name="webView" />
+    <item type="id" name="progressbarPanel" />
+    <item type="id" name="progressbar" />
+    <item type="id" name="webapp_about" />
+    <item type="id" name="webapp_rate" />
+    <item type="id" name="webapp_exit" />
+    <item type="id" name="webapp_share" />
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/menu" android:background="@drawable/black_gradient_background" android:paddingLeft="3.0dip" android:paddingTop="8.0dip" android:paddingRight="3.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/prev" android:background="@drawable/shape_button_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="Prev" />
+        <Spinner android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/Spinner01" android:background="@drawable/shape_button_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/next" android:background="@drawable/shape_button_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Next" />
+    </LinearLayout>
+    <vw.SCMView android:id="@id/SCMView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.appspot.swisscodemonkeys.pickup.MyViewFlipper android:id="@id/ViewFlipper01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/SCMView" android:layout_below="@id/menu" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/quickaction_shadow_horiz" android:paddingRight="@dimen/quickaction_shadow_horiz" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/quickaction_header" android:background="@drawable/quickaction_top_frame" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/quickaction_icon" android:visibility="gone" android:layout_width="54.0dip" android:layout_height="57.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:scaleType="center" />
+            <LinearLayout android:orientation="vertical" android:id="@id/quickaction_header_content" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@android:color/primary_text_light" android:ellipsize="marquee" android:id="@id/quickaction_primary_text" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="15.0dip" android:textColor="@android:color/secondary_text_light" android:id="@id/quickaction_secondary_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <HorizontalScrollView android:id="@id/scroll" android:background="@drawable/quickaction_slider_background" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/header">
+        <LinearLayout android:orientation="horizontal" android:id="@id/quickaction" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quickaction_slider_grip_left" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quickaction_slider_grip_right" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@id/footer" android:background="@drawable/quickaction_bottom_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/scroll" />
+    <ImageView android:id="@id/arrow_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quickaction_arrow_up" />
+    <ImageView android:id="@id/arrow_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:src="@drawable/quickaction_arrow_down" android:layout_below="@id/footer" />
+</RelativeLayout>

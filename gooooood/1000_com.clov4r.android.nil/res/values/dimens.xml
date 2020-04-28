@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quickaction_shadow_horiz">0.0dip</dimen>
+    <dimen name="quickaction_shadow_vert">30.0dip</dimen>
+    <dimen name="quickaction_shadow_touch">20.0dip</dimen>
+    <dimen name="edit_photo_size">76.0dip</dimen>
+    <dimen name="tab_height">40.0dip</dimen>
+    <dimen name="account_name_height">25.0dip</dimen>
+    <dimen name="contact_shortcut_frame_width">50.0dip</dimen>
+    <dimen name="contact_shortcut_frame_height">56.0dip</dimen>
+</resources>

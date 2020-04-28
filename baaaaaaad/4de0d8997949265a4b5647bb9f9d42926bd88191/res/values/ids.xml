@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="widget29" />
+    <item type="id" name="lbloginname" />
+    <item type="id" name="tblogin" />
+    <item type="id" name="lbpwd" />
+    <item type="id" name="tbpwd" />
+    <item type="id" name="loginbtn" />
+    <item type="id" name="webview" />
+    <item type="id" name="status" />
+    <item type="id" name="RelativeLayout01" />
+    <item type="id" name="ItemTitle" />
+</resources>

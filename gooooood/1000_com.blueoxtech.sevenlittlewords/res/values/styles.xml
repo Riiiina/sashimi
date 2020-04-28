@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SLWTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/main_background</item>
+    </style>
+    <style name="ScreenLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="GameLayout">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/main_background</item>
+        <item name="android:layout_width">320.0dip</item>
+        <item name="android:layout_height">480.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="GameFont">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="GameFont.Emboss" parent="@style/GameFont">
+        <item name="android:shadowColor">@color/primary_text_shadow</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="GameFont.Emboss.Header" parent="@style/GameFont.Emboss">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/header_fix</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="GameFont.Emboss.Header.16" parent="@style/GameFont.Emboss.Header">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="GameFont.Emboss.Header.18" parent="@style/GameFont.Emboss.Header">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+    <style name="GameFont.Emboss.Header.24" parent="@style/GameFont.Emboss.Header">
+        <item name="android:textSize">24.0dip</item>
+    </style>
+    <style name="GameFont.Emboss.Header.32" parent="@style/GameFont.Emboss.Header">
+        <item name="android:textSize">32.0dip</item>
+    </style>
+    <style name="GameFont.Emboss.Button" parent="@style/GameFont.Emboss">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_normal</item>
+        <item name="android:layout_width">120.0dip</item>
+        <item name="android:layout_height">45.0dip</item>
+        <item name="android:layout_margin">10.0dip</item>
+    </style>
+    <style name="GameFont.Emboss.Button.Zone" parent="@style/GameFont.Emboss.Button">
+        <item name="android:layout_width">120.0dip</item>
+        <item name="android:layout_height">60.0dip</item>
+    </style>
+    <style name="GameFont.GuessInputs" parent="@style/GameFont">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:shadowColor">#cc000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+</resources>

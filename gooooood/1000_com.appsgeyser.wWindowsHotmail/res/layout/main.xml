@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/contentFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.appsgeyser.wWindowsHotmail.Views.TransparentPanel android:id="@id/banner_panel" android:paddingLeft="3.0px" android:paddingTop="3.0px" android:paddingRight="3.0px" android:paddingBottom="3.0px" android:visibility="gone" android:layout_width="486.0px" android:layout_height="86.0px" android:layout_marginTop="1.0px" android:layout_below="@id/browser_view" android:layout_alignParentBottom="true">
+            <com.appsgeyser.wWindowsHotmail.Views.BrowserWebView android:id="@id/banner_webkit" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.appsgeyser.wWindowsHotmail.Views.TransparentPanel>
+        <FrameLayout android:gravity="center|left|top" android:orientation="horizontal" android:id="@id/tabcontents_panel" android:background="@drawable/contents_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="bottom" android:id="@id/tabtags_panel" android:background="@color/tagsContainerBackground" android:padding="1.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="61.0dip" android:layout_below="@id/tabcontents_panel" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/customFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</FrameLayout>

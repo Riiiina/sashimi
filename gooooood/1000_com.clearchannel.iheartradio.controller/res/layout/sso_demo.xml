@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/login" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Login" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/partnerLogin" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Partner Login" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/checkToken" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Check Login" />
+            <Button android:layout_gravity="center" android:id="@id/forgotPassword" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Forgot Password" />
+            <Button android:layout_gravity="center" android:id="@id/signup" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sign Up" />
+            <Button android:layout_gravity="center" android:id="@id/result" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show session result" />
+            <Button android:layout_gravity="center" android:id="@id/clear" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear session" />
+            <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <EditText android:layout_gravity="center" android:id="@id/stationName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Station name for share" />
+            <Button android:layout_gravity="center" android:id="@id/share_via_facebook" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="share_via_facebook" />
+            <Button android:layout_gravity="center" android:id="@id/share_via_email" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="share_via_email" />
+            <Button android:layout_gravity="center" android:id="@id/show_fav_stations" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="show fav stations" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

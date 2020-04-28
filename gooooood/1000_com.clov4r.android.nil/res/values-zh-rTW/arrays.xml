@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_list">
+        <item>小字體</item>
+        <item>中等字體</item>
+        <item>大字體</item>
+        <item>特大</item>
+    </string-array>
+    <string-array name="font_sizevalue_list">
+        <item>12</item>
+        <item>18</item>
+        <item>28</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="font_color_list">
+        <item>白色</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>黄色</item>
+        <item>橙色</item>
+        <item>红色</item>
+    </string-array>
+    <string-array name="font_colorvalue_list">
+        <item>\#FFFFFF</item>
+        <item>\#1E90FF</item>
+        <item>\#008B45</item>
+        <item>\#CDAD00</item>
+        <item>\#FF8C00</item>
+        <item>\#FF0000</item>
+    </string-array>
+    <string-array name="volume_item">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="volume_item_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="layout_item">
+        <item>列表</item>
+        <item>方格</item>
+    </string-array>
+    <string-array name="screen_lock_setting">
+        <item>什麽都不顯示</item>
+        <item>只顯示進度</item>
+        <item>顯示文本和進度</item>
+    </string-array>
+    <string-array name="screen_lock_setting_value">
+        <item>display_nothing</item>
+        <item>display_progress</item>
+        <item>display_progress_text</item>
+    </string-array>
+    <string-array name="decode_mode_item">
+        <item>自動</item>
+        <item>關閉</item>
+        <item>軟解</item>
+        <item>硬解</item>
+    </string-array>
+    <string-array name="volume_key_set">
+        <item>音量鍵調節播放進度</item>
+        <item>音量鍵調節音量</item>
+    </string-array>
+    <string-array name="volume_key_set_value">
+        <item>volume_key_progress</item>
+        <item>volume_key_valume</item>
+    </string-array>
+    <string-array name="bg_color_list">
+        <item>自動</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>黄色</item>
+        <item>橙色</item>
+        <item>红色</item>
+    </string-array>
+    <string-array name="bg_colorvalue_list">
+        <item>\#616C81</item>
+        <item>\#1E90FF</item>
+        <item>\#008B45</item>
+        <item>\#CDAD00</item>
+        <item>\#FF8C00</item>
+        <item>\#FF0000</item>
+    </string-array>
+</resources>

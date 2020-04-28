@@ -1,0 +1,25 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: eVdZLr1uDpQ11l4wHMev9iB30Ko=
+
+Name: AndroidManifest.xml
+SHA1-Digest: BQkqw1UKVlFMtn9m/jq2WYYiDlE=
+
+Name: res/drawable/icon.png
+SHA1-Digest: DJstakJGuf3OoudjHJauZ+zCGhU=
+
+Name: lib/armeabi/libapp.so
+SHA1-Digest: gCwx9Vl3guX0HFmjS2fg4T23KFI=
+
+Name: assets/Explorer/License.txt
+SHA1-Digest: R+WaSTX1R6yQozDAYWoMfARVo8U=
+
+Name: resources.arsc
+SHA1-Digest: Y+wer1uaGiNAZuywLvK4nj0cHBc=
+
+Name: classes.dex
+SHA1-Digest: COB9lXaoj4So1AUf20jzHwhpsjE=
+
+Name: assets/Explorer/Data.dta
+SHA1-Digest: 9YWZHaML8qJxCdutjfOw/2rsqzQ=
+

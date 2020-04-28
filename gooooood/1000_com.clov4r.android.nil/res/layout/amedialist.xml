@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llMidiaFile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="80.0dip">
+        <FrameLayout android:id="@id/fl_video" android:background="#00112233" android:layout_width="122.0dip" android:layout_height="80.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/ImageView02" android:background="@drawable/moboplayer_03" android:layout_width="107.0dip" android:layout_height="80.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/image_thumb" android:layout_width="90.0dip" android:layout_height="60.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ImageView01" android:background="@drawable/moboplayer_01" android:layout_width="40.0dip" android:layout_height="64.0dip" android:layout_marginLeft="11.0dip" />
+            <FrameLayout android:layout_gravity="center" android:id="@id/FrameLayout02" android:layout_width="46.0dip" android:layout_height="46.0dip">
+                <ImageView android:layout_gravity="top" android:id="@id/ivplaytime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playcolor" android:scaleType="matrix" />
+                <ImageView android:layout_gravity="top" android:id="@id/ImageView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playdefault" android:scaleType="matrix" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="right" android:id="@id/ivHD" android:background="@drawable/hd_icon" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="8.0dip" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@id/TextView01" style="@style/ShadowStyleForWhite" />
+            <TextView android:id="@id/tvinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@id/TextView02" style="@style/ShadowStyleForGrey" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

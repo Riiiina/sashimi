@@ -1,0 +1,996 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_26 (Apple Inc.)
+
+Name: assets/Puzzles/Zone 02/puzzle2-30.slw
+SHA1-Digest: f86YvYYOCOxXQIX2YDwTOLGEJdQ=
+
+Name: assets/Puzzles/Zone 05/puzzle5-50.slw
+SHA1-Digest: 3+WIIAEX30h1MJiL1/QqXRdH6PQ=
+
+Name: res/drawable/button_clear.xml
+SHA1-Digest: 2E5Em2mcOdLhmWgsGB8MfKq9eRw=
+
+Name: assets/Puzzles/Zone 01/puzzle1-2.slw
+SHA1-Digest: eJtaT+iprYk+MJ3Jlygr5pulMbU=
+
+Name: assets/Puzzles/Zone 01/puzzle1-30.slw
+SHA1-Digest: vuCOeEwVUd9htajMCAgktnRlrYM=
+
+Name: assets/Puzzles/Zone 02/puzzle2-24.slw
+SHA1-Digest: 6pQCccZc3X2KknCD4mxGyHg77E4=
+
+Name: res/layout/game_board.xml
+SHA1-Digest: r+oDVLoIte5vN4/jxnYAUyimh3c=
+
+Name: assets/Puzzles/Zone 04/puzzle4-15.slw
+SHA1-Digest: jI1JO0Afpurcd25L83PDmY+N6d8=
+
+Name: assets/Puzzles/Zone 06/puzzle6-28.slw
+SHA1-Digest: u670LvqMZlzqK1qrmrxur7r/+NI=
+
+Name: assets/Puzzles/Zone 04/puzzle4-48.slw
+SHA1-Digest: 3IEy0nkUhlSEIehti8MDIyM0t2Y=
+
+Name: assets/Puzzles/Zone 02/puzzle2-46.slw
+SHA1-Digest: 8pLpkyNeEo0xCBOjLljWicTnBDA=
+
+Name: res/drawable/button_guess.xml
+SHA1-Digest: Z/CYy1ld7EafNT5IE8JKxf2aTl8=
+
+Name: assets/Puzzles/Zone 03/puzzle3-30.slw
+SHA1-Digest: SUm1zre4L2o4SiIXUsqruIMXIwA=
+
+Name: assets/Puzzles/Zone 02/puzzle2-11.slw
+SHA1-Digest: ZfB7FJOxarj9yjR7Nv+4jvuYeJU=
+
+Name: assets/Puzzles/Zone 02/puzzle2-35.slw
+SHA1-Digest: vtar8wI4Qavz0HjEWceNROUowGU=
+
+Name: assets/Puzzles/Zone 06/puzzle6-7.slw
+SHA1-Digest: s+kVwzHfjjhmyp20awkmF/QrASM=
+
+Name: assets/Puzzles/Zone 03/puzzle3-39.slw
+SHA1-Digest: kaZfJ6fMVGPEk8lfZde4Im4Um8U=
+
+Name: assets/Puzzles/Zone 06/puzzle6-45.slw
+SHA1-Digest: POuxqWNQcVECO/R1gNPSufg6y7A=
+
+Name: assets/Puzzles/Zone 06/puzzle6-10.slw
+SHA1-Digest: p5BwIXEEbppZmRKGM+SIp09KM6M=
+
+Name: assets/Puzzles/Zone 04/puzzle4-16.slw
+SHA1-Digest: tRFBcDDYMnd9EAfk4YWO2bllrTk=
+
+Name: assets/Puzzles/Zone 06/puzzle6-11.slw
+SHA1-Digest: VGbjI40hfZzXc36gGsH71EzTghQ=
+
+Name: assets/Puzzles/Zone 05/puzzle5-25.slw
+SHA1-Digest: Pt6/HPapX7mULdPn4bNRwbjbZcA=
+
+Name: assets/Puzzles/Zone 02/puzzle2-26.slw
+SHA1-Digest: KFoLTx9cUMvEoX13SgiZnQRQT74=
+
+Name: assets/Puzzles/Zone 02/puzzle2-27.slw
+SHA1-Digest: ofw6eEJoR4uuxP57yDVtUWf6yCo=
+
+Name: assets/Puzzles/Zone 03/puzzle3-23.slw
+SHA1-Digest: X25lVXMcXDO/UWnapoiaAbQjF4o=
+
+Name: assets/Puzzles/Zone 02/puzzle2-48.slw
+SHA1-Digest: AVLN/dJPG+tEsrKe2bd1qwpG1W4=
+
+Name: assets/Puzzles/Zone 02/puzzle2-4.slw
+SHA1-Digest: twuOFuoEJcJwJOlSQBKj/8Q46/g=
+
+Name: assets/Puzzles/Zone 03/puzzle3-3.slw
+SHA1-Digest: o5ymMmIzRLvoJUoel8oQeKx+oJM=
+
+Name: assets/Puzzles/Zone 03/puzzle3-38.slw
+SHA1-Digest: YjqIQ1qvI23oOYOFnCO6CA6PDHA=
+
+Name: assets/Puzzles/Zone 04/puzzle4-14.slw
+SHA1-Digest: huUvy4O5bVwmfPuWQ7n/CrLCdkQ=
+
+Name: assets/Puzzles/Zone 04/puzzle4-38.slw
+SHA1-Digest: jjdUq5u+gudOgmF/AAJXJMHEPcQ=
+
+Name: assets/Puzzles/Zone 06/puzzle6-33.slw
+SHA1-Digest: WYtE5Kz0XhYfYNZIvyuF1Jqgtoo=
+
+Name: assets/Puzzles/Zone 02/puzzle2-28.slw
+SHA1-Digest: 8zg//RCmEfYl9RMUST4n42ZIgkQ=
+
+Name: assets/Puzzles/Zone 01/puzzle1-3.slw
+SHA1-Digest: R0Z8RsBAbFfAjgcxAwRUQ7CFcdY=
+
+Name: assets/Puzzles/Zone 05/puzzle5-30.slw
+SHA1-Digest: UAsveQdT03A/Yf537BxiaKyhuZk=
+
+Name: assets/Puzzles/Zone 01/puzzle1-20.slw
+SHA1-Digest: oqZ9cMPKdNdEic4SLYC5dU7N3BM=
+
+Name: assets/Puzzles/Zone 05/puzzle5-37.slw
+SHA1-Digest: lWX9NBnAplJEcoPjlDzasjLJEuU=
+
+Name: assets/Puzzles/Zone 02/puzzle2-34.slw
+SHA1-Digest: qM6LxJKd6e2+mKEIDIzA8uWEDPc=
+
+Name: assets/Puzzles/Zone 03/puzzle3-21.slw
+SHA1-Digest: 3XCz/L6qBz1YQPVd0BZ3gpIN72E=
+
+Name: assets/Puzzles/Zone 05/puzzle5-39.slw
+SHA1-Digest: ko6FITF8Kof6RcJ9BN1yWWGlSsI=
+
+Name: assets/Puzzles/Zone 03/puzzle3-11.slw
+SHA1-Digest: tdwO0i3jrt1eAXZmOXaGuMf520g=
+
+Name: assets/Puzzles/Zone 03/puzzle3-17.slw
+SHA1-Digest: AU8Kc3lEDKgDE5zL2ybBcC1T1NU=
+
+Name: assets/Puzzles/Zone 01/puzzle1-7.slw
+SHA1-Digest: J6zsKvPRtn1HjwIUVjUDWqbAJ2Q=
+
+Name: res/raw/match_found.wav
+SHA1-Digest: rcmm4xepbo9izfGYF35JB1tIgic=
+
+Name: assets/Puzzles/Zone 02/puzzle2-25.slw
+SHA1-Digest: gzaHfVApAKl0U0WYL+lLOg7N/0w=
+
+Name: assets/Puzzles/Zone 04/puzzle4-39.slw
+SHA1-Digest: YJB9nIOH1UEt+W8ZfhcsJt9IqhM=
+
+Name: assets/Puzzles/Zone 04/puzzle4-6.slw
+SHA1-Digest: Ae3X4hD6orzn+O5lPxlH+HPMmZ4=
+
+Name: res/drawable/button_clear_pressed.xml
+SHA1-Digest: K1a260eQMYZAn8XzgCOXMDipyrw=
+
+Name: assets/Puzzles/Zone 06/puzzle6-9.slw
+SHA1-Digest: Vx6DgEWQsUfBFYs1ixZ3MaOragU=
+
+Name: assets/Puzzles/Zone 05/puzzle5-24.slw
+SHA1-Digest: PmQBzUgukXV+rD1S9pKzNFgZvHQ=
+
+Name: assets/Puzzles/Zone 04/puzzle4-46.slw
+SHA1-Digest: 0dHH9k+L21Fj6AKyB2QkxA4TATM=
+
+Name: assets/Puzzles/Zone 04/puzzle4-32.slw
+SHA1-Digest: g57kSay6T5Yjoo0nuaUmO1F2Zvw=
+
+Name: assets/Puzzles/Zone 04/puzzle4-47.slw
+SHA1-Digest: A8z7lcG08Qb1kR9FX3voayhzQJg=
+
+Name: res/drawable-mdpi/smile_menu.png
+SHA1-Digest: Ohdg7LCszigCN8mlRinNBrq9aQA=
+
+Name: assets/Puzzles/Zone 05/puzzle5-40.slw
+SHA1-Digest: mtYg9YqVIdh4MbXW2Fo1fUnv+ck=
+
+Name: assets/Puzzles/Zone 02/puzzle2-40.slw
+SHA1-Digest: eiVTZftBPP4Rn6ziJFRlTPtqWFk=
+
+Name: assets/Puzzles/Zone 03/puzzle3-32.slw
+SHA1-Digest: tkirBbaUMHxYABvWg1m1MaCldIo=
+
+Name: assets/Puzzles/Zone 04/puzzle4-33.slw
+SHA1-Digest: hduOz1WFNiUWVTAM0Mw6Vdjg98s=
+
+Name: assets/Puzzles/Zone 03/puzzle3-41.slw
+SHA1-Digest: 3/xVKZc4j1AMYy2IE1VitbLhf8o=
+
+Name: assets/Puzzles/Zone 01/puzzle1-8.slw
+SHA1-Digest: i0uqrr6uRv4YIKAtNipTcVpf7LY=
+
+Name: assets/Puzzles/Zone 04/puzzle4-4.slw
+SHA1-Digest: yfjUoUmrNi/501vsa8yewNysyyg=
+
+Name: assets/Puzzles/Zone 04/puzzle4-43.slw
+SHA1-Digest: nvLkiH/FvsR187k4Nyxwm30BJfI=
+
+Name: assets/Puzzles/Zone 05/puzzle5-13.slw
+SHA1-Digest: RboUKK34bbfAopA/X8sZVCqmQAc=
+
+Name: assets/Puzzles/Zone 02/puzzle2-29.slw
+SHA1-Digest: Qe9seZiBM8zwQ5x/woTjEK43NYw=
+
+Name: assets/Puzzles/Zone 06/puzzle6-12.slw
+SHA1-Digest: B0tkblVAfYvvI1RQivVcJ08NRuw=
+
+Name: assets/Puzzles/Zone 04/puzzle4-25.slw
+SHA1-Digest: pwvGMF1KaRFqUANSge2gcnjzdA4=
+
+Name: assets/Puzzles/Zone 02/puzzle2-49.slw
+SHA1-Digest: mSWzkpVM3eSX+/jHr/FCtgkwFl0=
+
+Name: assets/Puzzles/Zone 03/puzzle3-8.slw
+SHA1-Digest: er3Tlfkvkw6PXhOqba0/mrchzio=
+
+Name: assets/Puzzles/Zone 02/puzzle2-43.slw
+SHA1-Digest: xUm4ZNL18DBEio2qYjMVlDjQmkA=
+
+Name: assets/Puzzles/Zone 03/puzzle3-26.slw
+SHA1-Digest: A18zO39tsEO4z/YdipytHRlCBfE=
+
+Name: assets/Puzzles/Zone 04/puzzle4-42.slw
+SHA1-Digest: gztOzSz0ZEKV4ifV8eSJcwemu6c=
+
+Name: res/drawable/linearlayout_guess_bg.xml
+SHA1-Digest: 37pYm01wT9UF0TeIPUMPOD8g9Gk=
+
+Name: assets/Puzzles/Zone 05/puzzle5-49.slw
+SHA1-Digest: IWXLJEYFTPpKfw0oO7QvuCGmq/E=
+
+Name: assets/Puzzles/Zone 04/puzzle4-1.slw
+SHA1-Digest: aJolrc/j4+w0zUu/s3v/qFE/jXA=
+
+Name: res/layout/main_menu.xml
+SHA1-Digest: nGx/haDt6iBnqMrPjwW5SGvYHl8=
+
+Name: assets/Puzzles/Zone 10/puzzle8-1.slw
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/Puzzles/Zone 01/puzzle1-27.slw
+SHA1-Digest: oRwHDTRu0qZDaEpkqQMzOqicM5s=
+
+Name: assets/Puzzles/Zone 01/puzzle1-12.slw
+SHA1-Digest: yQ547UmWVV1B0LQtf01eDwmSqK0=
+
+Name: assets/Puzzles/Zone 03/puzzle3-4.slw
+SHA1-Digest: L7q6YIde14xNzz6Nns1P1I2O+jM=
+
+Name: assets/Puzzles/Zone 06/puzzle6-49.slw
+SHA1-Digest: 2LfCUYIeprLWJNOJPAhnHo2n6D4=
+
+Name: assets/Puzzles/Zone 06/puzzle6-39.slw
+SHA1-Digest: rJLkg5z9IfDHfkaXCcVfPyMSloU=
+
+Name: assets/Puzzles/Zone 03/puzzle3-14.slw
+SHA1-Digest: 0+eha8e4joCaGi6rmjKeo6H8buk=
+
+Name: assets/Puzzles/Zone 03/puzzle3-10.slw
+SHA1-Digest: SZh3waOItDBp+m2BxjjTAobksPI=
+
+Name: assets/Puzzles/Zone 06/puzzle6-4.slw
+SHA1-Digest: JoVHYJWyE/cZmH35ugjQ51ll8II=
+
+Name: assets/Puzzles/Zone 06/puzzle6-1.slw
+SHA1-Digest: ZebY6vhICnGoF0ad1j58MRvRXfw=
+
+Name: assets/Puzzles/Zone 02/puzzle2-20.slw
+SHA1-Digest: 4/KKZCCmpPiCwfOXU7HydHTvEfs=
+
+Name: assets/Puzzles/Zone 01/puzzle1-25.slw
+SHA1-Digest: UuqD4227mkephd9RbQAv2nCS7Us=
+
+Name: assets/Puzzles/Zone 01/puzzle1-10.slw
+SHA1-Digest: +uYW0zcwFyVI8mz6UfDYqQpP8HI=
+
+Name: assets/Puzzles/Zone 05/puzzle5-11.slw
+SHA1-Digest: tYlEWQW+TOfvPYonPSp0c5RnvIk=
+
+Name: res/drawable/button_pressed.xml
+SHA1-Digest: wW5ICYmaXK3JOcYK60M1iDKUn4Q=
+
+Name: assets/Puzzles/Zone 01/puzzle1-24.slw
+SHA1-Digest: aHqNQEeBwaU2NSpLBTkvR4J17qY=
+
+Name: assets/Puzzles/Zone 03/puzzle3-47.slw
+SHA1-Digest: +Axs8op204n4Dl4k2QhmVxLHbDw=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: 7Ft/Rirt+l/JRX2KjDREScdbCZk=
+
+Name: assets/Puzzles/Zone 04/puzzle4-45.slw
+SHA1-Digest: VxswuD5R6w4oXYvQZoKPAZ+7T64=
+
+Name: assets/Puzzles/Zone 06/puzzle6-13.slw
+SHA1-Digest: QUHxCNYSAvbGtcztYdaGkPZUztI=
+
+Name: assets/Puzzles/Zone 05/puzzle5-18.slw
+SHA1-Digest: u8AngMtQZG+MgtCeGdFrfxSvUXA=
+
+Name: assets/Puzzles/Zone 05/puzzle5-4.slw
+SHA1-Digest: THzYOF7EZ9XzO7TItgN5GrRC32g=
+
+Name: assets/Puzzles/Zone 02/puzzle2-2.slw
+SHA1-Digest: 19zwp52tFNTV3wwpRm1J0TYRYgA=
+
+Name: assets/Puzzles/Zone 04/puzzle4-8.slw
+SHA1-Digest: tDaX+gEz73MVO54X3my65IZxqjM=
+
+Name: res/drawable/smiley.png
+SHA1-Digest: kVGoPSy9AS7oeGHhiThkWv4DmUI=
+
+Name: assets/Puzzles/Zone 01/puzzle1-21.slw
+SHA1-Digest: EcfVIzh/ik+y+mMEWVBan7Jsoh4=
+
+Name: assets/Puzzles/Zone 05/puzzle5-21.slw
+SHA1-Digest: SRmS16zQeSUfLwQ/LnBCnb/3veA=
+
+Name: assets/Puzzles/Zone 01/puzzle1-13.slw
+SHA1-Digest: UJdTACKxs5kBtexbm/vPAb5My+E=
+
+Name: assets/Puzzles/Zone 06/puzzle6-20.slw
+SHA1-Digest: VIGCfpVoFVVbO1wJgDyXrqfEZiM=
+
+Name: assets/Puzzles/Zone 04/puzzle4-50.slw
+SHA1-Digest: M44q81hT3KWvDB2tkEln/sIphaw=
+
+Name: assets/Puzzles/Zone 03/puzzle3-31.slw
+SHA1-Digest: adEgj5z0IwC7LAhACG+UwWJTT1A=
+
+Name: assets/Puzzles/Zone 02/puzzle2-12.slw
+SHA1-Digest: xlRQJjPQjhGY/ZNY23E3tvAlvX0=
+
+Name: assets/Puzzles/Zone 02/puzzle2-17.slw
+SHA1-Digest: VA6yNmLTEg1BRSIlZKhXoNHWlpE=
+
+Name: assets/Puzzles/Zone 06/puzzle6-15.slw
+SHA1-Digest: hjP4BSD/xumlvq28m8Cou7tBCYA=
+
+Name: assets/Puzzles/Zone 04/puzzle4-19.slw
+SHA1-Digest: GRaOV3w/onfdZ+g/P4G4dVKTyEA=
+
+Name: res/drawable/button_guess_pressed.xml
+SHA1-Digest: RmT2AhNIxKcBNoLhYDxbAgzkFBc=
+
+Name: assets/Puzzles/Zone 05/puzzle5-14.slw
+SHA1-Digest: 2pvqbnTrLY9bLjhl5ZBMsJi2ofY=
+
+Name: res/layout/game_board_card.xml
+SHA1-Digest: RCiiuh/NCnYsTh8yob9dq2mEdh8=
+
+Name: assets/Puzzles/Zone 05/puzzle5-19.slw
+SHA1-Digest: LY68l8axqcxHNnZLnVqpMpMcrGM=
+
+Name: assets/Puzzles/Zone 05/puzzle5-45.slw
+SHA1-Digest: fxbI3DoLERo0jx0m73ej1DDa8qg=
+
+Name: assets/Puzzles/Zone 03/puzzle3-2.slw
+SHA1-Digest: ThYOTE8pO0J0jRbBUoQVfh5MoVU=
+
+Name: assets/Puzzles/Zone 04/puzzle4-11.slw
+SHA1-Digest: Va2IknaX+C/uVLg2hodxm77Dp6M=
+
+Name: assets/Puzzles/Zone 03/puzzle3-29.slw
+SHA1-Digest: 8kxJlRYpSmwZsiawUdyaxCUo0Rg=
+
+Name: assets/Puzzles/Zone 04/puzzle4-23.slw
+SHA1-Digest: 4Kq4SImIzRKCGPMLEj84iTWLUdw=
+
+Name: assets/Puzzles/Zone 06/puzzle6-17.slw
+SHA1-Digest: 1TwRJKzifRyTyE7dd0mYUWQLaPI=
+
+Name: assets/Puzzles/Zone 03/puzzle3-7.slw
+SHA1-Digest: QAGkczMo2TNtzuMBpgc3ySh3xM8=
+
+Name: assets/Puzzles/Zone 05/puzzle5-27.slw
+SHA1-Digest: qGfsxWq0jQTF4xdC/zngCqjmGMY=
+
+Name: assets/Puzzles/Zone 02/puzzle2-9.slw
+SHA1-Digest: GFxlOyo6vcYLZ7AovusNFTS8VG0=
+
+Name: assets/Puzzles/Zone 02/puzzle2-32.slw
+SHA1-Digest: 90pZLqu7cpRFM+pe1836OfI0ilg=
+
+Name: assets/Puzzles/Zone 03/puzzle3-5.slw
+SHA1-Digest: pRenOpd7L+qFeacRqUbgrzJXeCg=
+
+Name: assets/Puzzles/Zone 02/puzzle2-6.slw
+SHA1-Digest: lwnqtwSykLMCL34VTKb/ChMpjBM=
+
+Name: assets/Puzzles/Zone 03/puzzle3-6.slw
+SHA1-Digest: kNXWn+tHnmimWL9zQp0NEQlBuPE=
+
+Name: assets/Puzzles/Zone 02/puzzle2-18.slw
+SHA1-Digest: PDxd0njrOIeWhCg7mpZFmYEZrVc=
+
+Name: assets/Puzzles/Zone 06/puzzle6-16.slw
+SHA1-Digest: gGea+wM5cWaL89oxjNeJXoR9MP0=
+
+Name: assets/Puzzles/Zone 05/puzzle5-35.slw
+SHA1-Digest: 4z4ZkZt5pNrjZy6V70IsmWWPEOE=
+
+Name: res/layout/zone_menu_recover.xml
+SHA1-Digest: ci2NvUerhTFnhdJOwXRmihe7De0=
+
+Name: res/drawable-hdpi/smile_menu.png
+SHA1-Digest: uerBWR8KgFmiUaD4rImPigZcMkM=
+
+Name: assets/Puzzles/Zone 02/puzzle2-3.slw
+SHA1-Digest: 7cdNQCCiZh2O5cUw1cf1+0iGsrE=
+
+Name: assets/Puzzles/Zone 05/puzzle5-9.slw
+SHA1-Digest: NLtniv/sLBsEdPLWUZuRY96x0Cc=
+
+Name: res/drawable/button_guess_normal.xml
+SHA1-Digest: vkddlIPTdXNfR8UObKAX5ZM+wj0=
+
+Name: assets/Puzzles/Zone 03/puzzle3-37.slw
+SHA1-Digest: fHw1v+dudUhtyxBp0NNyQ9AvlgM=
+
+Name: assets/Puzzles/Zone 02/puzzle2-1.slw
+SHA1-Digest: wcogprI3F2X9yx8SBn+fqSkLL5E=
+
+Name: res/raw/error.wav
+SHA1-Digest: BZ0pfzCadqUbcKsID07R2xoUnTg=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: 70YVOaPYYLYpZ/WTvN3UqsVg+TE=
+
+Name: res/layout/game_board_row.xml
+SHA1-Digest: wpbsMM6+rdt942gDT9+sTAOH8eQ=
+
+Name: assets/Puzzles/Zone 05/puzzle5-44.slw
+SHA1-Digest: xLhXHcREfs9eefqTXCbP47xFq8E=
+
+Name: assets/Puzzles/Zone 03/puzzle3-1.slw
+SHA1-Digest: 34C+G1PM3LAbVgAAYotWjsKtfl0=
+
+Name: assets/Puzzles/Zone 02/puzzle2-19.slw
+SHA1-Digest: R/U6QXsrh3vDeGNJ1YvArTXmHZQ=
+
+Name: assets/Puzzles/Zone 04/puzzle4-13.slw
+SHA1-Digest: A0aPjm+glkI5hqh4c4LX93MWfXc=
+
+Name: assets/Puzzles/Zone 05/puzzle5-6.slw
+SHA1-Digest: AJmwK5uxgSyWkvrRZ1Lvick2hbc=
+
+Name: assets/Puzzles/Zone 02/puzzle2-5.slw
+SHA1-Digest: ajwUbK5Db+WeSVJ78zMJL7wjayU=
+
+Name: assets/Puzzles/Zone 01/puzzle1-19.slw
+SHA1-Digest: 0zRGmoYdPZKdpVJwIMGkcLSbVCM=
+
+Name: assets/Puzzles/Zone 03/puzzle3-16.slw
+SHA1-Digest: l9/mL+XzNxF+2rmIEtSLyVg1M04=
+
+Name: assets/Puzzles/Zone 01/puzzle1-15.slw
+SHA1-Digest: qAw5snXbusejZwseWMiRfuzRmO0=
+
+Name: assets/Puzzles/Zone 03/puzzle3-34.slw
+SHA1-Digest: SRTTyRzNDohjZVegpbCoTxf33yI=
+
+Name: assets/Puzzles/Zone 04/puzzle4-10.slw
+SHA1-Digest: IZhAAPQ/V6bIv1tLhl+YS+RnrHw=
+
+Name: assets/Puzzles/Zone 06/puzzle6-18.slw
+SHA1-Digest: U4qEC7aZWZGQZgA2icG/LLal6Pk=
+
+Name: assets/Puzzles/Zone 02/puzzle2-23.slw
+SHA1-Digest: G9Wuax7CUFur9V/GQFR5rer8SzU=
+
+Name: assets/Puzzles/Zone 04/puzzle4-24.slw
+SHA1-Digest: Oj32RDGPH66MRF1fsfjLcJfWq8g=
+
+Name: assets/Puzzles/Zone 04/puzzle4-49.slw
+SHA1-Digest: dcGgKI6KpBW+wZNZki97fp7BrMw=
+
+Name: assets/Puzzles/Zone 03/puzzle3-48.slw
+SHA1-Digest: h9F5U4V4XzduCny1wXuKQD7wVOI=
+
+Name: assets/Puzzles/Zone 05/puzzle5-34.slw
+SHA1-Digest: u7u8JZv09yV8EYLmykNeeiYKFR4=
+
+Name: assets/Puzzles/Zone 02/puzzle2-8.slw
+SHA1-Digest: 25M7xbxQKcdTksvrKnvfbPt6mEY=
+
+Name: res/layout/puzzle_menu_button.xml
+SHA1-Digest: sW1D1SFcFB3Oqye8xvtLspjWWWE=
+
+Name: assets/Puzzles/Zone 04/puzzle4-34.slw
+SHA1-Digest: y4jlQ7RN7G/T33H++YTCpDoUuQ0=
+
+Name: assets/Puzzles/Zone 04/puzzle4-44.slw
+SHA1-Digest: 5NK+TMiMdp5fnB9vysbHi/jc4Ps=
+
+Name: assets/Puzzles/Zone 03/puzzle3-28.slw
+SHA1-Digest: JtN7ZJHV4uVGTvmTeanYPSyaDBs=
+
+Name: assets/Puzzles/Zone 03/puzzle3-33.slw
+SHA1-Digest: Whgnqn8VwpvU87BjcygmPjFyj1g=
+
+Name: assets/Puzzles/Zone 06/puzzle6-21.slw
+SHA1-Digest: FmNnW8knARiukOLhyhFW58Hfiv8=
+
+Name: assets/Puzzles/Zone 03/puzzle3-12.slw
+SHA1-Digest: oal5rGLm6/0cXLp/rRXt7fXOu8s=
+
+Name: assets/Puzzles/Zone 05/puzzle5-17.slw
+SHA1-Digest: LHfz6IshY2pFZ7v25WBIlVSyk7Y=
+
+Name: res/drawable-ldpi/smile_game.png
+SHA1-Digest: XfiT/167I8NPUBVUmBRN9oS02iI=
+
+Name: assets/Puzzles/Zone 06/puzzle6-14.slw
+SHA1-Digest: XfpNctqcvXHMuuA6Axd6sHc1wO8=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: Vj/qhxk8ic8FE0/kT6E3vgRJ4mE=
+
+Name: assets/Puzzles/Zone 05/puzzle5-47.slw
+SHA1-Digest: v7mKFRAfQh4jqrS0xTYZNU5expA=
+
+Name: assets/Puzzles/Zone 04/puzzle4-29.slw
+SHA1-Digest: uSFTP3q+5fXNeZSRuAVP5u7/4Uk=
+
+Name: res/drawable/button_coming_soon.xml
+SHA1-Digest: oYEqJdTMF99alMJd5Bq5FSAbUQo=
+
+Name: assets/Puzzles/Zone 05/puzzle5-29.slw
+SHA1-Digest: v5KHe/OM+SOcmF0+16hx2DtbQ0o=
+
+Name: assets/Puzzles/Zone 06/puzzle6-36.slw
+SHA1-Digest: EAhzSstyiqQMjpxKeOcrHbKjcts=
+
+Name: assets/Puzzles/Zone 03/puzzle3-46.slw
+SHA1-Digest: Wq3DAlFHizebj6jlAjvYBeZjmDk=
+
+Name: assets/Puzzles/Zone 07/puzzle7-1.slw
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/Puzzles/Zone 06/puzzle6-42.slw
+SHA1-Digest: +cPlUK66VrKzTeF3yb6EKRFVb+I=
+
+Name: assets/Puzzles/Zone 05/puzzle5-43.slw
+SHA1-Digest: o7hPbMfHtm4zjKO5WhWBcsX/ty0=
+
+Name: assets/Puzzles/Zone 03/puzzle3-24.slw
+SHA1-Digest: 9PbrSHaecfpMmeUZCeyKf4IycIM=
+
+Name: assets/Puzzles/Zone 05/puzzle5-31.slw
+SHA1-Digest: ZwpgZXJh3gq384xx7H+HU+B2XyU=
+
+Name: assets/Puzzles/Zone 04/puzzle4-28.slw
+SHA1-Digest: zLUbiS2GZM1sbOWWo6YQ36/gD9E=
+
+Name: assets/Puzzles/Zone 06/puzzle6-30.slw
+SHA1-Digest: 3yKQ2LHfnBlP75d86oVDVwK9Ahg=
+
+Name: assets/Puzzles/Zone 05/puzzle5-15.slw
+SHA1-Digest: 7YeBOlmA7z7Ab3Xtggo+83oue3Q=
+
+Name: assets/Puzzles/Zone 06/puzzle6-34.slw
+SHA1-Digest: LnvlrKjwohpWmsiFhIEQPIP4GFk=
+
+Name: assets/Puzzles/Zone 06/puzzle6-37.slw
+SHA1-Digest: u1l1d0Qzs9BqZvB9voFuYtyo3y4=
+
+Name: assets/Puzzles/Zone 05/puzzle5-2.slw
+SHA1-Digest: oUqLWUSNHtgOKoNCEaeDabBJnss=
+
+Name: assets/Puzzles/Zone 05/puzzle5-46.slw
+SHA1-Digest: YAbmZDKciwoj7yZmTiRKa28on9E=
+
+Name: res/layout/button_exit.xml
+SHA1-Digest: mgKFDEar0De0eRAwD+/pFNrJp8I=
+
+Name: res/drawable-hdpi/smile_game.png
+SHA1-Digest: YHXc2YUqFGrFGrTxIFXuHNVxIxI=
+
+Name: assets/Puzzles/Zone 06/puzzle6-25.slw
+SHA1-Digest: Js0GtP+YDjRHjQpn9HUyU73V13g=
+
+Name: assets/Puzzles/Zone 02/puzzle2-41.slw
+SHA1-Digest: 8K+QiuWqIBUyWxAlI99IKDv96ZY=
+
+Name: assets/Puzzles/Zone 05/puzzle5-26.slw
+SHA1-Digest: jMg5VRU4PenGXhvr27YaVdYHTVo=
+
+Name: assets/Puzzles/Zone 02/puzzle2-7.slw
+SHA1-Digest: 0MHl84yyoPNkqnJ3I8pK0rxkcWo=
+
+Name: assets/Puzzles/Zone 04/puzzle4-21.slw
+SHA1-Digest: PcuZj8uZwwdslmJ9vxgNfA/YGeg=
+
+Name: assets/Puzzles/Zone 03/puzzle3-19.slw
+SHA1-Digest: R5Iyz6Yzs/9Jpixfy0nen39zPRk=
+
+Name: assets/Puzzles/Zone 06/puzzle6-6.slw
+SHA1-Digest: 5CDFKhiAZIMRuvre27liJM1aY4M=
+
+Name: assets/Puzzles/Zone 06/puzzle6-48.slw
+SHA1-Digest: t45PSVQMV0KIb6VgkotQUYxnYFc=
+
+Name: assets/Puzzles/Zone 02/puzzle2-33.slw
+SHA1-Digest: XRFnpTRMUlsndz8C4yVkAhZCV8I=
+
+Name: assets/Puzzles/Zone 04/puzzle4-31.slw
+SHA1-Digest: q2Ofnvf6GMYQuK87CXV4CAYdtkc=
+
+Name: assets/Puzzles/Zone 06/puzzle6-35.slw
+SHA1-Digest: 15/PJ9KgiLnFDtTLTu5d0J9pcjA=
+
+Name: assets/Puzzles/Zone 05/puzzle5-33.slw
+SHA1-Digest: KXGGYpU23KfrD5hif79dz6RKvOU=
+
+Name: assets/Puzzles/Zone 02/puzzle2-13.slw
+SHA1-Digest: WHIJ+T9pRFNBr/TJU3lEu5/R0a0=
+
+Name: assets/Puzzles/Zone 05/puzzle5-5.slw
+SHA1-Digest: KkchanYc/JivpUHC2OfSaR1SyPc=
+
+Name: res/drawable/button_normal.xml
+SHA1-Digest: /dTUNVWFjXq/CJkpvlMc9W208tE=
+
+Name: assets/Puzzles/Zone 06/puzzle6-38.slw
+SHA1-Digest: AAfaqv7yz8do8L7FwQs82Gdf5cc=
+
+Name: assets/Puzzles/Zone 02/puzzle2-39.slw
+SHA1-Digest: e+DKGjI/iukh5g9r2oaHwMxCRk4=
+
+Name: assets/Puzzles/Zone 04/puzzle4-17.slw
+SHA1-Digest: NEOexObWj/TKb8ORJZgDEC6h+Eg=
+
+Name: assets/Puzzles/Zone 06/puzzle6-24.slw
+SHA1-Digest: 3BAsJ05VW4Gw5RjsFthPcLdWDA0=
+
+Name: assets/Puzzles/Zone 02/puzzle2-16.slw
+SHA1-Digest: 6B/mnC5VWmzYLkd5XACH1ayIRYg=
+
+Name: assets/Puzzles/Zone 04/puzzle4-35.slw
+SHA1-Digest: q2acfIhPZRzSJeb5aqIoMfyNbLw=
+
+Name: assets/Puzzles/Zone 03/puzzle3-22.slw
+SHA1-Digest: m0hGBX9X/lFITBC0LpzyqhjAmIw=
+
+Name: assets/Puzzles/Zone 01/puzzle1-1.slw
+SHA1-Digest: L2Acq9vaGh/MbBosqEHlKUWUWdo=
+
+Name: assets/Puzzles/Zone 03/puzzle3-49.slw
+SHA1-Digest: UoA3I32WRa57FGZ72j/beMPTDFc=
+
+Name: assets/Puzzles/Zone 02/puzzle2-21.slw
+SHA1-Digest: nbXiaYSDzmBioAVrNGe2PKGSWbY=
+
+Name: assets/Puzzles/Zone 03/puzzle3-44.slw
+SHA1-Digest: WatPXBhyUB3EhbqproaPjZxCVUY=
+
+Name: assets/Puzzles/Zone 06/puzzle6-23.slw
+SHA1-Digest: wIeO5NdvmvzvQJK8w2pm19qYuqY=
+
+Name: assets/Puzzles/Zone 03/puzzle3-35.slw
+SHA1-Digest: hDdVrA03En1feLx9rclxipPrUU4=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: 7/WFVvSbM5ryEoWGzzx+L4zdH9o=
+
+Name: assets/Puzzles/Zone 06/puzzle6-26.slw
+SHA1-Digest: VeUCKrf8dZ5/AwOSGFKoXdQKFzo=
+
+Name: assets/Puzzles/Zone 06/puzzle6-3.slw
+SHA1-Digest: wyXZRVcpCYESX3BIqHSZMB3sPtA=
+
+Name: resources.arsc
+SHA1-Digest: Kz/Nk4iqno9fKDb7s5wHNTv1/SE=
+
+Name: assets/Puzzles/Zone 03/puzzle3-36.slw
+SHA1-Digest: pCbKJXDbXbjiJVxbyMzFb7hTZrc=
+
+Name: assets/Puzzles/Zone 04/puzzle4-12.slw
+SHA1-Digest: 7bvTkVlHaRzG2WykxiuD3AOK904=
+
+Name: assets/Puzzles/Zone 04/puzzle4-18.slw
+SHA1-Digest: HoviYvVycecjzEN2CFTSJjOXgcE=
+
+Name: assets/Puzzles/Zone 03/puzzle3-27.slw
+SHA1-Digest: Q5jMLUtL9eOpVHQ+TMz1LDh+n9c=
+
+Name: AndroidManifest.xml
+SHA1-Digest: ahHXRGGWMOZImnHfqAsdY1fHhD0=
+
+Name: res/layout/zone_menu.xml
+SHA1-Digest: Z4+9g6vp9kw1xc4f3RvOyEWZEvY=
+
+Name: assets/Puzzles/Zone 06/puzzle6-41.slw
+SHA1-Digest: Gc5ZM2Hy/2v1cfoFnG5rNLv2PpU=
+
+Name: res/layout/button_guess.xml
+SHA1-Digest: oVyZmCRVEHD2riyQqZgpW75OqQY=
+
+Name: assets/Puzzles/Zone 01/puzzle1-22.slw
+SHA1-Digest: R40ZkmTXdOF3P4kQEcVSQNLO5oU=
+
+Name: assets/Puzzles/Zone 02/puzzle2-10.slw
+SHA1-Digest: aVTHmUHw9EPIAADWcFzNq+M7sTE=
+
+Name: assets/Puzzles/Zone 04/puzzle4-27.slw
+SHA1-Digest: yo1NA/NND6f+WyqrUwhX2MSlgo8=
+
+Name: assets/Puzzles/Zone 01/puzzle1-17.slw
+SHA1-Digest: EAzMfs87fgYaNfsanHaefq7BuTU=
+
+Name: assets/Puzzles/Zone 06/puzzle6-22.slw
+SHA1-Digest: Bvqpo4Q/ic0BLNhdUrqH68N4J1s=
+
+Name: assets/Puzzles/Zone 04/puzzle4-30.slw
+SHA1-Digest: XX2LENtuVzR318sj+faK2DYXstk=
+
+Name: assets/Puzzles/Zone 04/puzzle4-37.slw
+SHA1-Digest: I8tUp1tA3ze4ah8FJEmQikn29c0=
+
+Name: assets/Puzzles/Zone 04/puzzle4-22.slw
+SHA1-Digest: 9g8jpWMobDdMvx+JY7awMhlhi0s=
+
+Name: assets/Puzzles/Zone 05/puzzle5-28.slw
+SHA1-Digest: AS7SiKJx7EklL1uBAuYJXjrUcdA=
+
+Name: classes.dex
+SHA1-Digest: C8K+BVS8mun2+09hIq66/fpRNNI=
+
+Name: assets/Puzzles/Zone 03/puzzle3-15.slw
+SHA1-Digest: WVtaknRqCoQ0NHxM+/s/BRBL4Ls=
+
+Name: assets/Puzzles/Zone 03/puzzle3-18.slw
+SHA1-Digest: Cah3jVf32eeFIrpYl/6e1JrJLEg=
+
+Name: assets/Puzzles/Zone 04/puzzle4-36.slw
+SHA1-Digest: PWH/i3aF6f+KZpAGSN/3jKK9Di4=
+
+Name: assets/Puzzles/Zone 05/puzzle5-16.slw
+SHA1-Digest: tIq3t8C/fzNL2WQPO7BGEzTGysQ=
+
+Name: assets/Puzzles/Zone 05/puzzle5-38.slw
+SHA1-Digest: uErax6UVXtU4Jb74qF9vRzyqqcI=
+
+Name: assets/Puzzles/Zone 02/puzzle2-15.slw
+SHA1-Digest: 0g3g3RjXmxBtZjUVvrpBE2b3P9k=
+
+Name: res/raw/smile.wav
+SHA1-Digest: QkcT7RDZuFX85EyITAnBImpHwp4=
+
+Name: assets/Puzzles/Zone 04/puzzle4-26.slw
+SHA1-Digest: T3iRHUZefhlSb+AThT44kdDZ82s=
+
+Name: assets/Puzzles/Zone 02/puzzle2-44.slw
+SHA1-Digest: bl5u28x2cuq6u++hTFdV1AipaKc=
+
+Name: assets/Puzzles/Zone 05/puzzle5-7.slw
+SHA1-Digest: ceHoyJfv6O4kVBn0zBGuRm7Tb2M=
+
+Name: assets/Puzzles/Zone 01/puzzle1-28.slw
+SHA1-Digest: ecTvBDKnINRq3RXxztuAbgjji5w=
+
+Name: assets/Puzzles/Zone 04/puzzle4-20.slw
+SHA1-Digest: bpcB1n721TZbdcCSeXjzU27bXEM=
+
+Name: res/layout/instructions.xml
+SHA1-Digest: mwQN3cF374TmQA4q+8CV30w5s28=
+
+Name: assets/Puzzles/Zone 03/puzzle3-20.slw
+SHA1-Digest: KXojtur+5bFI+FN/gs7i+aTvobo=
+
+Name: assets/Puzzles/Zone 06/puzzle6-50.slw
+SHA1-Digest: pH0pQsYFYj5efjNuVRebcJCBlp4=
+
+Name: assets/Puzzles/Zone 01/puzzle1-18.slw
+SHA1-Digest: 60WlbNdpwGW4KAYK1bIvYDb5e/Q=
+
+Name: assets/Puzzles/Zone 05/puzzle5-41.slw
+SHA1-Digest: ZbCyx7v0HTYOjtvUdSOG1BVwuxY=
+
+Name: assets/Puzzles/Zone 03/puzzle3-45.slw
+SHA1-Digest: 4op/H8IBGzpcXvg+nPm004BVs2U=
+
+Name: assets/Puzzles/Zone 04/puzzle4-5.slw
+SHA1-Digest: n4JHXT9u9mPCa+k1IhMBPj2hVLE=
+
+Name: assets/Puzzles/Zone 02/puzzle2-22.slw
+SHA1-Digest: yXgPSqb7Kb84J6i0oDvc0iwVSVk=
+
+Name: assets/Puzzles/Zone 01/puzzle1-23.slw
+SHA1-Digest: MTExuFoqLrWd092mmrzP9EPkr6I=
+
+Name: assets/Puzzles/Zone 06/puzzle6-43.slw
+SHA1-Digest: ulwpT69oQVDCQiLtKZ9s0LQwfX0=
+
+Name: assets/Puzzles/Zone 04/puzzle4-40.slw
+SHA1-Digest: tnbdf0qqX3/xT6Nb9cFiHfR+BIU=
+
+Name: assets/Puzzles/Zone 06/puzzle6-31.slw
+SHA1-Digest: BTKQX4yhR5FDpXZ9WcYPI/9bBC0=
+
+Name: assets/Puzzles/Zone 03/puzzle3-13.slw
+SHA1-Digest: VsaGEmd4dQ8ZDgUgCf2Dr4+NYfw=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: i7vxaosoiS+9HzKB7ZgIsXMYRLY=
+
+Name: assets/Puzzles/Zone 08/puzzle8-1.slw
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/Puzzles/Zone 04/puzzle4-7.slw
+SHA1-Digest: Z85g9nYnZ4dRHCAMkJbvWTQriMc=
+
+Name: assets/Puzzles/Zone 06/puzzle6-8.slw
+SHA1-Digest: gjfCbhGyQ077kmu0xuXNwr7DNhM=
+
+Name: assets/Puzzles/Zone 03/puzzle3-50.slw
+SHA1-Digest: k6GnjN6VyADd4vZRRqG5GXFsHLo=
+
+Name: assets/Puzzles/Zone 06/puzzle6-32.slw
+SHA1-Digest: lVa01FVLiLIbGgEmqZdd513axag=
+
+Name: res/layout/puzzle_menu.xml
+SHA1-Digest: Pqcrjdpj/U1vIFXabrTt+FBdXps=
+
+Name: assets/Puzzles/Zone 06/puzzle6-5.slw
+SHA1-Digest: 3ig80NsZR75ONq3gV6EDpU3shCE=
+
+Name: assets/Puzzles/Zone 06/puzzle6-29.slw
+SHA1-Digest: lAkeZdTv2Ndfi//Q7IYSdVxaHsk=
+
+Name: res/drawable/button_clear_normal.xml
+SHA1-Digest: dLu5cYGIdxqFMR2FMC3c0kUV1Qo=
+
+Name: assets/Puzzles/Zone 06/puzzle6-40.slw
+SHA1-Digest: crCZJnijkGqAGOyqx8lZnkAeGrM=
+
+Name: res/drawable/reset.png
+SHA1-Digest: 8FaCzWqUae7aL1xVrpLHmQIwdsA=
+
+Name: assets/Puzzles/Zone 04/puzzle4-2.slw
+SHA1-Digest: jm6K5BaS/jJsP1sjJm3azn4IcVM=
+
+Name: assets/Puzzles/Zone 04/puzzle4-9.slw
+SHA1-Digest: tpjEsTmcemymfkHX0Cvq4nB/Axo=
+
+Name: assets/Puzzles/Zone 04/puzzle4-41.slw
+SHA1-Digest: XBgj4sW5UFN3rfLKq6g8szv6azM=
+
+Name: assets/Puzzles/Zone 05/puzzle5-48.slw
+SHA1-Digest: SF60H8yrziG+GJM8aVGi/dD0OwM=
+
+Name: assets/Puzzles/Zone 05/puzzle5-36.slw
+SHA1-Digest: +PCHWY8cCr2pwxgrFdDKrsSL5Fg=
+
+Name: assets/Puzzles/Zone 02/puzzle2-14.slw
+SHA1-Digest: k65cf2i0N4afUVDAgepcVDoTqDM=
+
+Name: assets/Puzzles/Zone 05/puzzle5-10.slw
+SHA1-Digest: T4b3IDDDuVR0mRpu4ArkT+HCeRM=
+
+Name: res/raw/cfxr_card_tap.wav
+SHA1-Digest: UaXa1BYOpUavLU7Y8G5KqKVvfc4=
+
+Name: assets/Puzzles/Zone 01/puzzle1-11.slw
+SHA1-Digest: dFbyf0xtJ+f1iuMep8N10aJkNFc=
+
+Name: assets/Puzzles/Zone 06/puzzle6-47.slw
+SHA1-Digest: Cknlh00/DPkNR+IceRDfMd7/OfI=
+
+Name: assets/Puzzles/Zone 01/puzzle1-9.slw
+SHA1-Digest: ZYKHqF2hLR6S5Cw9+K4d4/CIeHY=
+
+Name: res/drawable-mdpi/smile_game.png
+SHA1-Digest: XfiT/167I8NPUBVUmBRN9oS02iI=
+
+Name: assets/Puzzles/Zone 05/puzzle5-20.slw
+SHA1-Digest: 6JoZY3NUI7cm++HVluY1ih2/mtw=
+
+Name: assets/Puzzles/Zone 05/puzzle5-42.slw
+SHA1-Digest: kcfWjOwFTPDNzQjnDq4BILxnMMo=
+
+Name: assets/Puzzles/Zone 03/puzzle3-40.slw
+SHA1-Digest: jNyHHS2qLQCxTteyi7nxYJUaJh0=
+
+Name: assets/Puzzles/Zone 02/puzzle2-45.slw
+SHA1-Digest: /JxqxhrFpLiMWHoUz5+QUqYuuZc=
+
+Name: assets/Puzzles/Zone 01/puzzle1-26.slw
+SHA1-Digest: qEVmTQt/um8xywKzg5jAdp+fiW4=
+
+Name: res/layout/about.xml
+SHA1-Digest: JfNYU11zjeUfR4asZ1YCPYaPIhE=
+
+Name: assets/Puzzles/Zone 03/puzzle3-9.slw
+SHA1-Digest: k8Hui24DtrjwpxL7F6dfUU7qatM=
+
+Name: assets/Puzzles/Zone 05/puzzle5-3.slw
+SHA1-Digest: FdmYlTX2r/YeTMrTdpPA/TsshOU=
+
+Name: assets/Puzzles/Zone 02/puzzle2-36.slw
+SHA1-Digest: dkbYtnAsjrQzJh1xOqpAD7KCfgg=
+
+Name: res/drawable/button_circle.xml
+SHA1-Digest: CGXg80imYr7WQTB8jkBqRrUrW7w=
+
+Name: assets/Puzzles/Zone 09/puzzle8-1.slw
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/Puzzles/Zone 02/puzzle2-47.slw
+SHA1-Digest: oQrbQBuNEx6AHXkLZHajxmDj2i8=
+
+Name: assets/Puzzles/Zone 01/puzzle1-29.slw
+SHA1-Digest: FEdBpdwAw8wpWMB8b/3l26b68x4=
+
+Name: assets/Puzzles/Zone 06/puzzle6-44.slw
+SHA1-Digest: LZLTvfiZsotn/KgykPncDdN5tG0=
+
+Name: res/layout/zone_menu_button.xml
+SHA1-Digest: a19e5FyosCWkE5bNWFdeMLg4tyc=
+
+Name: assets/Puzzles/Zone 05/puzzle5-1.slw
+SHA1-Digest: ezHgzrMf8fUdRN5cWbrJJ8IQAW8=
+
+Name: assets/Puzzles/Zone 01/puzzle1-14.slw
+SHA1-Digest: NKoOkxR2/GsqYQrTon65EKXERgo=
+
+Name: assets/Puzzles/Zone 05/puzzle5-32.slw
+SHA1-Digest: E4qpfRc9nX/TknNTeI11Bl/YD98=
+
+Name: assets/Puzzles/Zone 05/puzzle5-23.slw
+SHA1-Digest: 4sjjkjGhngctUiAlsFhD/V59GXE=
+
+Name: assets/Puzzles/Zone 02/puzzle2-38.slw
+SHA1-Digest: RLg6d6LflFc6RlOjkbe8I2KE0wg=
+
+Name: assets/Puzzles/Zone 04/puzzle4-3.slw
+SHA1-Digest: HPAjkZrc4BVatKQAQ1iUXJnUZ+M=
+
+Name: assets/Puzzles/Zone 03/puzzle3-25.slw
+SHA1-Digest: CHl6QKzjR1sy9AmBn3jDlbsF5t8=
+
+Name: assets/Puzzles/Zone 06/puzzle6-46.slw
+SHA1-Digest: CIKxRpxAXyKuNYg6ZAwX9dto06M=
+
+Name: assets/Puzzles/Zone 02/puzzle2-37.slw
+SHA1-Digest: 9iR2fwckNT/CIUjndux+W7nxQIE=
+
+Name: assets/Puzzles/Zone 06/puzzle6-2.slw
+SHA1-Digest: g9doSONMWcSabYC3bDaWtleca9M=
+
+Name: res/drawable/textview_guess_text.xml
+SHA1-Digest: k5z32zhUK2vhPkkHT99ZZBSWovs=
+
+Name: assets/Puzzles/Zone 01/puzzle1-5.slw
+SHA1-Digest: HkQDSCAKmn4HpANFtC/Cxdxjx7k=
+
+Name: assets/Puzzles/Zone 05/puzzle5-12.slw
+SHA1-Digest: TMqmbMNj1CuWnIl7iqM2A4OSnGo=
+
+Name: res/drawable-ldpi/smile_menu.png
+SHA1-Digest: Ohdg7LCszigCN8mlRinNBrq9aQA=
+
+Name: assets/Puzzles/Zone 05/puzzle5-8.slw
+SHA1-Digest: 0ScxalZ4vph5XjQS0imBIexCEUg=
+
+Name: assets/Puzzles/Zone 01/puzzle1-6.slw
+SHA1-Digest: Uqw5muqS/aV9KEA4Wd6PW3P5hco=
+
+Name: assets/Puzzles/Zone 06/puzzle6-19.slw
+SHA1-Digest: F77z+ODK/D7xqz5SgYv9OKk9rGE=
+
+Name: assets/Puzzles/Zone 02/puzzle2-42.slw
+SHA1-Digest: 1MnEfEjFYK3ehedEc17eIQAnImY=
+
+Name: assets/Puzzles/Zone 05/puzzle5-22.slw
+SHA1-Digest: j0kFxoghPnsvVPFW/22lIl7cuTg=
+
+Name: assets/Puzzles/Zone 01/puzzle1-4.slw
+SHA1-Digest: 0kZOmAgPnQkpznKgJEu0s5VTFIU=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: MKIoBfzjNZ6locyWqCOh1uQH0Wo=
+
+Name: assets/Puzzles/Zone 02/puzzle2-50.slw
+SHA1-Digest: WFZ7yoRzcWsSKnj+094MndY+EYI=
+
+Name: assets/Puzzles/Zone 02/puzzle2-31.slw
+SHA1-Digest: BUwhlEOvnS1vuTZ8sFHxNXAKAdE=
+
+Name: assets/Puzzles/Zone 03/puzzle3-43.slw
+SHA1-Digest: /lHEGVYBnfSDpbAn21hRHay/yZA=
+
+Name: assets/Puzzles/Zone 06/puzzle6-27.slw
+SHA1-Digest: e0IWWvUnqaVt077BlXQMSSFvZ20=
+
+Name: assets/Puzzles/Zone 03/puzzle3-42.slw
+SHA1-Digest: GshS2ifSV6QMW9P4j5E4iu5QqPQ=
+
+Name: assets/Puzzles/Zone 01/puzzle1-16.slw
+SHA1-Digest: yFHevFeQ7tENKqIbQo1g7I7ADfE=
+
+Name: res/anim/fade_in.xml
+SHA1-Digest: uVxWmQrabyQjhf/LHwroyEZk0X0=
+

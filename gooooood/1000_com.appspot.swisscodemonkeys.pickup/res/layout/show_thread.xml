@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout" android:layoutAnimation="@anim/enter" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/thread_title" android:background="#ff6da275" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Thread title:" android:layout_weight="0.0" />
+    <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/reverse" android:background="@drawable/greenbutton_style" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Reverse order" android:layout_weight="0.0" />
+    <com.appspot.swisscodemonkeys.pickup.BlurbListWidget android:id="@id/ListView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/addbutton" android:background="@drawable/greenbutton_style" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Add your message" android:layout_weight="0.0" />
+    <vw.SCMView android:id="@id/SCMView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

@@ -1,0 +1,78 @@
+<!-- Kastor OpenGL|ES 2.x default shaders -->
+<shader>
+  <subshader type="solidvertex"><![CDATA[
+uniform mat4 k_ModelViewProjectionMatrix;
+uniform vec4 k_ObjectColor;
+
+attribute vec3 k_Position;
+attribute vec4 k_VertexColor;
+
+varying lowp vec4 vertexcolor;
+
+void main()
+{
+  vertexcolor = (k_VertexColor * 1.0/255.0) * k_ObjectColor; // rescale vertex color to 0-1
+  gl_Position = k_ModelViewProjectionMatrix * vec4(k_Position, 1.0);
+}
+]]>
+  </subshader>
+
+  <subshader type="solidfragment"><![CDATA[
+varying lowp vec4 vertexcolor;
+
+void main()
+{
+  gl_FragColor = vertexcolor;
+}
+]]>
+  </subshader>
+
+  <subshader type="imagevertex"><![CDATA[
+uniform mat4 k_ModelViewProjectionMatrix;
+uniform vec4 k_ObjectColor;
+
+attribute vec3 k_Position;
+attribute vec2 k_ImageCoord;
+attribute vec4 k_VertexColor;
+
+varying mediump vec2 imagecoord;
+varying lowp vec4 fragmentcolor;
+
+void main()
+{
+  imagecoord = k_ImageCoord;
+  fragmentcolor = (k_VertexColor * 1.0/255.0) * k_ObjectColor;
+  gl_Position = k_ModelViewProjectionMatrix * vec4(k_Position, 1.0);
+}
+]]>
+  </subshader>
+
+  <subshader type="imagefragment"><![CDATA[
+uniform sampler2D k_Image;
+
+varying mediump vec2 imagecoord;
+varying lowp vec4 fragmentcolor;
+
+void main()
+{
+  lowp vec4 imgcolor = texture2D(k_Image, imagecoord);
+  gl_FragColor = imgcolor * fragmentcolor;
+}
+]]>
+  </subshader>
+
+  <subshader type="a8fragment"><![CDATA[
+uniform sampler2D k_Image;
+
+varying mediump vec2 imagecoord;
+varying lowp vec4 fragmentcolor;
+
+void main()
+{
+  lowp vec4 imgcolor = texture2D(k_Image, imagecoord);
+  gl_FragColor = imgcolor.a * fragmentcolor;
+}
+]]>
+  </subshader>
+</shader>
+

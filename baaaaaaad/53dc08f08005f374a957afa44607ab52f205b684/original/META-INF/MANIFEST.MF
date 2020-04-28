@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: assets/images/particle_square.png
+SHA1-Digest: NbClh8HWNDbQBHb4Ozjwlw/vzrU=
+
+Name: assets/defaultshader.xml
+SHA1-Digest: XM/J3dHZuN1epfeEQE1/hTLanJ8=
+
+Name: assets/images/spores_162x157x11.png
+SHA1-Digest: OMP8en+NPVf0FnxB8Lcq6j7OSIw=
+
+Name: assets/images/spores_81x80x3.png
+SHA1-Digest: a5tS/URJFp3O7ro6080R54nzub0=
+
+Name: assets/images/spores_81x80x1.png
+SHA1-Digest: rcZ/q3TbKg+miXZ/17dhJSkSqzY=
+
+Name: assets/images/particle1_10x10.png
+SHA1-Digest: 933rtX+zol6sqYvT9EMkflfFVgk=
+
+Name: assets/c_wallpaper.tml
+SHA1-Digest: ZB5VxJ4W91/FvbCsHoq98ttmTu0=
+
+Name: resources.arsc
+SHA1-Digest: zGiA98UwXqGNHZKAZG3InHRBKUg=
+
+Name: res/xml/native_wall.xml
+SHA1-Digest: osBIUqWT1H/gu6oLrDpQsfLvO6U=
+
+Name: assets/images/spores_81x80x2.png
+SHA1-Digest: 77Y6KbkpXVQcdYqTvNKtZObnPPY=
+
+Name: assets/system.xml
+SHA1-Digest: etrzVzdimrEzKUECGPXt1zeRyxw=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 7XCfDnJrwNNlK8zW5/Y9ycMXgvg=
+
+Name: assets/properties.txt
+SHA1-Digest: Q9aW02VMxLKDx54jX3tbwkNPh50=
+
+Name: assets/images/spores_81x80x4.png
+SHA1-Digest: RuIvPVUy4MWgIZgKAfC8zeept3g=
+
+Name: assets/images/spores_81x80x7.png
+SHA1-Digest: C6yCIii62fkrwpSKQ4HjvHshyq0=
+
+Name: assets/simulator.kbp
+SHA1-Digest: Dl3ASN9c8mfVd4xnTBKrIJn5EqM=
+
+Name: assets/images/spores_81x80x5.png
+SHA1-Digest: CFfw3fUBG7mjWRvfBjmSJr8XEyk=
+
+Name: assets/images/stemB.png
+SHA1-Digest: aaijk7Wntv5u2IEzP2n4wCvJUsQ=
+
+Name: lib/armeabi/libmnglw-0.8.2.so
+SHA1-Digest: Mls5KTUdtx0GFBGpJSTi3TO0UHg=
+
+Name: assets/images/glow.png
+SHA1-Digest: F6mURC0FVYz5FNwP7hnu52o/o70=
+
+Name: assets/images/spores_81x80x6.png
+SHA1-Digest: eIC/7BnqWrpuPMTL3e2viVWW7yM=
+
+Name: assets/images/stemC.png
+SHA1-Digest: 0n2+CXzv6QvfjZvJBVCqKQLvy90=
+
+Name: assets/images/stemA.png
+SHA1-Digest: JcXFuzvgP2nZeJDnMPZtgokntRY=
+
+Name: classes.dex
+SHA1-Digest: Ke8/blq2NPibBEgj2XSBHEEVhNo=
+
+Name: res/drawable-hdpi/dandelion.png
+SHA1-Digest: ajc3+tQHlQqv5rTqC2lB1L3UMO0=
+
+Name: assets/images/rayx4.png
+SHA1-Digest: kEitepk6R3bqUGr+hOWiFyl18Vk=
+
+Name: res/layout/main.xml
+SHA1-Digest: FappVnCHHSuvfmu326VkthRzO2A=
+
+Name: assets/v_wallpaper_particles.tml
+SHA1-Digest: Xgrfje/dYO+ycdO70P0l9lwAgHo=
+
+Name: assets/images/particle4_25x25.png
+SHA1-Digest: eUFSViJ/GIVs0ZDA2PN5CrtGnf0=
+
+Name: assets/v_wallpaper_anims.tml
+SHA1-Digest: msUz+hn51qRlo1HSvtrYp9RwTF8=
+
+Name: assets/default.kmf
+SHA1-Digest: huGb7FQwIqchOVqWN6a27xV9u50=
+
+Name: assets/images/bg.png
+SHA1-Digest: SQCwTBunSMccPqJ303W1KmEsv74=
+

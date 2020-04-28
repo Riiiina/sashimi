@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/directory_path_layout_margin_vertical" android:paddingBottom="@dimen/directory_path_layout_margin_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/directory_path_layout_margin_horizontal" android:layout_marginRight="@dimen/directory_path_layout_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/directoryPath" android:background="@color/directory_entry_background" android:paddingLeft="@dimen/directory_path_text_padding_left" android:paddingTop="@dimen/directory_path_text_padding_top" android:paddingRight="@dimen/directory_path_text_padding_right" android:paddingBottom="@dimen/directory_path_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

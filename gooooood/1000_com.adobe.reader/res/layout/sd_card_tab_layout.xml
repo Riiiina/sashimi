@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/sdCard_shadow" android:background="@drawable/shadow_file_browser_tabs_left_edge" android:layout_width="7.0dip" android:layout_height="@dimen/fileBrowser_tab_shadow_height" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="@dimen/fileBrowser_tab_textSize" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/sd_card_tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/fileBrowser_tab_height" android:text="@string/IDS_PDF_FILES_TAB_HEADING_STR" android:shadowColor="@color/black" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+</RelativeLayout>

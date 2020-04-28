@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 1000_androix.com.android.NightVisionCam.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- wav
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '3'
+  targetSdkVersion: '9'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  assembly-descriptor.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '5'
+  versionName: '1.04'

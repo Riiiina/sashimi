@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/zone_menu_button" android:padding="3.0dip" android:layout_margin="0.0dip" style="@style/GameFont.Emboss.Button.Zone"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#cc000000" android:gravity="center" android:id="@id/zone_menu_button_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Sunrise" style="@style/GameFont.Emboss" />
+    <TextView android:textSize="11.0dip" android:textColor="#ff555555" android:gravity="center_horizontal" android:id="@id/zone_menu_button_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/GameFont" />
+</RelativeLayout>

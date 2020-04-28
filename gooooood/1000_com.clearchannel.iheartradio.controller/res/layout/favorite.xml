@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/transport_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0px" android:typeface="sans" android:textColor="#ffffffff" android:gravity="center" android:id="@id/FavoriteTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0px" android:text="Favorites" android:maxLines="1" />
+    <RelativeLayout android:id="@id/FavoriteOptions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/FavoriteTitle" android:layout_centerHorizontal="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/FavoriteSongCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/checkbox_unchecked" />
+        <TextView android:textSize="16.0px" android:typeface="sans" android:textColor="#ffffffff" android:id="@id/FavoriteSongLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginBottom="2.0px" android:text="This Song" android:layout_toRightOf="@id/FavoriteSongCheck" android:layout_alignBottom="@id/FavoriteSongCheck" />
+        <ImageView android:id="@id/FavoriteStationCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0px" android:src="@drawable/checkbox_checked" android:layout_below="@id/FavoriteSongCheck" />
+        <TextView android:textSize="16.0px" android:typeface="sans" android:textColor="#ffffffff" android:id="@id/FavoriteStationLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginBottom="2.0px" android:text="This Station" android:layout_toRightOf="@id/FavoriteStationCheck" android:layout_alignBottom="@id/FavoriteStationCheck" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/FavoriteButtons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0px" android:layout_below="@id/FavoriteOptions" android:layout_centerHorizontal="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/FavoriteCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/favorite_cancel" />
+        <ImageView android:id="@id/FavoriteChange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:src="@drawable/favorite_save" android:layout_toRightOf="@id/FavoriteCancel" />
+    </RelativeLayout>
+</RelativeLayout>

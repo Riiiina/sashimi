@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_title">About RockOut</string>
+    <string name="about_text">"RockOut is a virtual guitar that aims to model the sound and feel of strumming a real guitar as closely as existing Android hardware and software allows.
+
+You can strum up and down in each chord's area on screen for upstroke or downstroke sounds sampled from a real guitar.
+
+You can also load different chord sets to play different songs (RockOut Lite comes with two songs and six chords; the full version will add new songs and chords every day).
+
+TIPS: Try alternate strumming.
+Real guitarists use patterns like 'Down, Down, Up, Down, Up' with different rhythms for variety.
+Try plugging in speakers or headphones for maximum effect.
+
+RockOut Acoustic Pro has:
+- Downloadable chord sets
+- Hundreds of recorded samples for dozens of chords
+- Up to six custom chords on screen at once
+- New free chord arrangements from the built-in Web Songbook every month!
+- Tremolo effect pedal simulator
+- Samples saved to SD card to leave more memory on your device
+- Use the trackball to switch chord sets
+
+RockOut Pro users will also get upcoming free updates for:
+
+- Skinnable guitars
+- More effects - pitch shift / bend, whammy
+- Better audio performance and stability when Android's Cupcake update hits
+- Keyboard &amp; touch gesture support
+- Click / drum machine tracks
+- Animations &amp; Visual Effects
+and more! 
+
+DISCLAIMER: Unlike a real guitar, RockOut probably won't get you laid. We will not be held responsible.
+
+RockOut is a production of Boston's Active Frequency LLC.
+
+    "</string>
+    <string name="app_name">RockOut</string>
+    <string name="app_description">These go to eleven.</string>
+    <string name="help_toast">Strum down and up against the strings to play. Press Menu to load other songs.</string>
+</resources>

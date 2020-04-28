@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_background">#ffcccc99</color>
+    <color name="primary_button">#3f000000</color>
+    <color name="primary_button_border">#ff555555</color>
+    <color name="primary_text">#bf000000</color>
+    <color name="primary_text_shadow">#3fffffff</color>
+    <color name="text_trans_black">#7f000000</color>
+    <color name="text_trans_white">#7fffffff</color>
+    <color name="guess">#d8328228</color>
+    <color name="clear">#d8be0000</color>
+    <color name="header_fix">#ff707060</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:background="@android:drawable/alert_light_frame" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/RelativeLayoutData" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ffff0000" android:gravity="left" android:id="@id/NowPlayingTitle" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Now Playing" android:maxLines="1" />
+        <TextView android:textSize="15.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff000000" android:gravity="left" android:id="@id/StationTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Z-100" android:maxLines="1" android:layout_below="@id/NowPlayingTitle" />
+        <RelativeLayout android:id="@id/MedaInfos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/StationTitle" android:layout_centerHorizontal="false">
+            <RelativeLayout android:id="@id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/MedaInfos" android:layout_centerHorizontal="false">
+                <com.clearchannel.iheartradio.android.view.CustomTextView android:textSize="12.0sp" android:typeface="sans" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="left" android:id="@id/MediaTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="California Girls" android:maxLines="1" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:id="@id/LinearLayout01" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/MediaStatus" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/stop_button_icon" android:scaleType="fitCenter" />
+        <LinearLayout android:gravity="right" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/MediaAddToFavorites" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/favorites_button_on" android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="true" />
+            <ImageButton android:id="@id/MediaShare" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/social_button_on" android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

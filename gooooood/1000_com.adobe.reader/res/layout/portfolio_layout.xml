@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/topLinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.reader.TopAndBottomBar android:id="@id/port_top_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/pageViewLayout"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/topbar_title_textSize" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="middle" android:id="@id/portfolioTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/startxpos_pagenumberoverlay" android:lines="1" android:scrollHorizontally="true" android:shadowColor="@color/black" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="right" android:id="@id/topBarButtonsLayout" android:paddingLeft="@dimen/topbar_gap_between_docname_and_buttons" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/fileOpenTopBarButton" android:background="@drawable/top_bar_background_color_selector" android:paddingLeft="@dimen/topbar_gap_between_buttons" android:paddingTop="@dimen/topbar_buttons_top_and_bottom_padding" android:paddingRight="@dimen/topbar_gap_between_buttons" android:paddingBottom="@dimen/topbar_buttons_top_and_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/file_open_topbar_image_selector" />
+            <ImageButton android:id="@id/sharePortfolioDocument" android:background="@drawable/top_bar_background_color_selector" android:paddingLeft="@dimen/topbar_gap_between_buttons" android:paddingTop="@dimen/topbar_buttons_top_and_bottom_padding" android:paddingRight="@dimen/topbar_rightmost_button_padding_right" android:paddingBottom="@dimen/topbar_buttons_top_and_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_button_image_selector" android:layout_toRightOf="@id/fileOpenTopBarButton" />
+        </RelativeLayout>
+    </com.adobe.reader.TopAndBottomBar>
+    <LinearLayout android:id="@id/parentLinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/childFileList" android:background="@color/portfolio_back_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/portfolio_selector" android:drawSelectorOnTop="false" android:cacheColorHint="@color/portfolio_list_color_hint" android:divider="@color/portfolio_list_divider" android:dividerHeight="1.0px" />
+    </LinearLayout>
+</LinearLayout>

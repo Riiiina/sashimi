@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/window" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/layout_instructions" style="@style/GameLayout">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <include layout="@layout/button_exit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_height="60.0dip" android:text="Instructions" style="@style/GameFont.Emboss.Header.24" />
+            <TextView android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="1. Find the 7 words to match the 7 clues." style="@style/GameFont" />
+            <TextView android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="2. Find the 7 words in any order." style="@style/GameFont" />
+            <TextView android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="3. There is no penalty for a wrong guess." style="@style/GameFont" />
+            <TextView android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="4. There is no time limit." style="@style/GameFont" />
+            <View android:layout_width="fill_parent" android:layout_height="15.0dip" />
+            <TextView android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="EXAMPLE:" style="@style/GameFont" />
+            <TextView android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="If the clue is &quot;deep fried treats,&quot; tap:" style="@style/GameFont" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                <Button android:clickable="false" android:layout_width="75.0dip" android:layout_height="45.0dip" android:layout_margin="0.0dip" android:text="DO" style="@style/GameFont.Emboss.Button.Zone" />
+                <TextView android:textSize="18.0dip" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="+" android:layout_weight="1.0" style="@style/GameFont" />
+                <Button android:clickable="false" android:layout_width="75.0dip" android:layout_height="45.0dip" android:layout_margin="0.0dip" android:text="NU" style="@style/GameFont.Emboss.Button.Zone" />
+                <TextView android:textSize="18.0dip" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="+" android:layout_weight="1.0" style="@style/GameFont" />
+                <Button android:clickable="false" android:layout_width="75.0dip" android:layout_height="45.0dip" android:layout_margin="0.0dip" android:text="TS" style="@style/GameFont.Emboss.Button.Zone" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="15.0dip" />
+            <TextView android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Then tap:" style="@style/GameFont" />
+            <include layout="@layout/button_guess" />
+            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <TextView android:layout_height="wrap_content" android:text="Have fun." style="@style/GameFont.Emboss.Header.18" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

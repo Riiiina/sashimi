@@ -1,0 +1,191 @@
+<container xmlns="http://www.tat.se/kastor/kml" xmlns:sim="http://www.tat.se/kastor/simulation" xmlns:tt="http://www.tat.se/kastor/template">
+<!--
+  <stackLayout layout="vertical" y="100">
+    <text font="DroidS-23" depth="-100" string="offset.xPixels" />
+    <text font="DroidS-23" depth="-100" string="{''+@WallpaperService.offset.xPixels}" />
+    <text font="DroidS-23" depth="-100" string="attr0.a (wifi strength)" />
+    <text font="DroidS-23" depth="-100" string="{''+@WallpaperService.attr0.a}" />
+    <text font="DroidS-23" depth="-100" string="attr0.b (battery.charge)" />
+    <text font="DroidS-23" depth="-100" string="{''+@WallpaperService.attr0.b}" />
+    <text font="DroidS-23" depth="-100" string="attr1.a (calls.missed)" />
+    <text font="DroidS-23" depth="-100" string="{''+@WallpaperService.attr1.a}" /> 
+  </stackLayout>
+-->
+  <tt:template name="spore_emitter" ns="spore_emitter_ns" xmlns:tt="http://www.tat.se/kastor/template">
+    <tt:param name="state" />
+    <tt:param name="angle" />
+    <tt:param name="angle.spread" />
+    <tt:param name="spawn.persecond" />
+    <tt:param name="weight" />    
+    <tt:param name="x" />    
+    <tt:param name="y" />    
+
+    <tt:node name="container" ns="http://www.tat.se/kastor/kml" >
+      <tt:attr name="x" valueOf="x" />
+      <tt:attr name="y" valueOf="y" />
+    
+      <tt:node name="emitter" ns="http://www.tat.se/kastor/simulation" >
+        <tt:attr name="state" valueOf="state" />
+        <tt:attr name="angle" valueOf="angle" />
+        <tt:attr name="angle.spread" valueOf="angle.spread" />
+        <tt:attr name="viewTarget" value="main_view" />
+        <tt:attr name="simTarget" value="main_sim" />
+        <tt:attr name="weight" valueOf="weight" />
+        <tt:attr name="spawn.persecond" valueOf="spawn.persecond" />
+        <tt:attr name="spawn.once" value="0" />
+        <tt:attr name="age" value="1s" />
+        <tt:attr name="age.spread" value="2s" />
+        <tt:attr name="velocity" value="100" />
+        <tt:attr name="velocity.spread" value="50" />
+        <tt:attr name="push" value="1" />
+      </tt:node>
+
+    </tt:node>   
+  </tt:template>
+
+  <!-- datanumber defining sway (degrees, used in sin/cos) -->
+  <dataNumber name="i" value="0">
+    <animate on="Show" targetAttr="value" keyValues="0,360" dur="10s" repeatCount="*" />
+  </dataNumber>
+
+  <dataNumber name="d">
+      <animate on="Swipe" targetAttr="value" keyValues="0,360" dur="4s" ease="in" />
+  </dataNumber>
+  
+  <image src="images/bg.png" x="0" y="0" width="480" height="800" solidity="solid" ev:pointer="include" pointer.clickID="bg" />
+
+  <sim:view id="main_view" simTarget="main_sim" width="480" height="800" rendering="s" opacity="1">
+    <!-- bg particle definitions -->    
+    <sim:stateAppearance id="particle1" state="particle1" src="images/particle4_25x25.png" fadein="2s" fadeout="2s" sizein="1s" sizeout="1s" width="25" height="25" rendering="s" />    
+    <sim:stateAppearance id="particle2" state="particle2" src="images/particle1_10x10.png" fadein="2s" fadeout="2s" sizein="1s" sizeout="1s" width="10" height="10" rendering="s" />    
+
+    <!-- spore particle definitions -->
+    <sim:stateAppearance id="a" state="a" src="images/spores_81x80x1.png" fadein="0s" fadeout="1s" sizeout="0s" />
+    <sim:stateAppearance id="b" state="b" src="images/spores_81x80x2.png" fadein="0s" fadeout="1s" sizeout="0s" />
+    <sim:stateAppearance id="c" state="c" src="images/spores_81x80x3.png" fadein="0s" fadeout="1s" sizeout="0s" />
+    <sim:stateAppearance id="d" state="d" src="images/spores_81x80x4.png" fadein="0s" fadeout="1s" sizeout="0s" />
+    <sim:stateAppearance id="e" state="e" src="images/spores_81x80x5.png" fadein="0s" fadeout="1s" sizeout="0s" />
+    <sim:stateAppearance id="f" state="f" src="images/spores_81x80x6.png" fadein="0s" fadeout="1s" sizeout="0s" />
+    <sim:stateAppearance id="g" state="g" src="images/spores_81x80x7.png" fadein="0s" fadeout="1s" sizeout="0s" />
+    
+    <!-- dummy particle definition -->
+    <sim:stateAppearance id="blank" state="blank" src="images/particle4_25x25.png" width="0" height="0" opacity="0" visibility="hidden" />    
+  </sim:view>
+  
+  
+  <!-- bg particle emitter   -->
+  <container x="40" width="400" y="40" height="500"  >
+    <sim:emitter state="particle1;particle2" weight="1;2" spawn.persecond="3" viewTarget="main_view" simTarget="main_sim" age="6s" age.spread="4s" velocity="20" velocity.spread="20" />
+  </container>
+
+  <image id="wave1a" src="images/rayx4.png" x="480" y="50" width="2000" height="220" nbrFrames="4" curFrame="0" opacity="0.2" rendering="s" visibility="hidden" />
+  <image id="wave1b" src="images/rayx4.png" x="480" y="50" width="2000" height="220" nbrFrames="4" curFrame="0" opacity="0.2" rendering="s" visibility="hidden" />
+
+  <animate on="Show" targetNode="wave1a" targetAttr="x" dur="5s" keyValues="0,-2000" keyTimes="0;1" repeatCount="*" /> 
+  <animate on="Show" targetNode="wave1b" targetAttr="x" dur="5s" keyValues="480,480,0" keyTimes="0;0.76;1" repeatCount="*" />
+
+  <setString triggerOn="{@WallpaperService.attr0.a &lt;= 0}" targetNode="wave1a" targetAttr="visibility" to="hidden" />
+  <setString triggerOn="{@WallpaperService.attr0.a &lt;= 0}" targetNode="wave1b" targetAttr="visibility" to="hidden" />
+  <setString triggerOn="{@WallpaperService.attr0.a &gt; 0}" targetNode="wave1a" targetAttr="visibility" to="visible" />
+  <setString triggerOn="{@WallpaperService.attr0.a &gt; 0}" targetNode="wave1b" targetAttr="visibility" to="visible" />
+  
+  <animate triggerOn="{@WallpaperService.attr0.a == 1}" targetNode="wave1a" targetAttr="curFrame" to="0" />
+  <animate triggerOn="{@WallpaperService.attr0.a == 1}" targetNode="wave1b" targetAttr="curFrame" to="0" />
+  <animate triggerOn="{@WallpaperService.attr0.a == 2}" targetNode="wave1a" targetAttr="curFrame" to="1" />
+  <animate triggerOn="{@WallpaperService.attr0.a == 2}" targetNode="wave1b" targetAttr="curFrame" to="1" />
+  <animate triggerOn="{@WallpaperService.attr0.a == 3}" targetNode="wave1a" targetAttr="curFrame" to="2" />
+  <animate triggerOn="{@WallpaperService.attr0.a == 3}" targetNode="wave1b" targetAttr="curFrame" to="2" />
+  <animate triggerOn="{@WallpaperService.attr0.a == 4}" targetNode="wave1a" targetAttr="curFrame" to="3" />
+  <animate triggerOn="{@WallpaperService.attr0.a == 4}" targetNode="wave1b" targetAttr="curFrame" to="3" />
+
+
+  
+  
+  <!-- spore-emitters (emitter ignores transform, therefor sin/cos workaround to simulate transformanim-->
+  <dataNumber id="spawnA_dn" name="spawnA" value="0.1" />
+  <dataNumber id="spawnB_dn" name="spawnB" value="0.1" />
+  <dataNumber id="spawnC_dn" name="spawnC" value="0.1" />
+
+  <!-- A spores -->
+  <container x="{sin(i+d)*50+65}" y="{-cos((i+d)*2)*2+310}" width="0" height="0" clip="false">
+      <spore_emitter xmlns="spore_emitter_ns" x="0" y="-40" state="a;b;g;blank" weight="7;1;1;40" angle="{360/7*1+200}" angle.spread="56" spawn.persecond="{spawnA}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="-30" state="b;c;a;blank" weight="7;1;1;40" angle="{360/7*2+200}" angle.spread="56" spawn.persecond="{spawnA}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="40" y="0" state="c;d;b;blank" weight="7;1;1;40" angle="{360/7*3+200}" angle.spread="56" spawn.persecond="{spawnA}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="30" state="d;e;c;blank" weight="7;1;1;40" angle="{360/7*4+200}" angle.spread="56" spawn.persecond="{spawnA}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="30" state="e;f;d;blank" weight="7;1;1;40" angle="{360/7*5+200}" angle.spread="56" spawn.persecond="{spawnA}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="-30" y="30" state="f;g;e;blank" weight="7;1;1;40" angle="{360/7*6+200}" angle.spread="56" spawn.persecond="{spawnA}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="-30" y="-40" state="g;a;f;blank" weight="7;1;1;40" angle="{360/7*7+200}" angle.spread="56" spawn.persecond="{spawnA}" /> 
+    </container> 
+
+  <!-- B spores -->
+  <container x="{sin(i+d+60)*41+175}" y="{150+sin(i+d+50)*4}" width="0" height="0" clip="false">
+      <spore_emitter xmlns="spore_emitter_ns" x="0" y="-40" state="a;b;g;blank" weight="7;1;1;40" angle="{360/7*1+200}" angle.spread="56" spawn.persecond="{spawnB}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="-30" state="b;c;a;blank" weight="7;1;1;40" angle="{360/7*2+200}" angle.spread="56" spawn.persecond="{spawnB}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="40" y="0" state="c;d;b;blank" weight="7;1;1;40" angle="{360/7*3+200}" angle.spread="56" spawn.persecond="{spawnB}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="30" state="d;e;c;blank" weight="7;1;1;40" angle="{360/7*4+200}" angle.spread="56" spawn.persecond="{spawnB}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="30" state="e;f;d;blank" weight="7;1;1;40" angle="{360/7*5+200}" angle.spread="56" spawn.persecond="{spawnB}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="-30" y="30" state="f;g;e;blank" weight="7;1;1;40" angle="{360/7*6+200}" angle.spread="56" spawn.persecond="{spawnB}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="-30" y="-40" state="g;a;f;blank" weight="7;1;1;40" angle="{360/7*7+200}" angle.spread="56" spawn.persecond="{spawnB}" /> 
+  </container>
+
+  <!-- C spores --> 
+  <container x="{sin(i+d+30)*8.5+360}" y="{sin(i+d+50)*1.5+570}" width="0" height="0" clip="false">
+      <spore_emitter xmlns="spore_emitter_ns" x="0" y="-40" state="a;b;g;blank" weight="7;1;1;40" angle="{360/7*1+200}" angle.spread="56" spawn.persecond="{spawnC}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="-30" state="b;c;a;blank" weight="7;1;1;40" angle="{360/7*2+200}" angle.spread="56" spawn.persecond="{spawnC}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="40" y="0" state="c;d;b;blank" weight="7;1;1;40" angle="{360/7*3+200}" angle.spread="56" spawn.persecond="{spawnC}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="30" state="d;e;c;blank" weight="7;1;1;40" angle="{360/7*4+200}" angle.spread="56" spawn.persecond="{spawnC}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="20" y="30" state="e;f;d;blank" weight="7;1;1;40" angle="{360/7*5+200}" angle.spread="56" spawn.persecond="{spawnC}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="-30" y="30" state="f;g;e;blank" weight="7;1;1;40" angle="{360/7*6+200}" angle.spread="56" spawn.persecond="{spawnC}" />
+      <spore_emitter xmlns="spore_emitter_ns" x="-30" y="-40" state="g;a;f;blank" weight="7;1;1;40" angle="{360/7*7+200}" angle.spread="56" spawn.persecond="{spawnC}" /> 
+  </container>
+
+  
+  <!--  main simulation with sway gravity -->
+  <simulation id="main_sim" xmlns="http://www.tat.se/kastor/simulation" >
+    <sim:gravity acceleration="{sin(i+d+90)*20}" angle="0" intensity="1" /> 
+  </simulation>
+
+  <!-- flower B-->
+  <transform rz="{sin(i+d+60)*3.5}" cy="693" cx="0" tx="120" ty="850" visibility="visible">
+      <image id="flowerB" src="images/spores_162x157x11.png" width="162" height="157" x="-20" y="-80" nbrFrames="11" curFrame="{10-round(@WallpaperService.attr0.b/10)}" opacity="1" rendering="s" ev:pointer="include" pointer.clickID="flowerB;bg" />
+      <image src="images/stemB.png" x="0" y="0" width="142" height="693" opacity="1" rendering="s" />
+
+      <!-- Incomming glow -->
+      <transform cx="128" cy="128" tx="58" ty="-8">
+        <image id="glow_img" src="images/glow.png" x="0" y="0" width="256" height="256" opacity="0" depth="-1" rendering="s" visibility="{iff (@WallpaperService.attr1.a == 1,'visible','hidden')}" />
+          <animate on="Show" targetNode="glow_img" targetAttr="opacity" keyValues="1,0,0" keyTimes="0,0.99,1" dur="1s" repeatCount="*" ease="out"  />
+          <animate on="Show" targetAttr="sx" from="0" to="1.5" dur="1s" repeatCount="*" ease="in"/>    
+          <animate on="Show" targetAttr="sy" from="0" to="1.5" dur="1s" repeatCount="*" ease="in"/>
+      </transform>
+  </transform>  
+
+  <!-- flower A curFrame="{10-round(@m_tapetdata.battery.charge/10)}" -->
+  <transform rz="{sin(i+d)*5}" cy="551" cx="0" tx="50" ty="850" visibility="visible">
+      <transform rz="70">
+        <image id="flowerA" src="images/spores_162x157x11.png" width="162" height="157" x="-60" y="-100" nbrFrames="11" curFrame="{10-round(@WallpaperService.attr0.b/10)}" opacity="1" rendering="s" ev:pointer="include" pointer.clickID="flowerA;bg"/>
+      </transform>
+      <image src="images/stemA.png" width="45" height="551" opacity="1" rendering="s" />
+  </transform>    
+
+  <!-- flower C -->
+  <transform rz="{sin(i+d+30)*2.5}" cy="215" cx="0" tx="320" ty="800" visibility="visible">
+      <transform rz="-40">
+        <image id="flowerC" src="images/spores_162x157x11.png" width="162" height="157" x="-40" y="-60" nbrFrames="11" curFrame="{10-round(@WallpaperService.attr0.b/10)}" opacity="1" rendering="s" ev:pointer="include" pointer.clickID="flowerC;bg"/>
+      </transform>
+      <image src="images/stemC.png" width="51" height="215" opacity="1" rendering="s" />
+  </transform>    
+  
+
+  <animate triggerOn="{@WallpaperService.attr0.b%10 == 4}" targetNode="spawnA_dn" targetAttr="value" from="1" to="0.1" dur="1s" />
+  <animate triggerOn="{@WallpaperService.attr0.b%10 == 4}" targetNode="spawnB_dn" targetAttr="value" from="1" to="0.1" dur="1s" />
+  <animate triggerOn="{@WallpaperService.attr0.b%10 == 4}" targetNode="spawnC_dn" targetAttr="value" from="1" to="0.1" dur="1s" />
+  
+  <animate on="flowerA_tap" targetNode="spawnA_dn" targetAttr="value" from="2" to="0.1" dur="1s" />
+  <animate on="flowerB_tap" targetNode="spawnB_dn" targetAttr="value" from="2" to="0.1" dur="1s" />
+  <animate on="flowerC_tap" targetNode="spawnC_dn" targetAttr="value" from="2" to="0.1" dur="1s" />
+
+  <animate on="Swipe" targetNode="spawnA_dn" targetAttr="value" from="1" to="0.1" dur="1s" />
+  <animate on="Swipe" targetNode="spawnB_dn" targetAttr="value" from="1" to="0.1" dur="1s" />
+  <animate on="Swipe" targetNode="spawnC_dn" targetAttr="value" from="1" to="0.1" dur="1s" />
+
+</container>

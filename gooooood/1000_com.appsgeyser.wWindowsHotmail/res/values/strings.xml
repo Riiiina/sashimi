@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Test!</string>
+    <string name="menuExitTitle">Exit</string>
+    <string name="menuAboutTitle">About</string>
+    <string name="menuShareTitle">Share</string>
+    <string name="menuRateTitle">Rate</string>
+    <string name="progressBarMessage">Loading content...</string>
+    <string name="noInternetConnectionMessage">Internet connection is unavailable</string>
+    <string name="homeSite">http://www.appsgeyser.com/</string>
+    <string name="getAppModeUrl">http://ads.appsgeyser.com/checkstatus.php</string>
+    <string name="aboutLink">http://www.appsgeyser.com/ads/landing.php</string>
+    <string name="getWidgetUrl">http://www.appsgeyser.com/</string>
+    <string name="adsDomainUrl">http://ads.appsgeyser.com/</string>
+    <string name="pushDomainUrl">http://push.appsgeyser.com/</string>
+    <string name="shareContentSubject">Get this cool Android App</string>
+    <string name="loadingVideo">Loading video</string>
+    <string name="pausedContentUrl">http://www.appsgeyser.com/paused/</string>
+    <string name="applicationID">softomate@softomate.com</string>
+    <string name="aboutDescription">This App is made using&lt;br />AppsGeyser</string>
+    <string name="noContentInfoMessage">"Something goes wrong :(
+No content available"</string>
+    <string name="sign_in_to">Sign in to ...</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+</resources>

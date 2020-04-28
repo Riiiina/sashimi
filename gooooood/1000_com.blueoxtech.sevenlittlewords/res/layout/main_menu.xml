@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/window" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout style="@style/GameLayout">
+        <ImageView android:layout_width="320.0dip" android:layout_height="320.0dip" android:src="@drawable/smile_menu" android:scaleType="centerInside" android:layout_y="-45.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="fill_parent" android:layout_height="200.0dip" />
+            <TextView android:layout_gravity="center" android:layout_height="90.0dip" android:text="7 Little Words" style="@style/GameFont.Emboss.Header.24" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/main_menu_play" android:text="Play" style="@style/GameFont.Emboss.Button" />
+                <Button android:id="@id/main_menu_instructions" android:text="Instructions" style="@style/GameFont.Emboss.Button" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/main_menu_about" android:text="About" style="@style/GameFont.Emboss.Button" />
+                <Button android:id="@id/main_menu_sound" android:text="Sound: On" style="@style/GameFont.Emboss.Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </AbsoluteLayout>
+</RelativeLayout>

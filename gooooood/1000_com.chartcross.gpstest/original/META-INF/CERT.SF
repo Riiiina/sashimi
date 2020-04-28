@@ -1,0 +1,73 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: x32hII/On6BtkgaRh0IMbgc9VzI=
+
+Name: res/layout/splash.xml
+SHA1-Digest: IbdR+H0ZC5sH/PaPtT/hqlwtmH4=
+
+Name: res/layout/help.xml
+SHA1-Digest: m2q9MXI0WMY+0z5OnyDZX6hZg1Q=
+
+Name: res/drawable/help001.png
+SHA1-Digest: AkgcPXl/Um+7uzBB/2TBIfa5cXg=
+
+Name: res/drawable/help002.png
+SHA1-Digest: LPZ/q4Hms3mBnLKdc25rhw7PcJ8=
+
+Name: res/drawable/help003.png
+SHA1-Digest: Dj6PmvA6sHZ/Ka/EPPklYXw59K0=
+
+Name: res/drawable/help006.png
+SHA1-Digest: 6/g8HWhffok+7zj6TieZBTsJ8tQ=
+
+Name: resources.arsc
+SHA1-Digest: iwaZAYaS3lU7qWPjpaWG80Gi/M4=
+
+Name: classes.dex
+SHA1-Digest: LMwwG4QW9AKW63asPAPruCDd0BI=
+
+Name: res/drawable/help005.png
+SHA1-Digest: wFBMt2tNNQV1wYW/CE4kgI7+xuU=
+
+Name: res/drawable/worldmap.png
+SHA1-Digest: ca6Be0pooNTEPraTcG2lfOIvJro=
+
+Name: res/drawable/help010.png
+SHA1-Digest: 8kNQPywzhpit0zFCedn6AypcT8c=
+
+Name: res/drawable/help009.png
+SHA1-Digest: jobmNebzXGgB9tYaK9vEjTpP/LY=
+
+Name: res/layout/main.xml
+SHA1-Digest: pK0b/KPZlr+dGXrj06Jesex3Vzs=
+
+Name: res/drawable/help004.png
+SHA1-Digest: IzEZuXnzen030lwHpAXUKjlxJ4s=
+
+Name: AndroidManifest.xml
+SHA1-Digest: moC3sG4QEXeN6y3ynMSrDF+A9aY=
+
+Name: res/drawable/cclogo.png
+SHA1-Digest: BxHntjIoxv/0L1sKd172TJgt8ZE=
+
+Name: res/drawable/icon.png
+SHA1-Digest: dHtXnruJisHEAZxLpBjOxJq0IJ0=
+
+Name: res/drawable/help007.png
+SHA1-Digest: 2VSYVizwvZMVaorXtcEz8FhPcWw=
+
+Name: res/drawable/help008.png
+SHA1-Digest: l70LtKonsiU+/XZa05MQ2pAQ4CY=
+
+Name: res/drawable/splash.png
+SHA1-Digest: R5o5oNl/zCCX9XgpxsaU70F8ZyM=
+
+Name: res/layout/about.xml
+SHA1-Digest: Ma/xLi2kPE1fNsFlcRRQhFWW63w=
+
+Name: res/layout/prefs.xml
+SHA1-Digest: O1y6WOkH0AEqyBa81hEa1VcXUmY=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: anQHTszrpASEEAZAG6nc65HInNo=
+

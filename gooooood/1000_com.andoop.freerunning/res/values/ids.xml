@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="first_layout" />
+    <item type="id" name="img_first" />
+    <item type="id" name="img_more_down" />
+    <item type="id" name="title_first" />
+    <item type="id" name="desc_first" />
+    <item type="id" name="list_more" />
+    <item type="id" name="img_more_item" />
+    <item type="id" name="title_more_item" />
+    <item type="id" name="desc_more_item" />
+    <item type="id" name="pause_resume" />
+    <item type="id" name="pause_toggle_music" />
+    <item type="id" name="pause_restart" />
+    <item type="id" name="hot_game" />
+    <item type="id" name="recommend_layout1" />
+    <item type="id" name="img_recommend" />
+    <item type="id" name="title_recommend" />
+    <item type="id" name="desc_recommend" />
+    <item type="id" name="recommend_download_button" />
+    <item type="id" name="recommend_cancel_button" />
+    <item type="id" name="highscore_title" />
+    <item type="id" name="highscore_ad_layout" />
+    <item type="id" name="ad" />
+    <item type="id" name="highscore_buttons" />
+    <item type="id" name="highscore_top" />
+    <item type="id" name="highscore_previous" />
+    <item type="id" name="highscore_next" />
+    <item type="id" name="highscore_main" />
+    <item type="id" name="highscore_score" />
+    <item type="id" name="highscore_input" />
+    <item type="id" name="highscore_player_name" />
+    <item type="id" name="highscore_submit" />
+    <item type="id" name="highscore_loading" />
+    <item type="id" name="highscore_ranklist" />
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/playedvideobg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textColor="@color/white" android:id="@id/scan_file_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@id/TextView01" android:layout_centerVertical="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/lightgray" android:id="@id/scan_file_decode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@id/TextView01" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

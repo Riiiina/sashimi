@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/title" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Join iheartradio" />
+    <TextView android:id="@id/top_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sign Up for Added Features" />
+    <TableLayout android:id="@id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:id="@id/tvFeatureDot1" android:layout_height="wrap_content" android:layout_column="1" android:text="  •" />
+            <TextView android:id="@id/features_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text=" Single account access to all 750+ station" android:singleLine="false" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@id/features_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text=" websites" android:singleLine="false" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@id/tvFeatureDot2" android:layout_height="wrap_content" android:layout_column="1" android:text="  •" />
+            <TextView android:id="@id/features_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text=" Create a list of your favorite stations" android:singleLine="false" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@id/features_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:text=" and songs" android:singleLine="false" />
+        </TableRow>
+    </TableLayout>
+    <Button android:layout_gravity="center_horizontal" android:id="@id/signupnow" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="Sign Up Now" android:width="250.0dip" />
+    <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Got an iheartradio account? Log in" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/loginnow" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="15.0dip" android:text="Log in with iheartradio account" android:width="250.0dip" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No Thanks" android:width="250.0dip" />
+    <TextView android:textColor="#ff0000ff" android:autoLink="web" android:linksClickable="true" android:layout_gravity="center_horizontal" android:id="@id/termsUse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Terms of Use" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0sp" android:layout_marginBottom="15.0sp" android:src="@drawable/splash" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_version" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_copyright" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0sp" android:text="@string/app_website" />
+        <TextView android:textSize="16.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0sp" android:text="@string/disclaimer" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffc80000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0sp" android:text="@string/safety" />
+        <TextView android:textSize="16.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0sp" android:text="@string/acknowledgement" />
+    </LinearLayout>
+</ScrollView>

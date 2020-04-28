@@ -1,0 +1,20 @@
+# -- Viewer Properties for Cascades Viewer in Motion Lab --
+# -- This is not used by Android Viewer and will later on be removed --
+# Please do not change any properties in this file, if you don't know
+# what you are doing! The properties will be automatically overwritten
+# each time you start the Viewer from Motion Lab.
+Title=simulator
+ScreenWidth=480
+ScreenHeight=800
+MemoryDelay=0
+FileDelay=0
+RenderMethod=0
+ColorFormat=0
+UIRoot=c_wallpaper.tml
+ResourceDirectories=.\
+Themes
+startservice
+LandscapeTML
+PortraitTML
+MockupProperties
+ScreenModes

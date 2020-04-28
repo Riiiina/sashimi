@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="lightgray">#ffa9a9a9</color>
+    <color name="gold">#ffffd700</color>
+    <color name="insee">#00ffffff</color>
+    <color name="write">#ffffffff</color>
+    <color name="green">#ff36fd04</color>
+    <color name="title_color">#ffb5d752</color>
+    <color name="user_help_bgcolor">#ff686d81</color>
+    <color name="top_bgcolor">#ff64697e</color>
+    <color name="light_grey2">#66a9a9a9</color>
+    <color name="selectvideo">#ff707888</color>
+</resources>

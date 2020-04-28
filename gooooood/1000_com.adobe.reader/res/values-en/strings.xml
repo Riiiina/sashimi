@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SELECT_FILE">Select a file to display</string>
+    <string name="IDS_SELECT_ETD">Select ETD to FULFILL</string>
+    <string name="IDS_ERR_URL">The file path is not valid.</string>
+    <string name="IDS_ERR_POLICY_PROTECTED">The document cannot be opened because it is protected by a security policy from a server.</string>
+    <string name="IDS_ERR_CORRUPT_DATA">The document cannot be opened because it is corrupted or damaged.</string>
+    <string name="IDS_ERR_INVALID_DOC">The document cannot be opened because it is not a valid PDF file.</string>
+    <string name="IDS_ERR_OUT_OF_MEMORY">Out of memory.</string>
+    <string name="IDS_ERR_FONT_NOT_FOUND">Some characters may not display or print correctly because a compatible font was not found.</string>
+    <string name="IDS_ERR_UNSUPPORTED_FEATURE">Some of the features in the document are not supported in this version of Adobe Reader.</string>
+    <string name="IDS_ERR_CANT_OPEN">There was an error opening the document.</string>
+    <string name="IDS_ERR_PSSWD_PROTECTED">Password not valid.</string>
+    <string name="IDS_ERR_DOC_NOT_SUPPORTED">The document has features that are not supported in this version of Adobe Reader.</string>
+    <string name="IDS_ERR_INVALID_LICENSE">Invalid license</string>
+    <string name="IDS_ERR_PARSER_ERROR">Could not parse the document</string>
+    <string name="IDS_ERR_EMPTY_DOC">The document is empty (size 0KB)</string>
+    <string name="IDS_COPYRIGHT_TEXT">Copyright © 1984-2011 Adobe Systems Incorporated and its licensors. All rights reserved. Adobe, the Adobe logo, and Reader are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.</string>
+    <string name="IDS_TERMS_OF_USE_TEXT">Third Party notices, terms and conditions pertaining to third party software can be found at <a href="http://www.adobe.com/go/thirdparty">http://www.adobe.com/go/thirdparty</a> and are incorporated by reference herein.</string>
+    <string name="IDS_VERSION_STRING">Version</string>
+    <string name="IDS_BUILD_NUM_STR">Build</string>
+    <string name="IDS_ERR_GENERIC_ERROR">Operation Failed!</string>
+    <string name="IDS_ERR_NONE">A system error was encountered.</string>
+    <string name="IDS_PRODUCT_NAME_IN_ABOUT">Adobe<sup><font size="6">®</font></sup> Reader<sup><font size="6">®</font></sup> X</string>
+    <string name="IDS_APP_NAME">Adobe Reader</string>
+    <string name="IDS_OPEN_STR">Open</string>
+    <string name="IDS_ABOUT_STR">About Adobe Reader</string>
+    <string name="IDS_REFLOW_MODE_STR">Reflow Text</string>
+    <string name="IDS_EXIT_REFLOW_STR">Page View</string>
+    <string name="IDS_NEXTPAGE_STR">Next Page</string>
+    <string name="IDS_PREVPAGE_STR">Prev Page</string>
+    <string name="IDS_FIRSTPAGE_STR">First Page</string>
+    <string name="IDS_LASTPAGE_STR">Last Page</string>
+    <string name="IDS_OK_STR">OK</string>
+    <string name="IDS_WARNING_TITLE_STR">Warning</string>
+    <string name="IDS_ERROR_TITLE_STR">Error</string>
+    <string name="IDS_YES_STR">Yes</string>
+    <string name="IDS_NO_STR">No</string>
+    <string name="IDS_UNABLE_TO_SAVE_STREAM_AS_TEMPORARY_FILE">The file could not be opened.</string>
+    <string name="IDS_NO_RECENT_FILES_STR">Not all recently viewed files may be listed.</string>
+    <string name="IDS_NO_PDF_FILES_STR">No PDF Files Available</string>
+    <string name="IDS_CLEAR_RECENT_FILES_STR">Clear Recent Files</string>
+    <string name="IDS_RECENT_FILES_TAB_HEADING_STR">Recently Viewed</string>
+    <string name="IDS_PDF_FILES_TAB_HEADING_STR">PDF Files</string>
+    <string name="IDS_ERR_FILE_SAVE_ERROR">The file could not be saved. This may be due to insufficient space or an invalid file name.</string>
+    <string name="IDS_ERR_SHARE_ERROR">The file cannot be found because it was moved or deleted since it was last opened.</string>
+    <string name="IDS_SHARE_APP_CHOOSER_TITLE">Share</string>
+    <string name="IDS_CANCEL_STR">Cancel</string>
+    <string name="IDS_ENTER_PASSWD_STR">%s is protected. Please enter a Document Open Password:</string>
+    <string name="IDS_PASSWD_TITLE_STR">Password</string>
+    <string name="IDS_REENTER_PASSWD_STR">The password entered was incorrect. Please re-enter the password for protected document %s:</string>
+    <string name="IDS_VIEW_MODE_STR">View Mode</string>
+    <string name="IDS_CONTINUOUS_SCROLL_STR">Continuous Scroll</string>
+    <string name="IDS_FIT_TO_SCREEN_STR">Fit to Screen</string>
+    <string name="IDS_FIND_PROGRESS_BAR_STR">Searching...</string>
+    <string name="IDS_FIND_NO_MATCH_FOUND_STR">No match found</string>
+    <string name="IDS_FIND_EDIT_BOX_HINT_TEXT_STR">Enter text to search</string>
+    <string name="IDS_SHARE_SUBJECT_STR">Emailing:</string>
+    <string name="IDS_CREATE_PDF">Adobe® CreatePDF</string>
+    <string name="IDS_CREATE_PDF_URL">market://details?id=com.adobe.createpdf</string>
+</resources>

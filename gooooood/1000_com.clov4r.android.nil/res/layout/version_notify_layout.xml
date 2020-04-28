@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/version_header" android:background="@drawable/header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/about" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="2.0dip" />
+        <TextView android:textSize="21.0sp" android:textColor="@color/write" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="clov4r" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/entrance_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_above="@id/version_footer" android:layout_below="@id/version_header">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/version_content_layout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/version_notify" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ShadowStyleForWhite" />
+                <Button android:gravity="center" android:id="@id/download_from_market" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/download_from_market" />
+                <Button android:gravity="center" android:id="@id/download_from_mobo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/download_from_mobo" />
+                <TextView android:textSize="19.0sp" android:gravity="right" android:id="@id/install_offline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/plugin_get_dialog" style="@style/ShadowStyleForWhite" />
+                <ListView android:id="@id/version_download_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <TextView android:id="@id/version_plugin_invalid" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/version_content_layout2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/version_download_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:id="@id/version_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:id="@id/version_has_download" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/version_footer" android:background="@drawable/foot_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="18.0sp" android:id="@id/version_previous_step" android:background="@drawable/prev_step_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/exit" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:id="@id/version_next_step" android:background="@drawable/next_step_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="10.0dip" android:text="@string/download" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+</RelativeLayout>

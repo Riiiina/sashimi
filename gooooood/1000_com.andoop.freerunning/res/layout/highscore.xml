@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/highscore_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textColor="#ffdddddd" android:id="@id/highscore_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="Leader Board" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/highscore_ad_layout" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <com.admob.android.ads.AdView android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/highscore_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_above="@id/highscore_ad_layout" android:layout_centerHorizontal="true">
+        <Button android:id="@id/highscore_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="    Top    " />
+        <Button android:id="@id/highscore_previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text=" Previous " />
+        <Button android:id="@id/highscore_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="    Next    " />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/highscore_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/highscore_buttons" android:layout_below="@id/highscore_title">
+        <TextView android:textSize="30.0sp" android:textColor="#ffdddddd" android:id="@id/highscore_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/highscore_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerInParent="true">
+            <EditText android:id="@id/highscore_player_name" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:singleLine="true" />
+            <Button android:id="@id/highscore_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" submit " />
+        </LinearLayout>
+        <ProgressBar android:id="@id/highscore_loading" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+        <view android:textColor="#ffdddddd" android:id="@id/highscore_ranklist" android:visibility="gone" android:layout_width="260.0dip" android:layout_height="200.0dip" android:layout_marginBottom="5.0dip" android:layout_centerInParent="true" class="com.andoop.android.highscore.HighScoreActivity$RankListView"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </RelativeLayout>
+</RelativeLayout>

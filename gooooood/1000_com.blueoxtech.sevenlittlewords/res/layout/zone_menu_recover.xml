@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="12.0dip" android:layout_gravity="bottom" android:id="@id/recover" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="Restore Previous Purchases" style="@style/GameFont.Emboss.Button"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

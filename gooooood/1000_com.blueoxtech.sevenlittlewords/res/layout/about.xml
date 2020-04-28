@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/window" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/layout_about" style="@style/GameLayout">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <include layout="@layout/button_exit" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="140.0dip">
+            <TextView android:layout_height="40.0dip" android:text="7 Little Words." style="@style/GameFont.Emboss.Header.32" />
+            <TextView android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Created by Christopher York." style="@style/GameFont" />
+        </LinearLayout>
+        <TextView android:textSize="14.0dip" android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="Copyright 2011 by Blue Ox Technologies Ltd." />
+        <TextView android:textSize="14.0dip" android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="All rights reserved worldwide." />
+        <TextView android:textSize="14.0dip" android:textColor="#ff707060" android:gravity="center_horizontal" android:id="@id/version_name" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="Additional Puzzles by Raymond Hamel." />
+        <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <TextView android:textSize="14.0dip" android:textStyle="italic" android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="Android edition built for Blue Ox by:" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="The Smyth Group" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="www.thesmythgroup.com" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff707060" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="(920) 474-6637" />
+    </LinearLayout>
+</RelativeLayout>

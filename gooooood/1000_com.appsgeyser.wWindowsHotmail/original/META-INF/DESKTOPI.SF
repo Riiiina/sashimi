@@ -1,0 +1,128 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: Z7AVgBk6HqU04Wzwbdfso1LhJ00=
+Created-By: 1.6.0_0 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: xG3EHUFRsIy5E5s+AqlU1JQ9Hzw=
+
+Name: res/drawable/contents_background.xml
+SHA1-Digest: rmtq+BQaoFRlsqFfZsKBzFhejO8=
+
+Name: res/raw/insuffient_sdk_version.html
+SHA1-Digest: ZoO8OzAhaWe6DlPELUCfZmOQ1AM=
+
+Name: res/drawable/menu_bar.png
+SHA1-Digest: EVBVCRdGxnczsvBm++c1XHfQdRQ=
+
+Name: res/drawable/background.png
+SHA1-Digest: 5h+xU14a/tglIszM/oOWLRguU7M=
+
+Name: res/menu/webapp_menu.xml
+SHA1-Digest: Cmlv3Uok3XpWcTjuZfd3IlIHLRI=
+
+Name: res/layout/tab_tag.xml
+SHA1-Digest: 4UPnj6qbv031buNo5pIsBGGKV0U=
+
+Name: res/layout/video_loading_progress.xml
+SHA1-Digest: BP3QtX39S0c56iZJlmwdLhQkYVo=
+
+Name: res/menu/customapp_menu.xml
+SHA1-Digest: GP4ud0vp8fQLZL5K7NVnh2M8wbY=
+
+Name: res/raw/configuration.xml
+SHA1-Digest: oWuccsRNPtiZVL8XHSzNZ89tlAU=
+
+Name: resources.arsc
+SHA1-Digest: bji4OIceUOjcp7EM3meRMCorS9c=
+
+Name: res/drawable/star_active.png
+SHA1-Digest: si1++5JVaelZ3yo5mxcXQELC7To=
+
+Name: res/raw/index.html
+SHA1-Digest: 3nuQz79JzRYnle4tHiQrPy+qsgQ=
+
+Name: res/drawable/progressbar_close_button.xml
+SHA1-Digest: EE0Iu68nQove21mugqMDeuitYz4=
+
+Name: res/drawable/ic_menu_favorite.png
+SHA1-Digest: 0QksaVSuVvFNfMtfFp5lLxL2nic=
+
+Name: AndroidManifest.xml
+SHA1-Digest: qSGRogBQTIG3jX1xD3/TTHVU/tk=
+
+Name: res/raw/flashplayer_not_exist.html
+SHA1-Digest: n27moIXhZGbapmH7zrv+OBFwsaA=
+
+Name: res/drawable/star.png
+SHA1-Digest: 40bZDwCJQffwo9kJ2Os7xioihA4=
+
+Name: res/drawable/share_bt.png
+SHA1-Digest: IfEuI1NUQsoCr3L+ukFWf5GYJOg=
+
+Name: res/drawable/about_appsgeyser_logo.png
+SHA1-Digest: jzZyd2+h46oJHprV5tneEVyJ2cQ=
+
+Name: res/drawable/transparent_backgr.png
+SHA1-Digest: 53zCuDUqlvxEaztoTHNSF/72gWk=
+
+Name: res/layout/no_content_message.xml
+SHA1-Digest: oy/Rw9jxLvSLUQObUmdeEn8KGlw=
+
+Name: res/drawable/widget_background.png
+SHA1-Digest: g0tNpIav9OQW54RSeFxaj9YfvFc=
+
+Name: res/drawable/active_tab_background.xml
+SHA1-Digest: AsjoM1KB3nPbKJbjSjUKNOmRN6w=
+
+Name: res/layout/web_content.xml
+SHA1-Digest: 6/5lCBh994rOwhq2ye78RS2LmEY=
+
+Name: res/layout/connection_error_dialog.xml
+SHA1-Digest: 0FnV3oe2pCp7KS2sXIMFVOp/0DU=
+
+Name: res/layout/http_authentication.xml
+SHA1-Digest: 14R+yLQHVb+S8jSfZ3ZPQP76CG0=
+
+Name: res/layout/message_viewer.xml
+SHA1-Digest: p4KkEdwQuXN8fPqC/HpnQUaTHCw=
+
+Name: res/layout/about_dialog.xml
+SHA1-Digest: XRwk5ep6MOxolvtoESk+3wYLWb4=
+
+Name: res/drawable/rate.png
+SHA1-Digest: 8+ppUqrAylpYeOazYGSzPJfaKqA=
+
+Name: res/drawable/rate_bt.png
+SHA1-Digest: nuPAYjuLWmAMaRZmCIC1nKBJdw8=
+
+Name: classes.dex
+SHA1-Digest: TxUum72NQbn2s+vwSj3AKt5UMAI=
+
+Name: res/drawable/more_apps.png
+SHA1-Digest: XKIaMP54ItupXvLvQNLc1g11ujE=
+
+Name: res/layout/main.xml
+SHA1-Digest: SwrvKB3r6PqKeg2UDebmkCW3SBQ=
+
+Name: res/drawable/more_apps_bt.png
+SHA1-Digest: DMVB6EY3SQh/aYyMWlE4ripRzC8=
+
+Name: res/drawable/deactive_tab_background.xml
+SHA1-Digest: bzBscvp+uIregxMAUV9iWlWEFnM=
+
+Name: res/drawable/icon.png
+SHA1-Digest: eaBm8/9p3476EhN/2C7tGhRFylQ=
+
+Name: res/drawable/about_background.xml
+SHA1-Digest: nKoxltoSXGlQ9vTzUVtoQBkgI2E=
+
+Name: res/drawable/progressbar_close.png
+SHA1-Digest: y0ez7+D2Jhio2use+cd0UqyWSUA=
+
+Name: res/drawable/about_bt.png
+SHA1-Digest: aTnYwvLmevYuWxaPaD9nVHPjNpU=
+
+Name: res/drawable/share.png
+SHA1-Digest: tVWDnH7M7zcjZcbSL3EHgcvFab8=
+
+Name: res/drawable/about.png
+SHA1-Digest: pxfo3c/ZXOqw/+FncxBE1XkpG/s=
+
